@@ -6625,7 +6625,6 @@ A0</text>
 (RD) VCC
 (BK) GND</text>
 <rectangle x1="0" y1="0" x2="70" y2="57.5" layer="222"/>
-<rectangle x1="0" y1="0" x2="70" y2="57.5" layer="222"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
