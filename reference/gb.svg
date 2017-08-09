@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="197px" height="149px" viewBox="0 0 197 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>gb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gb" transform="translate(0.000000, 1.000000)" stroke="#000000" stroke-width="0.1">
+            <path d="M2.9,0.3 L2.9,6.8 L0.1,6.8 L0.1,11.6 L1.4,11.6 C3.3,11.6 4.9,13.2 4.9,15.1 L4.9,15.1 L4.9,15.1 C4.9,17 3.3,18.6 1.4,18.6 L0.1,18.6 L0.1,147.5 L17.7,147.5 L17.7,134 C17.7,126.2 24,119.8 31.9,119.8 L31.9,119.8 L31.9,119.8 C39.4,119.8 45.5,125.9 45.5,133.4 L45.5,147.3 L78.9,147.3 L78.9,145.8 C78.9,144.4 80,143.3 81.4,143.3 L81.4,143.3 L81.4,143.3 C82.9,143.3 84,144.5 84,145.9 L84,147.2 L100.7,147.2 L100.7,138.6 C100.7,138.2 101,137.8 101.5,137.8 L103.1,137.8 C103.5,137.8 103.9,138.1 103.9,138.6 L103.9,147.2 L123.5,147.2 L123.5,140 C123.5,139.6 123.8,139.2 124.3,139.2 L126.2,139.2 C126.6,139.2 126.9,139.5 126.9,139.9 L126.9,147.1 L141.6,147.1 L141.6,90.4 L196.6,90.4 L196.6,6.8 L193.5,6.8 L193.5,5.68434189e-14 L2.9,5.68434189e-14 L2.9,0.3 Z" id="Shape"></path>
+            <circle id="Oval" cx="6" cy="81.3" r="3.2"></circle>
+            <circle id="Oval" cx="82.7" cy="52.3" r="3.2"></circle>
+            <circle id="Oval" cx="64.2" cy="84.2" r="3.2"></circle>
+            <circle id="Oval" cx="67.5" cy="70.8" r="3.2"></circle>
+            <circle id="Oval" cx="151.9" cy="31.5" r="3.2"></circle>
+            <circle id="Oval" cx="190.4" cy="65.6" r="3.2"></circle>
+            <circle id="Oval" cx="110.7" cy="124.8" r="2.6"></circle>
+            <circle id="Oval" cx="110.9" cy="139.1" r="2.6"></circle>
+            <circle id="Oval" cx="132.1" cy="84.2" r="4.5"></circle>
+            <circle id="Oval" cx="160.4" cy="59.7" r="5"></circle>
+            <circle id="Oval" cx="34.5" cy="20.6" r="7.2"></circle>
+            <circle id="Oval" cx="34.5" cy="65.4" r="7.2"></circle>
+            <circle id="Oval" cx="12.1" cy="42.8" r="7.2"></circle>
+            <circle id="Oval" cx="57" cy="42.8" r="7.2"></circle>
+            <circle id="Oval" cx="136.8" cy="49.7" r="7.2"></circle>
+            <circle id="Oval" cx="176.4" cy="36.9" r="7.2"></circle>
+            <rect id="Rectangle-path" x="71.4" y="96.8" width="20.9" height="10.1"></rect>
+            <rect id="Rectangle-path" x="103.8" y="96.8" width="20.9" height="10.1"></rect>
+        </g>
+    </g>
+</svg>
