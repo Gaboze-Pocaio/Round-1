@@ -9,22 +9,22 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -529,106 +529,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
-<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
-This library contains electrically-functional connectors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="AUDIO-JACK-3.5MM-SMD" urn="urn:adsk.eagle:footprint:37605/1" library_version="1">
-<description>&lt;h3&gt;3.5mm Stereo Audio Jack - Surface Mount&lt;/h3&gt;
-2.5mm Height. 
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”http://www.4uconnector.com/online/object/4udrawing/19269.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;Audio_Jack&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="3.9" y1="-3" x2="10.2" y2="-3" width="0.254" layer="21"/>
-<wire x1="14.5" y1="-0.635" x2="14.5" y2="-3" width="0.254" layer="21"/>
-<wire x1="14.5" y1="-3" x2="13.2" y2="-3" width="0.254" layer="21"/>
-<wire x1="14.5" y1="2.2098" x2="14.5" y2="3" width="0.254" layer="21"/>
-<wire x1="14.5" y1="3" x2="5.7" y2="3" width="0.254" layer="21"/>
-<wire x1="0.5" y1="3" x2="0" y2="3" width="0.254" layer="51"/>
-<wire x1="0" y1="3" x2="0" y2="-2.5" width="0.254" layer="51"/>
-<wire x1="0" y1="-2.5" x2="0" y2="-3" width="0.254" layer="51"/>
-<wire x1="0" y1="-3" x2="1" y2="-3" width="0.254" layer="51"/>
-<wire x1="-0.1524" y1="2.5" x2="-2.5" y2="2.5" width="0.254" layer="51"/>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.254" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="0" y2="-2.5" width="0.254" layer="51"/>
-<smd name="SLEEVE" x="2.4" y="-3.45" dx="2" dy="2.5" layer="1"/>
-<smd name="TIP" x="11.7" y="-3.45" dx="2" dy="2.5" layer="1"/>
-<smd name="RING" x="4.3" y="3.45" dx="2" dy="2.5" layer="1"/>
-<smd name="TSH" x="15.75" y="0.75" dx="2" dy="2.5" layer="1" rot="R90"/>
-<smd name="RSH" x="1.5" y="3.45" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<hole x="3.5" y="0" drill="2"/>
-<hole x="10.5" y="0" drill="2"/>
-<text x="5.715" y="0.762" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="5.715" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="AUDIO-JACK-3.5MM-SMD" urn="urn:adsk.eagle:package:38015/1" type="box" library_version="1">
-<description>3.5mm Stereo Audio Jack - Surface Mount
-2.5mm Height. 
-Specifications:
-Pin count:5
-
-Datasheet referenced for footprint
-Example device(s):
-Audio_Jack
-</description>
-</package3d>
-</packages3d>
-</library>
-<library name="adafruit" urn="urn:adsk.eagle:library:420">
-<packages>
-<package name="R0805" library_version="1">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-1" y="0" dx="1.1" dy="1.4" layer="1"/>
-<smd name="2" x="1" y="0" dx="1.1" dy="1.4" layer="1"/>
-<text x="-0.762" y="1.016" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.762" y="-2.286" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="21"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="21"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-</package>
-<package name="C0805" library_version="1">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-0.889" y="1.016" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.889" y="-2.286" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
-<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
-<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -885,17 +785,6 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="SWCH-11966" x="99.44" y="184.035" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SF_SKU" value="COM-12992" x="99.44" y="184.035" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="AUDIO-JACK-3.5MM-SMD" package3d_urn="urn:adsk.eagle:package:38015/1" value="AUDIO_JACK_3.5MM_SMD" x="-1" y="-12">
-<attribute name="PROD_ID" value="CONN-10353" x="-1" y="-12" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="10uF" x="-0.85" y="-75.1"/>
-<element name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="10uF" x="-0.85" y="-87.8"/>
-<element name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="270Ohm" x="-1" y="-49.7"/>
-<element name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="270Ohm" x="-1" y="-62.4"/>
-<element name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="150Ohm" x="-9" y="-31"/>
-<element name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="150Ohm" x="-9" y="-37"/>
-<element name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="33nF" x="-9" y="-94"/>
-<element name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="33nF" x="-9" y="-100"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -929,11 +818,6 @@ design rules under a new name.</description>
 <contactref element="BTN_LEFT" pad="A2"/>
 <contactref element="BTN_RIGHT" pad="A2"/>
 <contactref element="PI1" pad="20"/>
-<contactref element="J1" pad="SLEEVE"/>
-<contactref element="R5" pad="1"/>
-<contactref element="C3" pad="1"/>
-<contactref element="C4" pad="1"/>
-<contactref element="R6" pad="2"/>
 <wire x1="108.4976" y1="93.8168" x2="108.4976" y2="108.038" width="0" layer="19" extent="1-1"/>
 <wire x1="107.4976" y1="76.5956" x2="108.4976" y2="93.8168" width="0" layer="19" extent="1-1"/>
 <wire x1="107.4976" y1="61.3744" x2="107.4976" y2="76.5956" width="0" layer="19" extent="1-1"/>
@@ -963,11 +847,6 @@ design rules under a new name.</description>
 <wire x1="16.75" y1="84" x2="16.75" y2="84.8" width="0" layer="19" extent="1-1"/>
 <wire x1="16.75" y1="83.2" x2="16.75" y2="84" width="0" layer="19" extent="1-1"/>
 <wire x1="16.75" y1="82.4" x2="16.75" y2="83.2" width="0" layer="19" extent="1-1"/>
-<wire x1="1.4" y1="-15.45" x2="32.17" y2="24.235" width="0" layer="19" extent="1-1"/>
-<wire x1="-10" y1="-31" x2="1.4" y2="-15.45" width="0" layer="19" extent="1-1"/>
-<wire x1="-8" y1="-37" x2="-10" y2="-31" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.85" y1="-94" x2="-8" y2="-37" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.85" y1="-100" x2="-9.85" y2="-94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="SCREEN1" pad="P$2"/>
@@ -1024,9 +903,9 @@ design rules under a new name.</description>
 <wire x1="46.727" y1="69.438" x2="50.67" y2="30.235" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Y">
+<contactref element="PI1" pad="33"/>
 <contactref element="BTN_Y" pad="B2"/>
-<contactref element="PI1" pad="15"/>
-<wire x1="39.67" y1="39.235" x2="46.727" y2="94.838" width="0" layer="19" extent="1-16"/>
+<wire x1="46.727" y1="71.978" x2="39.67" y2="39.235" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="X">
 <contactref element="PI1" pad="31"/>
@@ -1111,44 +990,6 @@ design rules under a new name.</description>
 <contactref element="LED1" pad="A"/>
 <contactref element="R2" pad="1"/>
 <wire x1="130" y1="19" x2="93" y2="7.95" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$1">
-<contactref element="J1" pad="RING"/>
-<contactref element="C1" pad="2"/>
-<wire x1="3.3" y1="-8.55" x2="0" y2="-75.1" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="J1" pad="TIP"/>
-<contactref element="C2" pad="2"/>
-<wire x1="10.7" y1="-15.45" x2="0" y2="-87.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="PWM_RIGHT">
-<contactref element="PI1" pad="12"/>
-<contactref element="R3" pad="1"/>
-<wire x1="-2" y1="-49.7" x2="44.187" y2="99.918" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="PWM_LEFT">
-<contactref element="PI1" pad="33"/>
-<contactref element="R4" pad="1"/>
-<wire x1="-2" y1="-62.4" x2="46.727" y2="71.978" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="N$3">
-<contactref element="C2" pad="1"/>
-<contactref element="R4" pad="2"/>
-<contactref element="C3" pad="2"/>
-<contactref element="R5" pad="2"/>
-<wire x1="-1.7" y1="-87.8" x2="-8.15" y2="-94" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-62.4" x2="-1.7" y2="-87.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-8" y1="-31" x2="0" y2="-62.4" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="R3" pad="2"/>
-<contactref element="C1" pad="1"/>
-<contactref element="R6" pad="1"/>
-<contactref element="C4" pad="2"/>
-<wire x1="-1.7" y1="-75.1" x2="-8.15" y2="-100" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-49.7" x2="-1.7" y2="-75.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-10" y1="-37" x2="0" y2="-49.7" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
@@ -1259,21 +1100,4 @@ design rules under a new name.</description>
 </errors>
 </board>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>
