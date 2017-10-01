@@ -876,7 +876,7 @@ design rules under a new name.</description>
 <elements>
 <element name="R1" library="adafruit" package="R0805" value="100" x="11" y="55"/>
 <element name="SCREEN1" library="GameboyZeroHandheldDisplays" package="GAMEBOYZEROHANDHELDDISPLAYS-2.8" value="GAMEBOYZEROHANDHELDDISPLAYS-2.8" x="34.75" y="86"/>
-<element name="PI1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="72" y="121" rot="MR270"/>
+<element name="PI1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="67" y="113.5" rot="MR270"/>
 <element name="CN1" library="adafruit" package="JST-PH-2-SMT" value="" x="5" y="77" rot="MR180"/>
 <element name="POWER1" library="03962A" package="03962A" value="03962A" x="27" y="103" rot="MR270"/>
 <element name="BTN_X" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_6.2MM_TALL" package3d_urn="urn:adsk.eagle:package:40172/1" value="MOMENTARY-SWITCH-SPST-SMD-6.2MM-TALL" x="51.42" y="49.21" rot="R270">
@@ -895,13 +895,13 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="SWCH-11966" x="-15.58" y="82.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_SKU" value="COM-12992" x="-15.58" y="82.21" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="BTN_START" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_6.0X3.5MM" package3d_urn="urn:adsk.eagle:package:40165/1" value="MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM" x="16" y="4">
-<attribute name="PROD_ID" value="SWCH-00815" x="-40" y="-22" size="1.778" layer="27" display="off"/>
-<attribute name="SF_SKU" value="COM-08229" x="-40" y="-22" size="1.778" layer="27" display="off"/>
+<element name="BTN_START" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_6.0X3.5MM" package3d_urn="urn:adsk.eagle:package:40165/1" value="MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM" x="42.655" y="17.51">
+<attribute name="PROD_ID" value="SWCH-00815" x="-13.345" y="-8.49" size="1.778" layer="27" display="off"/>
+<attribute name="SF_SKU" value="COM-08229" x="-13.345" y="-8.49" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BTN_SELECT" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_6.0X3.5MM" package3d_urn="urn:adsk.eagle:package:40165/1" value="MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM" x="5" y="4">
-<attribute name="PROD_ID" value="SWCH-00815" x="-33" y="-28" size="1.778" layer="27" display="off"/>
-<attribute name="SF_SKU" value="COM-08229" x="-33" y="-28" size="1.778" layer="27" display="off"/>
+<element name="BTN_SELECT" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_6.0X3.5MM" package3d_urn="urn:adsk.eagle:package:40165/1" value="MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM" x="31.055" y="17.51">
+<attribute name="PROD_ID" value="SWCH-00815" x="-6.945" y="-14.49" size="1.778" layer="27" display="off"/>
+<attribute name="SF_SKU" value="COM-08229" x="-6.945" y="-14.49" size="1.778" layer="27" display="off"/>
 </element>
 <element name="BTN_L1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_6.2MM_TALL" package3d_urn="urn:adsk.eagle:package:40172/1" value="MOMENTARY-SWITCH-SPST-SMD-6.2MM-TALL" x="62.47" y="38.7" rot="R270">
 <attribute name="PROD_ID" value="SWCH-11966" x="-13.53" y="116.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -995,27 +995,27 @@ design rules under a new name.</description>
 <vertex x="69.5" y="114.25"/>
 <vertex x="0" y="114.25"/>
 </polygon>
-<wire x1="12.85" y1="4" x2="37.3" y2="3.4" width="0" layer="19" extent="1-16"/>
+<wire x1="39.505" y1="17.51" x2="37.3" y2="3.4" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="RESET">
 <contactref element="SCREEN1" pad="P$2"/>
 <contactref element="PI1" pad="22"/>
-<wire x1="16.75" y1="92" x2="44.187" y2="87.218" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="92" x2="39.187" y2="79.718" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SCL">
 <contactref element="SCREEN1" pad="P$3"/>
 <contactref element="PI1" pad="23"/>
-<wire x1="16.75" y1="91.2" x2="46.727" y2="84.678" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="91.2" x2="41.727" y2="77.178" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SDI">
 <contactref element="SCREEN1" pad="P$6"/>
 <contactref element="PI1" pad="19"/>
-<wire x1="16.75" y1="88.8" x2="46.727" y2="89.758" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="88.8" x2="41.727" y2="82.258" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SDO">
 <contactref element="SCREEN1" pad="P$7"/>
 <contactref element="PI1" pad="21"/>
-<wire x1="16.75" y1="88" x2="46.727" y2="87.218" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="88" x2="41.727" y2="79.718" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="3V3100OHM">
 <contactref element="R1" pad="1"/>
@@ -1025,79 +1025,79 @@ design rules under a new name.</description>
 <signal name="D/CX">
 <contactref element="PI1" pad="18"/>
 <contactref element="SCREEN1" pad="P$4"/>
-<wire x1="16.75" y1="90.4" x2="44.187" y2="92.298" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="90.4" x2="39.187" y2="84.798" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="CSX">
 <contactref element="SCREEN1" pad="P$5"/>
 <contactref element="PI1" pad="24"/>
-<wire x1="16.75" y1="89.6" x2="44.187" y2="84.678" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="89.6" x2="39.187" y2="77.178" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="3V3">
 <contactref element="R1" pad="2"/>
 <contactref element="PI1" pad="1"/>
 <contactref element="PI1" pad="17"/>
 <contactref element="SCREEN1" pad="P$9"/>
-<wire x1="46.727" y1="92.298" x2="46.727" y2="112.618" width="0" layer="19" extent="16-16"/>
-<wire x1="16.75" y1="86.4" x2="46.727" y2="92.298" width="0" layer="19" extent="1-16"/>
+<wire x1="41.727" y1="84.798" x2="41.727" y2="105.118" width="0" layer="19" extent="16-16"/>
+<wire x1="16.75" y1="86.4" x2="41.727" y2="84.798" width="0" layer="19" extent="1-16"/>
 <wire x1="12" y1="55" x2="16.75" y2="86.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SELECT">
 <contactref element="PI1" pad="37"/>
 <contactref element="BTN_SELECT" pad="2"/>
-<wire x1="8.15" y1="4" x2="46.727" y2="66.898" width="0" layer="19" extent="1-16"/>
+<wire x1="34.205" y1="17.51" x2="41.727" y2="59.398" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="A">
 <contactref element="PI1" pad="35"/>
 <contactref element="BTN_A" pad="B2"/>
-<wire x1="50.67" y1="30.235" x2="46.727" y2="69.438" width="0" layer="19" extent="1-16"/>
+<wire x1="50.67" y1="30.235" x2="41.727" y2="61.938" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="Y">
 <contactref element="BTN_Y" pad="B2"/>
 <contactref element="PI1" pad="15"/>
-<wire x1="39.67" y1="39.235" x2="46.727" y2="94.838" width="0" layer="19" extent="1-16"/>
+<wire x1="39.67" y1="39.235" x2="41.727" y2="87.338" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="X">
 <contactref element="PI1" pad="31"/>
 <contactref element="BTN_X" pad="B2"/>
-<wire x1="53.67" y1="45.235" x2="46.727" y2="74.518" width="0" layer="19" extent="1-16"/>
+<wire x1="53.67" y1="45.235" x2="41.727" y2="67.018" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="B">
 <contactref element="PI1" pad="29"/>
 <contactref element="BTN_B" pad="B2"/>
-<wire x1="36.67" y1="24.235" x2="46.727" y2="77.058" width="0" layer="19" extent="1-16"/>
+<wire x1="36.67" y1="24.235" x2="41.727" y2="69.558" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="START">
 <contactref element="PI1" pad="36"/>
 <contactref element="BTN_START" pad="2"/>
-<wire x1="19.15" y1="4" x2="44.187" y2="69.438" width="0" layer="19" extent="1-16"/>
+<wire x1="45.805" y1="17.51" x2="39.187" y2="61.938" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="RIGHT">
 <contactref element="PI1" pad="38"/>
 <contactref element="BTN_RIGHT" pad="B2"/>
-<wire x1="18.465" y1="35.785" x2="44.187" y2="66.898" width="0" layer="19" extent="1-16"/>
+<wire x1="18.465" y1="35.785" x2="39.187" y2="59.398" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="LEFT">
 <contactref element="PI1" pad="40"/>
 <contactref element="BTN_LEFT" pad="B2"/>
-<wire x1="10.505" y1="40.285" x2="44.187" y2="64.358" width="0" layer="19" extent="1-16"/>
+<wire x1="10.505" y1="40.285" x2="39.187" y2="56.858" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DOWN">
 <contactref element="PI1" pad="32"/>
 <contactref element="BTN_DOWN" pad="B2"/>
-<wire x1="12.235" y1="34.055" x2="44.187" y2="74.518" width="0" layer="19" extent="1-16"/>
+<wire x1="12.235" y1="34.055" x2="39.187" y2="67.018" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="UP">
 <contactref element="PI1" pad="26"/>
 <contactref element="BTN_UP" pad="B2"/>
-<wire x1="16.735" y1="42.015" x2="44.187" y2="82.138" width="0" layer="19" extent="1-16"/>
+<wire x1="16.735" y1="42.015" x2="39.187" y2="74.638" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SWITCH_OUT+">
 <contactref element="PI1" pad="2"/>
 <contactref element="PI1" pad="4"/>
 <contactref element="R2" pad="2"/>
 <contactref element="U$1" pad="O"/>
-<wire x1="44.187" y1="110.078" x2="44.187" y2="112.618" width="0" layer="19" extent="16-16"/>
-<wire x1="3.75" y1="109.75" x2="44.187" y2="110.078" width="0" layer="19" extent="16-16"/>
+<wire x1="39.187" y1="102.578" x2="39.187" y2="105.118" width="0" layer="19" extent="16-16"/>
+<wire x1="3.75" y1="109.75" x2="39.187" y2="102.578" width="0" layer="19" extent="16-16"/>
 <wire x1="7.5" y1="55" x2="3.75" y2="109.75" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="BATT+">
@@ -1118,12 +1118,12 @@ design rules under a new name.</description>
 <signal name="L1">
 <contactref element="BTN_L1" pad="B2"/>
 <contactref element="PI1" pad="8"/>
-<wire x1="64.72" y1="34.725" x2="44.187" y2="104.998" width="0" layer="19" extent="1-16"/>
+<wire x1="64.72" y1="34.725" x2="39.187" y2="97.498" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="R1">
 <contactref element="BTN_R1" pad="B2"/>
 <contactref element="PI1" pad="13"/>
-<wire x1="61.67" y1="20.235" x2="46.727" y2="97.378" width="0" layer="19" extent="1-16"/>
+<wire x1="61.67" y1="20.235" x2="41.727" y2="89.878" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="LED">
 <contactref element="LED1" pad="A"/>
@@ -1143,12 +1143,12 @@ design rules under a new name.</description>
 <signal name="PWM_RIGHT">
 <contactref element="PI1" pad="12"/>
 <contactref element="R3" pad="1"/>
-<wire x1="47" y1="13" x2="44.187" y2="99.918" width="0" layer="19" extent="16-16"/>
+<wire x1="47" y1="13" x2="39.187" y2="92.418" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PWM_LEFT">
 <contactref element="PI1" pad="33"/>
 <contactref element="R4" pad="1"/>
-<wire x1="34" y1="6" x2="46.727" y2="71.978" width="0" layer="19" extent="16-16"/>
+<wire x1="34" y1="6" x2="41.727" y2="64.478" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="C2" pad="1"/>
