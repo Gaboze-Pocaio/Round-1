@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -232,6 +232,17 @@
 <wire x1="43.5" y1="17.37" x2="45.76" y2="15.11" width="0.0762" layer="51" curve="-90"/>
 <wire x1="35.45" y1="15.01" x2="37.71" y2="12.75" width="0.0762" layer="51" curve="90"/>
 <wire x1="35.45" y1="15.01" x2="37.81" y2="17.37" width="0.0762" layer="51" curve="-90"/>
+<circle x="2.5" y="24.83" radius="1.2" width="0.0762" layer="20"/>
+<circle x="2.5" y="62.43" radius="1.2" width="0.0762" layer="20"/>
+<circle x="2.5" y="108.1" radius="1.2" width="0.0762" layer="20"/>
+<circle x="67" y="108.1" radius="1.2" width="0.0762" layer="20"/>
+<circle x="67" y="62.43" radius="1.2" width="0.0762" layer="20"/>
+<circle x="67" y="27.5" radius="1.2" width="0.0762" layer="20"/>
+<circle x="56.76" y="32.6" radius="1.2" width="0.0762" layer="20"/>
+<circle x="46.99" y="22.29" radius="1.2" width="0.0762" layer="20"/>
+<circle x="29.83" y="33.29" radius="1.2" width="0.0762" layer="20"/>
+<circle x="24.33" y="27.45" radius="1.2" width="0.0762" layer="20"/>
+<circle x="23.45" y="23.58" radius="1.2" width="0.0762" layer="20"/>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -685,31 +696,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="holes" urn="urn:adsk.eagle:library:237">
-<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="2,8" urn="urn:adsk.eagle:footprint:14239/1" library_version="1">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
-<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="2.54" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="2.54" width="2.032" layer="42"/>
-<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
-<hole x="0" y="0" drill="2.8"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="2,8" urn="urn:adsk.eagle:package:14271/1" type="box" library_version="1">
-<description>MOUNTING HOLE 2.8 mm with drill center</description>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -901,9 +887,9 @@ design rules under a new name.</description>
 <elements>
 <element name="R1" library="adafruit" package="R0805" value="100" x="11" y="55"/>
 <element name="SCREEN1" library="GameboyZeroHandheldDisplays" package="GAMEBOYZEROHANDHELDDISPLAYS-2.8" value="GAMEBOYZEROHANDHELDDISPLAYS-2.8" x="34.75" y="86"/>
-<element name="PI1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="71.3" y="112.37" rot="MR270"/>
-<element name="CN1" library="adafruit" package="JST-PH-2-SMT" value="" x="5" y="77" rot="MR180"/>
-<element name="POWER1" library="03962A" package="03962A" value="03962A" x="27" y="103" rot="MR270"/>
+<element name="PI1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="2" y="113" rot="MR180"/>
+<element name="CN1" library="adafruit" package="JST-PH-2-SMT" value="" x="33.6" y="76" rot="MR270"/>
+<element name="POWER1" library="03962A" package="03962A" value="03962A" x="42.5" y="62.6" rot="MR90"/>
 <element name="BTN_X" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_6.2MM_TALL" package3d_urn="urn:adsk.eagle:package:40172/1" value="MOMENTARY-SWITCH-SPST-SMD-6.2MM-TALL" x="51.42" y="49.21" rot="R270">
 <attribute name="PROD_ID" value="SWCH-11966" x="61.42" y="103.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_SKU" value="COM-12992" x="61.42" y="103.21" size="1.778" layer="27" rot="R270" display="off"/>
@@ -936,8 +922,8 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="SWCH-11966" x="-46.58" y="142.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_SKU" value="COM-12992" x="-46.58" y="142.21" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R2" library="adafruit" package="R0805" value="100" x="6.5" y="55"/>
-<element name="LED1" library="adafruit" package="CHIPLED_0805" value="" x="2.5" y="55" rot="R90"/>
+<element name="R2" library="adafruit" package="R0805" value="100" x="7" y="55"/>
+<element name="LED1" library="adafruit" package="CHIPLED_0805" value="" x="3" y="55" rot="R90"/>
 <element name="BTN_UP" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" package="TACTILE_SWITCH_SMD_6.2MM_TALL" package3d_urn="urn:adsk.eagle:package:40172/1" value="MOMENTARY-SWITCH-SPST-SMD-6.2MM-TALL" x="12.485" y="44.99" rot="R270">
 <attribute name="PROD_ID" value="SWCH-11966" x="-106.515" y="133.99" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_SKU" value="COM-12992" x="-106.515" y="133.99" size="1.778" layer="27" rot="R270" display="off"/>
@@ -968,17 +954,6 @@ design rules under a new name.</description>
 <element name="U$1" library="SparkFun-Retired" library_urn="urn:adsk.eagle:library:533" package="KPS-1290" value="SWITCH_SPDT" x="10" y="112" rot="MR180">
 <attribute name="PROD_ID" value="SWCH-10651" x="10" y="112" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="H7" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="67" y="108.1"/>
-<element name="H8" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="2.5" y="62.43"/>
-<element name="H9" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="67" y="62.43"/>
-<element name="H10" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="67" y="27.5"/>
-<element name="H11" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="2.5" y="24.83"/>
-<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="2.5" y="108.1"/>
-<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="24.33" y="27.45"/>
-<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="23.45" y="23.58"/>
-<element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="29.83" y="33.29"/>
-<element name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="46.99" y="22.29"/>
-<element name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="56.76" y="32.6"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1036,22 +1011,22 @@ design rules under a new name.</description>
 <signal name="RESET">
 <contactref element="SCREEN1" pad="P$2"/>
 <contactref element="PI1" pad="22"/>
-<wire x1="16.75" y1="92" x2="43.487" y2="78.588" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="92" x2="35.782" y2="85.187" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SCL">
 <contactref element="SCREEN1" pad="P$3"/>
 <contactref element="PI1" pad="23"/>
-<wire x1="16.75" y1="91.2" x2="46.027" y2="76.048" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="91.2" x2="38.322" y2="87.727" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SDI">
 <contactref element="SCREEN1" pad="P$6"/>
 <contactref element="PI1" pad="19"/>
-<wire x1="16.75" y1="88.8" x2="46.027" y2="81.128" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="88.8" x2="33.242" y2="87.727" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SDO">
 <contactref element="SCREEN1" pad="P$7"/>
 <contactref element="PI1" pad="21"/>
-<wire x1="16.75" y1="88" x2="46.027" y2="78.588" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="88" x2="35.782" y2="87.727" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="3V3100OHM">
 <contactref element="R1" pad="1"/>
@@ -1061,110 +1036,110 @@ design rules under a new name.</description>
 <signal name="D/CX">
 <contactref element="PI1" pad="18"/>
 <contactref element="SCREEN1" pad="P$4"/>
-<wire x1="16.75" y1="90.4" x2="43.487" y2="83.668" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="90.4" x2="30.702" y2="85.187" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="CSX">
 <contactref element="SCREEN1" pad="P$5"/>
 <contactref element="PI1" pad="24"/>
-<wire x1="16.75" y1="89.6" x2="43.487" y2="76.048" width="0" layer="19" extent="1-16"/>
+<wire x1="16.75" y1="89.6" x2="38.322" y2="85.187" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="3V3">
 <contactref element="R1" pad="2"/>
 <contactref element="PI1" pad="1"/>
 <contactref element="PI1" pad="17"/>
 <contactref element="SCREEN1" pad="P$9"/>
-<wire x1="46.027" y1="83.668" x2="46.027" y2="103.988" width="0" layer="19" extent="16-16"/>
-<wire x1="16.75" y1="86.4" x2="46.027" y2="83.668" width="0" layer="19" extent="1-16"/>
+<wire x1="30.702" y1="87.727" x2="10.382" y2="87.727" width="0" layer="19" extent="16-16"/>
+<wire x1="16.75" y1="86.4" x2="30.702" y2="87.727" width="0" layer="19" extent="1-16"/>
 <wire x1="12" y1="55" x2="16.75" y2="86.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SELECT">
 <contactref element="PI1" pad="37"/>
 <contactref element="BTN_SELECT" pad="2"/>
-<wire x1="32.205" y1="15.01" x2="46.027" y2="58.268" width="0" layer="19" extent="1-16"/>
+<wire x1="32.205" y1="15.01" x2="56.102" y2="87.727" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="A">
 <contactref element="PI1" pad="35"/>
 <contactref element="BTN_A" pad="B2"/>
-<wire x1="50.67" y1="30.235" x2="46.027" y2="60.808" width="0" layer="19" extent="1-16"/>
+<wire x1="50.67" y1="30.235" x2="53.562" y2="87.727" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="Y">
 <contactref element="BTN_Y" pad="B2"/>
 <contactref element="PI1" pad="15"/>
-<wire x1="39.67" y1="39.235" x2="46.027" y2="86.208" width="0" layer="19" extent="1-16"/>
+<wire x1="39.67" y1="39.235" x2="28.162" y2="87.727" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="X">
 <contactref element="PI1" pad="31"/>
 <contactref element="BTN_X" pad="B2"/>
-<wire x1="53.67" y1="45.235" x2="46.027" y2="65.888" width="0" layer="19" extent="1-16"/>
+<wire x1="53.67" y1="45.235" x2="48.482" y2="87.727" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="B">
 <contactref element="PI1" pad="29"/>
 <contactref element="BTN_B" pad="B2"/>
-<wire x1="36.67" y1="24.235" x2="46.027" y2="68.428" width="0" layer="19" extent="1-16"/>
+<wire x1="36.67" y1="24.235" x2="45.942" y2="87.727" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="START">
 <contactref element="PI1" pad="36"/>
 <contactref element="BTN_START" pad="2"/>
-<wire x1="43.805" y1="15.01" x2="43.487" y2="60.808" width="0" layer="19" extent="1-16"/>
+<wire x1="43.805" y1="15.01" x2="53.562" y2="85.187" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="RIGHT">
 <contactref element="PI1" pad="38"/>
 <contactref element="BTN_RIGHT" pad="B2"/>
-<wire x1="22.69" y1="33.06" x2="43.487" y2="58.268" width="0" layer="19" extent="1-16"/>
+<wire x1="22.69" y1="33.06" x2="56.102" y2="85.187" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="LEFT">
 <contactref element="PI1" pad="40"/>
 <contactref element="BTN_LEFT" pad="B2"/>
-<wire x1="2.28" y1="41.01" x2="43.487" y2="55.728" width="0" layer="19" extent="1-16"/>
+<wire x1="2.28" y1="41.01" x2="58.642" y2="85.187" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DOWN">
 <contactref element="PI1" pad="32"/>
 <contactref element="BTN_DOWN" pad="B2"/>
-<wire x1="10.235" y1="33.055" x2="43.487" y2="65.888" width="0" layer="19" extent="1-16"/>
+<wire x1="10.235" y1="33.055" x2="48.482" y2="85.187" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="UP">
 <contactref element="PI1" pad="26"/>
 <contactref element="BTN_UP" pad="B2"/>
-<wire x1="14.735" y1="41.015" x2="43.487" y2="73.508" width="0" layer="19" extent="1-16"/>
+<wire x1="14.735" y1="41.015" x2="40.862" y2="85.187" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SWITCH_OUT+">
 <contactref element="PI1" pad="2"/>
 <contactref element="PI1" pad="4"/>
 <contactref element="R2" pad="2"/>
 <contactref element="U$1" pad="O"/>
-<wire x1="43.487" y1="101.448" x2="43.487" y2="103.988" width="0" layer="19" extent="16-16"/>
-<wire x1="7.75" y1="109.75" x2="43.487" y2="103.988" width="0" layer="19" extent="16-16"/>
-<wire x1="7.5" y1="55" x2="7.75" y2="109.75" width="0" layer="19" extent="1-16"/>
+<wire x1="12.922" y1="85.187" x2="10.382" y2="85.187" width="0" layer="19" extent="16-16"/>
+<wire x1="7.75" y1="109.75" x2="10.382" y2="85.187" width="0" layer="19" extent="16-16"/>
+<wire x1="8" y1="55" x2="7.75" y2="109.75" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="BATT+">
 <contactref element="POWER1" pad="B+"/>
 <contactref element="CN1" pad="1"/>
-<wire x1="4" y1="78.8" x2="25.65" y2="91" width="0" layer="19" extent="16-16"/>
+<wire x1="35.4" y1="77" x2="43.85" y2="74.6" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="BATT-">
 <contactref element="POWER1" pad="B-"/>
 <contactref element="CN1" pad="2"/>
-<wire x1="6" y1="78.8" x2="25.65" y2="98" width="0" layer="19" extent="16-16"/>
+<wire x1="35.4" y1="75" x2="43.85" y2="67.6" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SWITCH_IN+">
 <contactref element="POWER1" pad="OUT+"/>
 <contactref element="U$1" pad="P"/>
-<wire x1="25.65" y1="87.35" x2="10.75" y2="109.75" width="0" layer="19" extent="16-16"/>
+<wire x1="43.85" y1="78.25" x2="10.75" y2="109.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="L1">
 <contactref element="BTN_L1" pad="B2"/>
 <contactref element="PI1" pad="8"/>
-<wire x1="64.72" y1="34.725" x2="43.487" y2="96.368" width="0" layer="19" extent="1-16"/>
+<wire x1="64.72" y1="34.725" x2="18.002" y2="85.187" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="R1">
 <contactref element="BTN_R1" pad="B2"/>
 <contactref element="PI1" pad="13"/>
-<wire x1="61.67" y1="20.235" x2="46.027" y2="88.748" width="0" layer="19" extent="1-16"/>
+<wire x1="61.67" y1="20.235" x2="25.622" y2="87.727" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="LED">
 <contactref element="LED1" pad="A"/>
 <contactref element="R2" pad="1"/>
-<wire x1="3.55" y1="55" x2="5.5" y2="55" width="0" layer="19" extent="1-1"/>
+<wire x1="4.05" y1="55" x2="6" y2="55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="J1" pad="RING"/>
@@ -1179,12 +1154,12 @@ design rules under a new name.</description>
 <signal name="PWM_RIGHT">
 <contactref element="PI1" pad="12"/>
 <contactref element="R3" pad="1"/>
-<wire x1="47" y1="13" x2="43.487" y2="91.288" width="0" layer="19" extent="16-16"/>
+<wire x1="47" y1="13" x2="23.082" y2="85.187" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PWM_LEFT">
 <contactref element="PI1" pad="33"/>
 <contactref element="R4" pad="1"/>
-<wire x1="34" y1="6" x2="46.027" y2="63.348" width="0" layer="19" extent="16-16"/>
+<wire x1="34" y1="6" x2="51.022" y2="87.727" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="C2" pad="1"/>
