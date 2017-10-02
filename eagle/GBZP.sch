@@ -9522,8 +9522,8 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 <wire x1="151.765" y1="148.59" x2="77.851" y2="148.59" width="0" layer="94"/>
 <wire x1="151.765" y1="143.51" x2="77.851" y2="143.51" width="0" layer="94"/>
 <text x="114.3" y="145.796" size="1.016" layer="94" font="vector" align="center">DISPLAY</text>
-<wire x1="250.571" y1="143.51" x2="151.765" y2="143.51" width="0" layer="94"/>
 <text x="200.66" y="145.796" size="1.016" layer="94" font="vector" align="center">RASPBERRY PI</text>
+<wire x1="250.571" y1="143.51" x2="151.765" y2="143.51" width="0" layer="94"/>
 <wire x1="250.571" y1="3.81" x2="250.571" y2="46.99" width="0" layer="94"/>
 <wire x1="250.571" y1="46.99" x2="250.571" y2="52.07" width="0" layer="94"/>
 <wire x1="250.571" y1="52.07" x2="250.571" y2="143.51" width="0" layer="94"/>
@@ -9531,6 +9531,8 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 <wire x1="250.571" y1="52.07" x2="151.765" y2="52.07" width="0" layer="94"/>
 <wire x1="250.571" y1="46.99" x2="151.765" y2="46.99" width="0" layer="94"/>
 <text x="203.454" y="49.276" size="1.016" layer="94" font="vector" align="center">HEADPHONES</text>
+<wire x1="324.231" y1="143.51" x2="250.571" y2="143.51" width="0" layer="94"/>
+<text x="289.56" y="145.796" size="1.016" layer="94" font="vector" align="center">RASPBERRY PI</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="119.38" y="101.6"/>
