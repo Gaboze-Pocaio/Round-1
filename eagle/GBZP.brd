@@ -233,10 +233,10 @@
 <wire x1="43.5" y1="18.37" x2="45.76" y2="16.11" width="0.0762" layer="51" curve="-90"/>
 <wire x1="35.45" y1="16.01" x2="37.71" y2="13.75" width="0.0762" layer="51" curve="90"/>
 <wire x1="35.45" y1="16.01" x2="37.81" y2="18.37" width="0.0762" layer="51" curve="-90"/>
-<circle x="2.2" y="23.5" radius="1.2" width="0.01" layer="20"/>
+<circle x="1.8" y="23.5" radius="1.2" width="0.01" layer="20"/>
 <circle x="67.1" y="28.9" radius="1.2" width="0.01" layer="20"/>
-<circle x="56.6" y="31.1" radius="1.2" width="0.01" layer="20"/>
-<circle x="44.6" y="22.4" radius="1.2" width="0.01" layer="20"/>
+<circle x="56.6" y="31.1" radius="1.6" width="0.01" layer="20"/>
+<circle x="46.6" y="22.4" radius="1.6" width="0.01" layer="20"/>
 <circle x="29.1" y="33.6" radius="1.2" width="0.01" layer="20"/>
 <circle x="23.7" y="27.2" radius="1.2" width="0.01" layer="20"/>
 <circle x="22.7" y="22.4" radius="1.2" width="0.01" layer="20"/>
