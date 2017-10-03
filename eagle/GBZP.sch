@@ -9418,7 +9418,7 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SCREEN1" library="GameboyZeroHandheldDisplays" deviceset="GAMEBOYZEROHANDHELDDISPLAYS-2.8" device=""/>
 <part name="PI1" library="RPI-Zero" deviceset="RPI-ZERO" device=""/>
-<part name="CN1" library="adafruit" deviceset="JST_2PIN" device="-SMT"/>
+<part name="CN1" library="adafruit" deviceset="JST_2PIN" device="-SMT" value="Battery Connection"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="POWER1" library="03962A" deviceset="03962A" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9438,8 +9438,8 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 <part name="BTN_L1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.2MM-TALL" package3d_urn="urn:adsk.eagle:package:40172/1" value="MOMENTARY-SWITCH-SPST-SMD-6.2MM-TALL"/>
 <part name="BTN_R1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.2MM-TALL" package3d_urn="urn:adsk.eagle:package:40172/1" value="MOMENTARY-SWITCH-SPST-SMD-6.2MM-TALL"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="220"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="Blue"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BTN_UP" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.2MM-TALL" package3d_urn="urn:adsk.eagle:package:40172/1" value="MOMENTARY-SWITCH-SPST-SMD-6.2MM-TALL"/>
 <part name="BTN_DOWN" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.2MM-TALL" package3d_urn="urn:adsk.eagle:package:40172/1" value="MOMENTARY-SWITCH-SPST-SMD-6.2MM-TALL"/>
@@ -9856,133 +9856,134 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 </net>
 <net name="SELECT" class="0">
 <segment>
-<pinref part="PI1" gate="G$1" pin="GPIO26"/>
-<wire x1="167.64" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
-<label x="165.1" y="81.28" size="1.016" layer="95" rot="MR0"/>
-</segment>
-<segment>
 <pinref part="BTN_SELECT" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
 <label x="35.56" y="86.36" size="1.016" layer="95"/>
 </segment>
-</net>
-<net name="A" class="0">
-<segment>
-<pinref part="PI1" gate="G$1" pin="GPIO19"/>
-<wire x1="167.64" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
-<label x="165.1" y="83.82" size="1.016" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="BTN_A" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="41.91" x2="33.02" y2="41.91" width="0.1524" layer="91"/>
-<label x="35.56" y="41.91" size="1.016" layer="95"/>
-</segment>
-</net>
-<net name="Y" class="0">
-<segment>
-<pinref part="PI1" gate="G$1" pin="GPIO22/GEN3"/>
-<wire x1="172.72" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
-<label x="165.1" y="109.22" size="1.016" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="BTN_Y" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="34.29" x2="63.5" y2="34.29" width="0.1524" layer="91"/>
-<label x="66.04" y="34.29" size="1.016" layer="95"/>
-</segment>
-</net>
-<net name="X" class="0">
-<segment>
-<pinref part="PI1" gate="G$1" pin="GPIO6"/>
-<wire x1="172.72" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
-<label x="165.1" y="88.9" size="1.016" layer="95" rot="MR0"/>
-</segment>
-<segment>
-<pinref part="BTN_X" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="41.91" x2="63.5" y2="41.91" width="0.1524" layer="91"/>
-<label x="66.04" y="41.91" size="1.016" layer="95"/>
-</segment>
-</net>
-<net name="B" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO5"/>
 <wire x1="167.64" y1="91.44" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
 <label x="165.1" y="91.44" size="1.016" layer="95" rot="MR0"/>
 </segment>
-<segment>
-<pinref part="BTN_B" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="34.29" x2="33.02" y2="34.29" width="0.1524" layer="91"/>
-<label x="35.306" y="34.29" size="1.016" layer="95"/>
-</segment>
 </net>
-<net name="START" class="0">
+<net name="A" class="0">
+<segment>
+<pinref part="BTN_A" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="41.91" x2="33.02" y2="41.91" width="0.1524" layer="91"/>
+<label x="35.56" y="41.91" size="1.016" layer="95"/>
+</segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO16"/>
 <wire x1="220.98" y1="83.82" x2="226.06" y2="83.82" width="0.1524" layer="91"/>
 <label x="228.6" y="83.82" size="1.016" layer="95"/>
 </segment>
+</net>
+<net name="Y" class="0">
 <segment>
-<pinref part="BTN_START" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
-<label x="66.04" y="86.36" size="1.016" layer="95"/>
+<pinref part="BTN_Y" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="34.29" x2="63.5" y2="34.29" width="0.1524" layer="91"/>
+<label x="66.04" y="34.29" size="1.016" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="GPIO6"/>
+<wire x1="172.72" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
+<label x="165.1" y="88.9" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="RIGHT" class="0">
+<net name="X" class="0">
 <segment>
-<pinref part="PI1" gate="G$1" pin="GPIO20"/>
-<wire x1="220.98" y1="81.28" x2="226.06" y2="81.28" width="0.1524" layer="91"/>
-<label x="228.6" y="81.28" size="1.016" layer="95"/>
+<pinref part="BTN_X" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="41.91" x2="63.5" y2="41.91" width="0.1524" layer="91"/>
+<label x="66.04" y="41.91" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="BTN_RIGHT" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="16.51" x2="63.5" y2="16.51" width="0.1524" layer="91"/>
-<label x="66.04" y="16.51" size="1.016" layer="95"/>
-</segment>
-</net>
-<net name="LEFT" class="0">
-<segment>
-<pinref part="PI1" gate="G$1" pin="GPIO21"/>
-<wire x1="220.98" y1="78.74" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
-<label x="228.6" y="78.74" size="1.016" layer="95"/>
-</segment>
-<segment>
-<pinref part="BTN_LEFT" gate="G$1" pin="2"/>
-<wire x1="61.214" y1="8.89" x2="63.754" y2="8.89" width="0.1524" layer="91"/>
-<label x="66.04" y="8.89" size="1.016" layer="95"/>
+<pinref part="PI1" gate="G$1" pin="GPIO26"/>
+<wire x1="167.64" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
+<label x="165.1" y="81.28" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="DOWN" class="0">
+<net name="B" class="0">
+<segment>
+<pinref part="BTN_B" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="34.29" x2="33.02" y2="34.29" width="0.1524" layer="91"/>
+<label x="35.306" y="34.29" size="1.016" layer="95"/>
+</segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO12"/>
 <wire x1="220.98" y1="88.9" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
 <label x="228.6" y="88.9" size="1.016" layer="95"/>
 </segment>
+</net>
+<net name="START" class="0">
 <segment>
-<pinref part="BTN_DOWN" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="8.89" x2="33.02" y2="8.89" width="0.1524" layer="91"/>
-<label x="35.56" y="8.89" size="1.016" layer="95"/>
+<pinref part="BTN_START" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
+<label x="66.04" y="86.36" size="1.016" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="GPIO19"/>
+<wire x1="167.64" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
+<label x="165.1" y="83.82" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="UP" class="0">
+<net name="RIGHT" class="0">
+<segment>
+<pinref part="BTN_RIGHT" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="16.51" x2="63.5" y2="16.51" width="0.1524" layer="91"/>
+<label x="66.04" y="16.51" size="1.016" layer="95"/>
+</segment>
 <segment>
 <pinref part="PI1" gate="G$1" pin="!CE!/GPIO7"/>
 <wire x1="220.98" y1="96.52" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
 <label x="228.6" y="96.52" size="1.016" layer="95"/>
 </segment>
+</net>
+<net name="LEFT" class="0">
+<segment>
+<pinref part="BTN_LEFT" gate="G$1" pin="2"/>
+<wire x1="61.214" y1="8.89" x2="63.754" y2="8.89" width="0.1524" layer="91"/>
+<label x="66.04" y="8.89" size="1.016" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="TXD0/GPIO14"/>
+<wire x1="220.98" y1="119.38" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
+<label x="228.6" y="119.38" size="1.016" layer="95"/>
+</segment>
+</net>
+<net name="DOWN" class="0">
+<segment>
+<pinref part="BTN_DOWN" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="8.89" x2="33.02" y2="8.89" width="0.1524" layer="91"/>
+<label x="35.56" y="8.89" size="1.016" layer="95"/>
+</segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="GPIO22/GEN3"/>
+<wire x1="172.72" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
+<label x="165.1" y="109.22" size="1.016" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="UP" class="0">
 <segment>
 <pinref part="BTN_UP" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="16.51" x2="33.02" y2="16.51" width="0.1524" layer="91"/>
 <label x="35.56" y="16.51" size="1.016" layer="95"/>
 </segment>
+<segment>
+<pinref part="PI1" gate="G$1" pin="GPIO27/GEN2"/>
+<wire x1="172.72" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
+<label x="165.1" y="111.76" size="1.016" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="SWITCH_OUT+" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="5V0@1"/>
-<wire x1="223.52" y1="127" x2="220.98" y2="127" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="127" x2="223.52" y2="127" width="0.1524" layer="91"/>
+<label x="228.6" y="127" size="1.016" layer="95"/>
 <pinref part="PI1" gate="G$1" pin="5V0@2"/>
+<wire x1="223.52" y1="127" x2="226.06" y2="127" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="124.46" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="124.46" x2="223.52" y2="127" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="127" x2="226.06" y2="127" width="0.1524" layer="91"/>
-<label x="228.6" y="127" size="1.016" layer="95"/>
+<junction x="223.52" y="127"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -10038,9 +10039,9 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 <label x="35.56" y="65.278" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PI1" gate="G$1" pin="TXD0/GPIO14"/>
-<wire x1="220.98" y1="119.38" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
-<label x="228.6" y="119.38" size="1.016" layer="95"/>
+<pinref part="PI1" gate="G$1" pin="GPIO21"/>
+<wire x1="220.98" y1="78.74" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
+<label x="228.6" y="78.74" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="R1" class="0">
@@ -10050,9 +10051,9 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 <label x="66.04" y="65.278" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PI1" gate="G$1" pin="GPIO27/GEN2"/>
-<wire x1="172.72" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
-<label x="165.1" y="111.76" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PI1" gate="G$1" pin="GPIO20"/>
+<wire x1="220.98" y1="81.28" x2="226.06" y2="81.28" width="0.1524" layer="91"/>
+<label x="228.6" y="81.28" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="LED" class="0">
@@ -10126,6 +10127,10 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,220.98,127,5V0,SWITCH_OUT+,,,,"/>
+<approved hash="102,1,220.98,124.46,5V0,SWITCH_OUT+,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
