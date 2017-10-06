@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
@@ -704,6 +705,46 @@ Source: 3M</description>
 <smd name="40" x="56.642" y="27.813" dx="1.524" dy="1.524" layer="1"/>
 <wire x1="45.25" y1="0" x2="50.35" y2="0" width="0.127" layer="21"/>
 <wire x1="57.85" y1="0" x2="62" y2="0" width="0.127" layer="21"/>
+<smd name="41" x="8.382" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="42" x="8.382" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="43" x="10.922" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="44" x="10.922" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="45" x="13.462" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="46" x="13.462" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="47" x="16.002" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="48" x="16.002" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="49" x="18.542" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="50" x="18.542" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="51" x="21.082" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="52" x="21.082" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="53" x="23.622" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="54" x="23.622" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="55" x="26.162" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="56" x="26.162" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="57" x="28.702" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="58" x="28.702" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="59" x="31.242" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="60" x="31.242" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="61" x="33.782" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="62" x="33.782" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="63" x="36.322" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="64" x="36.322" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="65" x="38.862" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="66" x="38.862" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="67" x="41.402" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="68" x="41.402" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="69" x="43.942" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="70" x="43.942" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="71" x="46.482" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="72" x="46.482" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="73" x="49.022" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="74" x="49.022" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="75" x="51.562" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="76" x="51.562" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="77" x="54.102" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="78" x="54.102" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="79" x="56.642" y="23.622" dx="0.8128" dy="1.778" layer="1"/>
+<smd name="80" x="56.642" y="29.464" dx="0.8128" dy="1.778" layer="1"/>
 </package>
 <package name="RCL_C0603K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0603 reflow solder&lt;/b&gt;&lt;p&gt;
