@@ -1,57 +1,50 @@
-## Gameboy Zero
+# Game Boy Zero
+> Looking for a no frills multi system emulator that fits in your pocket? Look no further! This is it, Gameboy Zero - Pocket Edition!!!
 
-##### Pocket Edition
+## Introduction
 
-![GBZP-logo](images/GBZP-logo.png)
+### Gameboy Zero - Handheld Edition
+Raspberry Pi Zero based arcade in you pocket, and in your Gameboy Pocket
 
-Gameboy Zero Pocket Edition is a refactor of the [Sudomod](http://sudomod.com/) Communities Gameboy Zero board. It is designed for an Atmega32u4 (so you can blast it with Arduino as well)
+### Features:
 
-Below is a list of pin and port assignment
-
-#### IO Pins
-
-| Atmega32u4 | Arduino | GBZ32u4 |
-| ---------- | ------- | ------- |
-| PD2        | D0      | DOWN    |
-| PD3        | D1      | UP      |
-| PD1        | D2      | LEFT    |
-| PD0        | D3      | RIGHT   |
-| PD4        | D4      | A       |
-| PC6        | D5      | START   |
-| PD7        | D6      | Y       |
-| PE6        | D7      | L1      |
-| PB4        | D8      | X       |
-| PB5        | D9      | R1      |
-| PB6        | D10     | R2      |
-| PB7        | D11     | L2      |
-| PD6        | D12     | B       |
-| PC7        | D13     | SELECT  |
+* 2.8" TFT LCD
+* Gameboy button layout interface
+* Raspberry Pi Zero
+* Battery Charger
+* Shoulder / Trigger buttons
+* 60 frames per second display
+* Headphone Jack
 
 
 
-#### Breakout Pins
+### Platforms:
 
-| Atmega32u4 | Arduino | GBZ32u4                                 |
-| ---------- | ------- | --------------------------------------- |
-| PF7 (ADC7) | A0      | Unassigned Available On Header Breakout |
-| PF6 (ADC6) | A1      | Unassigned Available On Header Breakout |
-| PF5 (ADC5) | A2      | Unassigned Available On Header Breakout |
-| PF4 (ADC4) | A3      | Unassigned Available On Header Breakout |
-| PF1 (ADC1) | A4      | Unassigned Available On Header Breakout |
-| PF0 (ADC0) | A5      | Unassigned Available On Header Breakout |
+The boards have been tested with the following platforms:
 
-**note: the breakout pins available at the top of the board are intended to be used for other communications to other devices (ex: raspberry pi, tft screen…) or input from other devices (esp devices, whatever…)*
+- [x] [Emulation Station](http://www.emulationstation.org/)
+- [ ] [Lakka](http://www.lakka.tv/)
+- [x] [RetroPie](https://retropie.org.uk/)
 
-#### Images
+Other platforms are yet to be tested.
 
-![GBZP-logo](images/GBZP-top.jpg)
+#### Eagle CAD Library
 
+With our project we have included a few custom Eagle CAD Libraries
 
-
-![GBZP-logo](images/GBZP-bottom.jpg)
+* [Displays](/library/GameboyZeroHandheldDisplays.lbr)
+* [Raspberry Pi Zero](/library/RPI-Zero.lbr)
 
 
 
+## Details
 
+| Top                                     | Bottom                                   |
+| --------------------------------------- | ---------------------------------------- |
+| <img src="images/top.png" height="350"> | <img src="images/bottom.png" height="350"> |
 
+## Custom Config
 
+> If you do not plan on using the provided Raspberry Pi image, simply [download](https://retropie.org.uk/download/) the latest RetroPie pre made image for the Raspberry Pi Zero
+
+Once you have installed RetroPie onto your SD card and mounted it on your Pi follow along with the [Installation Instructions](INSTALL.md) document provided

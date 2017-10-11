@@ -1,4 +1,4 @@
-Copyright 2017 Eugene y. Andruszczenko (32teeth.org)
+Copyright 2017 Eugene Y. Andruszczenko (32teeth.org)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this Software, Hardware and Design and associated documentation files (the "Software, Hardware and Design"), to deal in the Software, Hardware and Design without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, Hardware and Design, and to permit persons to whom the Software, Hardware and Design is furnished to do so, subject to the following conditions:
 
