@@ -900,46 +900,46 @@ grid 5.08 mm, diameter 8.5 mm</description>
 <devices>
 <device name="" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL">
 <connects>
-<connect gate="G$1" pin="!CE!/GPIO7" pad="26 66"/>
-<connect gate="G$1" pin="!CE0!/GPIO8" pad="24 64"/>
-<connect gate="G$1" pin="3V3@1" pad="1 41"/>
-<connect gate="G$1" pin="3V3@2" pad="17 57"/>
-<connect gate="G$1" pin="5V0@1" pad="2 42"/>
-<connect gate="G$1" pin="5V0@2" pad="4 44"/>
-<connect gate="G$1" pin="GEN/6GPIO25" pad="22 62"/>
-<connect gate="G$1" pin="GEN4/GPIO23" pad="16 56"/>
-<connect gate="G$1" pin="GEN5/GPIO24" pad="18 58"/>
-<connect gate="G$1" pin="GND@1" pad="9 49"/>
-<connect gate="G$1" pin="GND@2" pad="25 65"/>
-<connect gate="G$1" pin="GND@3" pad="39 79"/>
-<connect gate="G$1" pin="GND@4" pad="14 54"/>
-<connect gate="G$1" pin="GND@5" pad="20 60"/>
-<connect gate="G$1" pin="GND@6" pad="30 70"/>
-<connect gate="G$1" pin="GND@7" pad="34 74"/>
-<connect gate="G$1" pin="GND@8" pad="6 46"/>
-<connect gate="G$1" pin="GPIO10/MOSI" pad="19 59"/>
-<connect gate="G$1" pin="GPIO11/SCLK" pad="23 63"/>
-<connect gate="G$1" pin="GPIO12" pad="32 72"/>
-<connect gate="G$1" pin="GPIO13" pad="33 73"/>
-<connect gate="G$1" pin="GPIO16" pad="36 76"/>
-<connect gate="G$1" pin="GPIO17/GEN0" pad="11 51"/>
-<connect gate="G$1" pin="GPIO18" pad="12 52"/>
-<connect gate="G$1" pin="GPIO19" pad="35 75"/>
-<connect gate="G$1" pin="GPIO2/SDA1" pad="3 43"/>
-<connect gate="G$1" pin="GPIO20" pad="38 78"/>
-<connect gate="G$1" pin="GPIO21" pad="40 80"/>
-<connect gate="G$1" pin="GPIO22/GEN3" pad="15 55"/>
-<connect gate="G$1" pin="GPIO26" pad="37 77"/>
-<connect gate="G$1" pin="GPIO27/GEN2" pad="13 53"/>
-<connect gate="G$1" pin="GPIO3/SCL1" pad="5 45"/>
-<connect gate="G$1" pin="GPIO4/GCKL" pad="7 47"/>
-<connect gate="G$1" pin="GPIO5" pad="29 69"/>
-<connect gate="G$1" pin="GPIO6" pad="31 71"/>
-<connect gate="G$1" pin="GPIO9/MISO" pad="21 61"/>
-<connect gate="G$1" pin="ID_SC" pad="28 68"/>
-<connect gate="G$1" pin="ID_SD" pad="27 67"/>
-<connect gate="G$1" pin="RXD0/GPIO15" pad="10 50"/>
-<connect gate="G$1" pin="TXD0/GPIO14" pad="8 48"/>
+<connect gate="G$1" pin="!CE!/GPIO7" pad="26"/>
+<connect gate="G$1" pin="!CE0!/GPIO8" pad="24"/>
+<connect gate="G$1" pin="3V3@1" pad="1"/>
+<connect gate="G$1" pin="3V3@2" pad="17"/>
+<connect gate="G$1" pin="5V0@1" pad="2"/>
+<connect gate="G$1" pin="5V0@2" pad="4"/>
+<connect gate="G$1" pin="GEN/6GPIO25" pad="22"/>
+<connect gate="G$1" pin="GEN4/GPIO23" pad="16"/>
+<connect gate="G$1" pin="GEN5/GPIO24" pad="18"/>
+<connect gate="G$1" pin="GND@1" pad="9"/>
+<connect gate="G$1" pin="GND@2" pad="25"/>
+<connect gate="G$1" pin="GND@3" pad="39"/>
+<connect gate="G$1" pin="GND@4" pad="14"/>
+<connect gate="G$1" pin="GND@5" pad="20"/>
+<connect gate="G$1" pin="GND@6" pad="30"/>
+<connect gate="G$1" pin="GND@7" pad="34"/>
+<connect gate="G$1" pin="GND@8" pad="6"/>
+<connect gate="G$1" pin="GPIO10/MOSI" pad="19"/>
+<connect gate="G$1" pin="GPIO11/SCLK" pad="23"/>
+<connect gate="G$1" pin="GPIO12" pad="32"/>
+<connect gate="G$1" pin="GPIO13" pad="33"/>
+<connect gate="G$1" pin="GPIO16" pad="36"/>
+<connect gate="G$1" pin="GPIO17/GEN0" pad="11"/>
+<connect gate="G$1" pin="GPIO18" pad="12"/>
+<connect gate="G$1" pin="GPIO19" pad="35"/>
+<connect gate="G$1" pin="GPIO2/SDA1" pad="3"/>
+<connect gate="G$1" pin="GPIO20" pad="38"/>
+<connect gate="G$1" pin="GPIO21" pad="40"/>
+<connect gate="G$1" pin="GPIO22/GEN3" pad="15"/>
+<connect gate="G$1" pin="GPIO26" pad="37"/>
+<connect gate="G$1" pin="GPIO27/GEN2" pad="13"/>
+<connect gate="G$1" pin="GPIO3/SCL1" pad="5"/>
+<connect gate="G$1" pin="GPIO4/GCKL" pad="7"/>
+<connect gate="G$1" pin="GPIO5" pad="29"/>
+<connect gate="G$1" pin="GPIO6" pad="31"/>
+<connect gate="G$1" pin="GPIO9/MISO" pad="21"/>
+<connect gate="G$1" pin="ID_SC" pad="28"/>
+<connect gate="G$1" pin="ID_SD" pad="27"/>
+<connect gate="G$1" pin="RXD0/GPIO15" pad="10"/>
+<connect gate="G$1" pin="TXD0/GPIO14" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
