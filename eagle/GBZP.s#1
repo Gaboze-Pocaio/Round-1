@@ -22731,7 +22731,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="PWM_RIGHT" class="0">
+<net name="PWM" class="0">
 <segment>
 <pinref part="PI1" gate="G$1" pin="GPIO18"/>
 <wire x1="220.98" y1="114.3" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
@@ -22741,6 +22741,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="27.94" x2="182.88" y2="27.94" width="0.1524" layer="91"/>
 <label x="182.88" y="27.94" size="1.016" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="-35.56" x2="156.21" y2="-35.56" width="0.1524" layer="91"/>
+<label x="157.48" y="-33.02" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PWM_LEFT" class="0">
@@ -22810,13 +22815,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="-17.78" x2="259.08" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="248.92" y="-17.78"/>
-</segment>
-</net>
-<net name="PWM0" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="-35.56" x2="158.75" y2="-35.56" width="0.1524" layer="91"/>
-<label x="158.75" y="-35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
