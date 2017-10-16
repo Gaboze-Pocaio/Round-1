@@ -606,6 +606,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="5.715" y="0.762" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="5.715" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="1X02" urn="urn:adsk.eagle:footprint:37654/1" library_version="1">
+<description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="AUDIO-JACK-3.5MM-SMD" urn="urn:adsk.eagle:package:38015/1" type="box" library_version="1">
@@ -617,6 +647,36 @@ Pin count:5
 Datasheet referenced for footprint
 Example device(s):
 Audio_Jack
+</description>
+</package3d>
+<package3d name="1X02_XTRA_BIG" urn="urn:adsk.eagle:package:38054/1" type="box" library_version="1">
+<description>Plated Through Hole - 0.1" holes
+Specifications:
+Pin count:2
+Pin pitch:0.2"
+
+Example device(s):
+CONN_02
+</description>
+</package3d>
+<package3d name="1X02_BIG" urn="urn:adsk.eagle:package:38043/1" type="box" library_version="1">
+<description>Plated Through Hole
+Specifications:
+Pin count:2
+Pin pitch:0.15"
+
+Example device(s):
+CONN_02
+</description>
+</package3d>
+<package3d name="1X02" urn="urn:adsk.eagle:package:38039/1" type="box" library_version="1">
+<description>Plated Through Hole
+Specifications:
+Pin count:2
+Pin pitch:0.1"
+
+Example device(s):
+CONN_02
 </description>
 </package3d>
 </packages3d>
@@ -656,13 +716,6 @@ chip</description>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-</package>
-<package name="PS12" library_version="1">
-<circle x="0" y="0" radius="6.096" width="0.1524" layer="21"/>
-<pad name="P$1" x="-2.5" y="0" drill="1" diameter="2.54"/>
-<pad name="P$2" x="2.5" y="0" drill="1" diameter="2.54"/>
-<text x="-2.54" y="6.35" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.8862" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1048,7 +1101,6 @@ design rules under a new name.</description>
 <element name="U$1" library="SparkFun-Retired" library_urn="urn:adsk.eagle:library:533" package="KPS-1290" value="SWITCH_SPDT" x="11.1" y="111.5" rot="MR180">
 <attribute name="PROD_ID" value="SWCH-10651" x="11.1" y="111.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="SP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="PS12" value="SPEAKER/PS12" x="91" y="70"/>
 <element name="C2" library="SparkFun-Capacitors" package="NIC_10X10.5_CAP" value="100uF" x="105" y="97">
 <attribute name="PROD_ID" value="CAP-08362" x="105" y="97" size="1.778" layer="27" display="off"/>
 </element>
@@ -1059,6 +1111,7 @@ design rules under a new name.</description>
 <element name="R10" library="GBA" package="VOLUME" value="27k" x="101" y="22"/>
 <element name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="100nF" x="86" y="10"/>
 <element name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="10uF" x="86" y="4"/>
+<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="106" y="70"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1470,9 +1523,9 @@ design rules under a new name.</description>
 <signal name="VOUT1">
 <contactref element="C2" pad="+"/>
 <contactref element="U1" pad="5"/>
-<contactref element="SP1" pad="P$1"/>
+<contactref element="J2" pad="1"/>
 <wire x1="89.905" y1="99.6" x2="109.5" y2="97" width="0" layer="19" extent="1-1"/>
-<wire x1="88.5" y1="70" x2="89.905" y2="99.6" width="0" layer="19" extent="1-1"/>
+<wire x1="106" y1="70" x2="109.5" y2="97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R3" pad="2"/>
@@ -1483,8 +1536,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="VOUT2">
 <contactref element="U1" pad="8"/>
-<contactref element="SP1" pad="P$2"/>
-<wire x1="93.5" y1="70" x2="86.095" y2="99.6" width="0" layer="19" extent="1-1"/>
+<contactref element="J2" pad="2"/>
+<wire x1="108.54" y1="70" x2="86.095" y2="99.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HEADPHONES">
 <contactref element="U1" pad="3"/>
