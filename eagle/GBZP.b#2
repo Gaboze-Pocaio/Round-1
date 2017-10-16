@@ -1048,17 +1048,17 @@ design rules under a new name.</description>
 <element name="U$1" library="SparkFun-Retired" library_urn="urn:adsk.eagle:library:533" package="KPS-1290" value="SWITCH_SPDT" x="11.1" y="111.5" rot="MR180">
 <attribute name="PROD_ID" value="SWCH-10651" x="11.1" y="111.5" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="SP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="PS12" value="SPEAKER/PS12" x="12" y="-17"/>
-<element name="C2" library="SparkFun-Capacitors" package="NIC_10X10.5_CAP" value="100uF" x="8" y="-132">
-<attribute name="PROD_ID" value="CAP-08362" x="8" y="-132" size="1.778" layer="27" display="off"/>
+<element name="SP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="PS12" value="SPEAKER/PS12" x="91" y="70"/>
+<element name="C2" library="SparkFun-Capacitors" package="NIC_10X10.5_CAP" value="100uF" x="105" y="97">
+<attribute name="PROD_ID" value="CAP-08362" x="105" y="97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="texas" package="SOIC8" value="LM4875" x="-9" y="-132"/>
-<element name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="270Ohm" x="-11" y="-171"/>
-<element name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="220nF" x="-11" y="-177"/>
-<element name="C10" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="100nF" x="-11" y="-183"/>
-<element name="R10" library="GBA" package="VOLUME" value="27k" x="4" y="-207"/>
-<element name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="100nF" x="-11" y="-219"/>
-<element name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="10uF" x="-11" y="-225"/>
+<element name="U1" library="texas" package="SOIC8" value="LM4875" x="88" y="97"/>
+<element name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="270Ohm" x="86" y="58"/>
+<element name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="220nF" x="86" y="52"/>
+<element name="C10" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="100nF" x="86" y="46"/>
+<element name="R10" library="GBA" package="VOLUME" value="27k" x="101" y="22"/>
+<element name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="100nF" x="86" y="10"/>
+<element name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="10uF" x="86" y="4"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1126,9 +1126,9 @@ design rules under a new name.</description>
 <contactref element="U1" pad="6"/>
 <contactref element="C10" pad="2"/>
 <contactref element="R10" pad="1"/>
-<wire x1="-10.15" y1="-183" x2="0" y2="-209" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.365" y1="-129.4" x2="-10.15" y2="-183" width="0" layer="19" extent="1-1"/>
-<wire x1="35.65" y1="3.4" x2="-8.365" y2="-129.4" width="0" layer="19" extent="1-16"/>
+<wire x1="86.85" y1="46" x2="97" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="88.635" y1="99.6" x2="86.85" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="35.65" y1="3.4" x2="88.635" y2="99.6" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="RESET">
 <contactref element="SCREEN1" pad="P$2"/>
@@ -1385,10 +1385,10 @@ design rules under a new name.</description>
 <contactref element="R10" pad="5"/>
 <contactref element="C12" pad="1"/>
 <contactref element="C11" pad="1"/>
-<wire x1="-11.85" y1="-219" x2="-11.85" y2="-225" width="0" layer="19" extent="1-1"/>
-<wire x1="8" y1="-209" x2="-11.85" y2="-219" width="0" layer="19" extent="1-1"/>
-<wire x1="-10" y1="-171" x2="8" y2="-209" width="0" layer="19" extent="1-1"/>
-<wire x1="8" y1="55" x2="-10" y2="-171" width="0" layer="19" extent="1-1"/>
+<wire x1="85.15" y1="10" x2="85.15" y2="4" width="0" layer="19" extent="1-1"/>
+<wire x1="105" y1="20" x2="85.15" y2="10" width="0" layer="19" extent="1-1"/>
+<wire x1="87" y1="58" x2="105" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="55" x2="87" y2="58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATT+">
 <contactref element="POWER1" pad="B+"/>
@@ -1464,59 +1464,59 @@ design rules under a new name.</description>
 <contactref element="J1" pad="RSH"/>
 <contactref element="C2" pad="-"/>
 <contactref element="J1" pad="TSH"/>
-<wire x1="42.55" y1="2.5" x2="3.5" y2="-132" width="0" layer="19" extent="1-16"/>
+<wire x1="42.55" y1="2.5" x2="100.5" y2="97" width="0" layer="19" extent="1-16"/>
 <wire x1="39.85" y1="16.75" x2="42.55" y2="2.5" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VOUT1">
 <contactref element="C2" pad="+"/>
 <contactref element="U1" pad="5"/>
 <contactref element="SP1" pad="P$1"/>
-<wire x1="12.5" y1="-132" x2="-7.095" y2="-129.4" width="0" layer="19" extent="1-1"/>
-<wire x1="9.5" y1="-17" x2="-7.095" y2="-129.4" width="0" layer="19" extent="1-1"/>
+<wire x1="109.5" y1="97" x2="89.905" y2="99.6" width="0" layer="19" extent="1-1"/>
+<wire x1="88.5" y1="70" x2="89.905" y2="99.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R3" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C3" pad="2"/>
-<wire x1="30.15" y1="12" x2="-10.15" y2="-177" width="0" layer="19" extent="1-16"/>
+<wire x1="30.15" y1="12" x2="86.85" y2="52" width="0" layer="19" extent="1-16"/>
 <wire x1="30" y1="14" x2="30.15" y2="12" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VOUT2">
 <contactref element="U1" pad="8"/>
 <contactref element="SP1" pad="P$2"/>
-<wire x1="14.5" y1="-17" x2="-10.905" y2="-129.4" width="0" layer="19" extent="1-1"/>
+<wire x1="93.5" y1="70" x2="86.095" y2="99.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HEADPHONES">
 <contactref element="U1" pad="3"/>
 <contactref element="R5" pad="1"/>
 <contactref element="J1" pad="TIP"/>
 <contactref element="J1" pad="RING"/>
-<wire x1="-8.365" y1="-134.6" x2="-12" y2="-171" width="0" layer="19" extent="1-1"/>
-<wire x1="42.55" y1="5.3" x2="-8.365" y2="-134.6" width="0" layer="19" extent="1-16"/>
+<wire x1="88.635" y1="94.4" x2="85" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="42.55" y1="5.3" x2="88.635" y2="94.4" width="0" layer="19" extent="1-16"/>
 <wire x1="35.65" y1="12.7" x2="42.55" y2="5.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VIN">
 <contactref element="U1" pad="2"/>
 <contactref element="C3" pad="1"/>
-<wire x1="-9.635" y1="-134.6" x2="-11.85" y2="-177" width="0" layer="19" extent="1-1"/>
+<wire x1="87.365" y1="94.4" x2="85.15" y2="52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DC_VOL">
 <contactref element="U1" pad="4"/>
 <contactref element="R10" pad="3"/>
-<wire x1="-7.095" y1="-134.6" x2="4" y2="-209" width="0" layer="19" extent="1-1"/>
+<wire x1="89.905" y1="94.4" x2="101" y2="20" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BYP">
 <contactref element="U1" pad="7"/>
 <contactref element="C10" pad="1"/>
-<wire x1="-9.635" y1="-129.4" x2="-11.85" y2="-183" width="0" layer="19" extent="1-1"/>
+<wire x1="87.365" y1="99.6" x2="85.15" y2="46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="C12" pad="2"/>
 <contactref element="C11" pad="2"/>
 <contactref element="U1" pad="1"/>
-<wire x1="-10.15" y1="-219" x2="-10.15" y2="-225" width="0" layer="19" extent="1-1"/>
-<wire x1="-10.905" y1="-134.6" x2="-10.15" y2="-219" width="0" layer="19" extent="1-1"/>
+<wire x1="86.85" y1="10" x2="86.85" y2="4" width="0" layer="19" extent="1-1"/>
+<wire x1="86.095" y1="94.4" x2="86.85" y2="10" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

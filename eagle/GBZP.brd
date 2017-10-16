@@ -1478,7 +1478,6 @@ design rules under a new name.</description>
 <contactref element="R3" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C3" pad="2"/>
-<contactref element="C3" pad="2"/>
 <wire x1="30" y1="14" x2="86.85" y2="52" width="0" layer="19" extent="1-16"/>
 <wire x1="30.15" y1="12" x2="30" y2="14" width="0" layer="19" extent="16-16"/>
 </signal>
