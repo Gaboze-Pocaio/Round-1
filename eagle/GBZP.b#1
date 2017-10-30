@@ -1480,18 +1480,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="BATT+">
 <contactref element="POWER1" pad="B+"/>
+<wire x1="43.85" y1="72" x2="43.85" y2="74.6" width="0.8128" layer="16"/>
 <contactref element="J3" pad="2"/>
-<wire x1="36.7" y1="70" x2="43.85" y2="70" width="0.8128" layer="16"/>
-<wire x1="43.85" y1="70" x2="43.85" y2="74.6" width="0.8128" layer="16"/>
+<wire x1="36.7" y1="70" x2="43.85" y2="72" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="BATT-">
 <contactref element="POWER1" pad="B-"/>
+<wire x1="43.85" y1="70" x2="43.85" y2="67.6" width="0.8128" layer="16"/>
 <contactref element="J3" pad="1"/>
-<wire x1="36.7" y1="72" x2="28" y2="72" width="0.8128" layer="16"/>
-<wire x1="28" y1="72" x2="28" y2="64" width="0.8128" layer="16"/>
-<wire x1="28" y1="64" x2="39" y2="64" width="0.8128" layer="16"/>
-<wire x1="39" y1="67.6" x2="43.85" y2="67.6" width="0.8128" layer="16"/>
-<wire x1="39" y1="64" x2="39" y2="67.6" width="0.8128" layer="16"/>
+<wire x1="36.7" y1="72" x2="43.85" y2="70" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SWITCH_IN+">
 <contactref element="POWER1" pad="OUT+"/>
