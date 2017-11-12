@@ -1501,7 +1501,9 @@ design rules under a new name.</description>
 <signal name="GPIO7">
 <contactref element="PI1" pad="26"/>
 <via x="29" y="116" extent="1-16" drill="0.5"/>
-<wire x1="30.638" y1="101.702" x2="29" y2="116" width="0" layer="19" extent="16-16"/>
+<wire x1="30.638" y1="101.702" x2="30.638" y2="114" width="0.254" layer="16"/>
+<wire x1="30.638" y1="114" x2="29" y2="114" width="0.254" layer="16"/>
+<wire x1="29" y1="114" x2="29" y2="116" width="0.254" layer="16"/>
 </signal>
 <signal name="GPIO12">
 <contactref element="PI1" pad="32"/>

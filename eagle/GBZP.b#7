@@ -992,7 +992,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="R1" library="adafruit" package="R0805" value="100" x="66.5" y="55" rot="R180"/>
-<element name="SCREEN1" library="GameboyZeroHandheldDisplays" package="GAMEBOYZEROHANDHELDDISPLAYS-2.8" value="GAMEBOYZEROHANDHELDDISPLAYS-2.8" x="35.25" y="86" rot="R180"/>
+<element name="ILI9341-TFT-2.8" library="GameboyZeroHandheldDisplays" package="GAMEBOYZEROHANDHELDDISPLAYS-2.8" value="GAMEBOYZEROHANDHELDDISPLAYS-2.8" x="35.25" y="86" rot="R180"/>
 <element name="PI1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="69.5" y="73" rot="MR0"/>
 <element name="POWER1" library="03962A" package="03962A" value="03962A" x="42.5" y="53" rot="MR90"/>
 <element name="BTN_X" library="pad+switch+hole" package="PAD+SWITCH+HOLE" value="PAD+SWITCH+HOLE" x="51.42" y="49.21" smashed="yes">
@@ -1063,13 +1063,13 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="SCREEN1" pad="P$1"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$1"/>
 <contactref element="POWER1" pad="OUT-"/>
-<contactref element="SCREEN1" pad="P$8"/>
-<contactref element="SCREEN1" pad="P$14"/>
-<contactref element="SCREEN1" pad="P$13"/>
-<contactref element="SCREEN1" pad="P$12"/>
-<contactref element="SCREEN1" pad="P$11"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$8"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$14"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$13"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$12"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$11"/>
 <contactref element="BTN_SELECT" pad="P$GND"/>
 <contactref element="BTN_START" pad="P$GND"/>
 <contactref element="BTN_B" pad="P$GND"/>
@@ -1114,7 +1114,7 @@ design rules under a new name.</description>
 <contactref element="R10" pad="1"/>
 </signal>
 <signal name="RESET">
-<contactref element="SCREEN1" pad="P$2"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$2"/>
 <contactref element="PI1" pad="22"/>
 <wire x1="53.25" y1="80" x2="37" y2="80" width="0.254" layer="1"/>
 <wire x1="35.718" y1="101.702" x2="37" y2="101.702" width="0.254" layer="16"/>
@@ -1122,7 +1122,7 @@ design rules under a new name.</description>
 <via x="37" y="80" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="SCL">
-<contactref element="SCREEN1" pad="P$3"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$3"/>
 <contactref element="PI1" pad="23"/>
 <wire x1="53.25" y1="80.8" x2="33.178" y2="80.8" width="0.254" layer="1"/>
 <wire x1="33.178" y1="97.384" x2="33.178" y2="80.8" width="0.254" layer="16"/>
@@ -1130,14 +1130,14 @@ design rules under a new name.</description>
 <via x="33.178" y="80.8" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="SDI">
-<contactref element="SCREEN1" pad="P$6"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$6"/>
 <contactref element="PI1" pad="19"/>
 <wire x1="53.25" y1="83.2" x2="38.258" y2="83.2" width="0.254" layer="1"/>
 <via x="38.258" y="83.2" extent="1-16" drill="0.5"/>
 <wire x1="38.258" y1="97.384" x2="38.258" y2="83.2" width="0.254" layer="16"/>
 </signal>
 <signal name="SDO">
-<contactref element="SCREEN1" pad="P$7"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$7"/>
 <contactref element="PI1" pad="21"/>
 <wire x1="53.25" y1="84" x2="35.718" y2="84" width="0.254" layer="1"/>
 <wire x1="35.718" y1="97.384" x2="35.718" y2="84" width="0.254" layer="16"/>
@@ -1146,20 +1146,20 @@ design rules under a new name.</description>
 </signal>
 <signal name="3V3100OHM">
 <contactref element="R1" pad="1"/>
-<contactref element="SCREEN1" pad="P$10"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$10"/>
 <wire x1="67.5" y1="55" x2="67.5" y2="86.4" width="0.254" layer="1"/>
 <wire x1="67.5" y1="86.4" x2="53.25" y2="86.4" width="0.254" layer="1"/>
 </signal>
 <signal name="D/CX">
 <contactref element="PI1" pad="18"/>
-<contactref element="SCREEN1" pad="P$4"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$4"/>
 <wire x1="40.798" y1="101.702" x2="39.55" y2="101.702" width="0.254" layer="16"/>
 <wire x1="39.55" y1="101.702" x2="39.55" y2="81.6" width="0.254" layer="16"/>
 <via x="39.55" y="81.6" extent="1-16" drill="0.5"/>
 <wire x1="53.25" y1="81.6" x2="39.55" y2="81.6" width="0.254" layer="1"/>
 </signal>
 <signal name="CSX">
-<contactref element="SCREEN1" pad="P$5"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$5"/>
 <contactref element="PI1" pad="24"/>
 <wire x1="53.25" y1="82.4" x2="34.4" y2="82.4" width="0.254" layer="1"/>
 <wire x1="33.178" y1="101.702" x2="34.4" y2="101.702" width="0.254" layer="16"/>
@@ -1170,7 +1170,7 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="PI1" pad="1"/>
 <contactref element="PI1" pad="17"/>
-<contactref element="SCREEN1" pad="P$9"/>
+<contactref element="ILI9341-TFT-2.8" pad="P$9"/>
 <wire x1="65.5" y1="55" x2="65.5" y2="85.6" width="0.254" layer="1"/>
 <wire x1="65.5" y1="85.6" x2="53.25" y2="85.6" width="0.254" layer="1"/>
 <via x="65.5" y="85.6" extent="1-16" drill="0.5"/>

@@ -1491,12 +1491,18 @@ design rules under a new name.</description>
 <signal name="GPIO16">
 <contactref element="PI1" pad="36"/>
 <via x="23" y="116" extent="1-16" drill="0.5"/>
-<wire x1="17.938" y1="101.702" x2="23" y2="116" width="0" layer="19" extent="16-16"/>
+<wire x1="17.938" y1="101.702" x2="17.938" y2="107" width="0.254" layer="16"/>
+<wire x1="17.938" y1="107" x2="22" y2="107" width="0.254" layer="16"/>
+<wire x1="22" y1="107" x2="22" y2="114" width="0.254" layer="16"/>
+<wire x1="22" y1="114" x2="23" y2="114" width="0.254" layer="16"/>
+<wire x1="23" y1="114" x2="23" y2="116" width="0.254" layer="16"/>
 </signal>
 <signal name="GPIO20">
 <contactref element="PI1" pad="38"/>
 <via x="21" y="116" extent="1-16" drill="0.5"/>
-<wire x1="15.398" y1="101.702" x2="21" y2="116" width="0" layer="19" extent="16-16"/>
+<wire x1="15.398" y1="101.702" x2="15.398" y2="108" width="0.254" layer="16"/>
+<wire x1="15.398" y1="108" x2="21" y2="108" width="0.254" layer="16"/>
+<wire x1="21" y1="108" x2="21" y2="116" width="0.254" layer="16"/>
 </signal>
 <signal name="GPIO7">
 <contactref element="PI1" pad="26"/>
@@ -1508,7 +1514,9 @@ design rules under a new name.</description>
 <signal name="GPIO12">
 <contactref element="PI1" pad="32"/>
 <via x="25" y="116" extent="1-16" drill="0.5"/>
-<wire x1="23.018" y1="101.702" x2="25" y2="116" width="0" layer="19" extent="16-16"/>
+<wire x1="23.018" y1="101.702" x2="23.018" y2="113" width="0.254" layer="16"/>
+<wire x1="23.018" y1="113" x2="25" y2="113" width="0.254" layer="16"/>
+<wire x1="25" y1="113" x2="25" y2="116" width="0.254" layer="16"/>
 </signal>
 <signal name="GPIO21">
 <contactref element="PI1" pad="40"/>
@@ -1518,7 +1526,10 @@ design rules under a new name.</description>
 <signal name="GPIO5">
 <contactref element="PI1" pad="29"/>
 <via x="27" y="116" extent="1-16" drill="0.5"/>
-<wire x1="25.558" y1="97.384" x2="27" y2="116" width="0" layer="19" extent="16-16"/>
+<wire x1="25.558" y1="97.384" x2="26.8" y2="97.384" width="0.254" layer="16"/>
+<wire x1="26.8" y1="97.384" x2="26.8" y2="114" width="0.254" layer="16"/>
+<wire x1="26.8" y1="114" x2="27" y2="114" width="0.254" layer="16"/>
+<wire x1="27" y1="114" x2="27" y2="116" width="0.254" layer="16"/>
 </signal>
 </signals>
 <errors>
