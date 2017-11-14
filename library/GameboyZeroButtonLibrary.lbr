@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -89,9 +89,9 @@
 </layers>
 <library>
 <packages>
-<package name="PAD+SWITCH+HOLE">
-<smd name="P$ACTIVE" x="2.475" y="2.365" dx="4.5" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$GND" x="-2.475" y="-2.385" dx="4.5" dy="1.3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<package name="GAMEBOY-ZERO-BUTTON">
+<smd name="P$ACTIVE" x="2.475" y="2.365" dx="4.5" dy="1.3" layer="1"/>
+<smd name="P$GND" x="-2.475" y="-2.385" dx="4.5" dy="1.3" layer="1" rot="R180"/>
 <polygon width="0.0762" layer="1">
 <vertex x="0.25" y="-2.99" curve="90"/>
 <vertex x="3.2" y="-0.01" curve="90"/>
@@ -112,10 +112,42 @@
 <smd name="P$NC2" x="3.975" y="-2.385" dx="1.55" dy="1.3" layer="1" rot="R180"/>
 <circle x="0" y="0" radius="0.75" width="0" layer="20"/>
 <hole x="0" y="0" drill="1.5"/>
+<polygon width="0.0762" layer="29">
+<vertex x="0.25" y="-2.99" curve="90"/>
+<vertex x="3.2" y="-0.01" curve="90"/>
+<vertex x="0.25" y="2.99"/>
+<vertex x="0.25" y="1.1" curve="-90"/>
+<vertex x="1.1" y="-0.01" curve="-90"/>
+<vertex x="0.25" y="-1.1"/>
+</polygon>
+<polygon width="0.0762" layer="29">
+<vertex x="-0.25" y="2.99" curve="90"/>
+<vertex x="-3.2" y="-0.01" curve="90"/>
+<vertex x="-0.25" y="-2.99"/>
+<vertex x="-0.25" y="-1.1" curve="-90"/>
+<vertex x="-1.1" y="-0.01" curve="-90"/>
+<vertex x="-0.25" y="1.1"/>
+</polygon>
+<polygon width="0.0762" layer="29">
+<vertex x="0.25" y="-2.99" curve="90"/>
+<vertex x="3.2" y="-0.01" curve="90"/>
+<vertex x="0.25" y="2.99"/>
+<vertex x="0.25" y="1.1" curve="-90"/>
+<vertex x="1.1" y="-0.01" curve="-90"/>
+<vertex x="0.25" y="-1.1"/>
+</polygon>
+<polygon width="0.0762" layer="29">
+<vertex x="-0.25" y="2.99" curve="90"/>
+<vertex x="-3.2" y="-0.01" curve="90"/>
+<vertex x="-0.25" y="-2.99"/>
+<vertex x="-0.25" y="-1.1" curve="-90"/>
+<vertex x="-1.1" y="-0.01" curve="-90"/>
+<vertex x="-0.25" y="1.1"/>
+</polygon>
 </package>
 </packages>
 <symbols>
-<symbol name="PAD+SWITCH+HOLE">
+<symbol name="GAMEBOY-ZERO-BUTTON">
 <wire x1="-5.08" y1="0" x2="-3.048" y2="0" width="0.254" layer="94"/>
 <wire x1="3.048" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="1.27" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
@@ -132,12 +164,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PAD+SWITCH+HOLE">
+<deviceset name="GAMEBOY-ZERO-BUTTON">
 <gates>
-<gate name="G$1" symbol="PAD+SWITCH+HOLE" x="0" y="0"/>
+<gate name="G$1" symbol="GAMEBOY-ZERO-BUTTON" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PAD+SWITCH+HOLE">
+<device name="" package="GAMEBOY-ZERO-BUTTON">
 <connects>
 <connect gate="G$1" pin="P$ACTIVE" pad="P$ACTIVE"/>
 <connect gate="G$1" pin="P$GND" pad="P$GND"/>

@@ -152,7 +152,6 @@
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
 <layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
 <layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
@@ -788,8 +787,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="pad+switch+hole">
 <packages>
 <package name="PAD+SWITCH+HOLE">
-<smd name="P$ACTIVE" x="2.475" y="2.365" dx="4.5" dy="1.3" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$GND" x="-2.475" y="-2.385" dx="4.5" dy="1.3" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="P$ACTIVE" x="2.475" y="2.365" dx="4.5" dy="1.3" layer="1"/>
+<smd name="P$GND" x="-2.475" y="-2.385" dx="4.5" dy="1.3" layer="1" rot="R180"/>
 <polygon width="0.0762" layer="1">
 <vertex x="0.25" y="-2.99" curve="90"/>
 <vertex x="3.2" y="-0.01" curve="90"/>
@@ -810,6 +809,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P$NC2" x="3.975" y="-2.385" dx="1.55" dy="1.3" layer="1" rot="R180"/>
 <circle x="0" y="0" radius="0.75" width="0" layer="20"/>
 <hole x="0" y="0" drill="1.5"/>
+<polygon width="0.0762" layer="29">
+<vertex x="0.25" y="-2.99" curve="90"/>
+<vertex x="3.2" y="-0.01" curve="90"/>
+<vertex x="0.25" y="2.99"/>
+<vertex x="0.25" y="1.1" curve="-90"/>
+<vertex x="1.1" y="-0.01" curve="-90"/>
+<vertex x="0.25" y="-1.1"/>
+</polygon>
+<polygon width="0.0762" layer="29">
+<vertex x="-0.25" y="2.99" curve="90"/>
+<vertex x="-3.2" y="-0.01" curve="90"/>
+<vertex x="-0.25" y="-2.99"/>
+<vertex x="-0.25" y="-1.1" curve="-90"/>
+<vertex x="-1.1" y="-0.01" curve="-90"/>
+<vertex x="-0.25" y="1.1"/>
+</polygon>
+<polygon width="0.0762" layer="29">
+<vertex x="0.25" y="-2.99" curve="90"/>
+<vertex x="3.2" y="-0.01" curve="90"/>
+<vertex x="0.25" y="2.99"/>
+<vertex x="0.25" y="1.1" curve="-90"/>
+<vertex x="1.1" y="-0.01" curve="-90"/>
+<vertex x="0.25" y="-1.1"/>
+</polygon>
+<polygon width="0.0762" layer="29">
+<vertex x="-0.25" y="2.99" curve="90"/>
+<vertex x="-3.2" y="-0.01" curve="90"/>
+<vertex x="-0.25" y="-2.99"/>
+<vertex x="-0.25" y="-1.1" curve="-90"/>
+<vertex x="-1.1" y="-0.01" curve="-90"/>
+<vertex x="-0.25" y="1.1"/>
+</polygon>
 </package>
 </packages>
 </library>
