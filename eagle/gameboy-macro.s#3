@@ -11107,9 +11107,9 @@ More information and support community is available at https://www.element14.com
 <label x="66.04" y="86.36" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO15"/>
-<wire x1="292.1" y1="195.58" x2="297.18" y2="195.58" width="0.1524" layer="91"/>
-<label x="299.72" y="195.58" size="1.016" layer="95"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO23"/>
+<wire x1="292.1" y1="180.34" x2="297.18" y2="180.34" width="0.1524" layer="91"/>
+<label x="299.72" y="180.34" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="RIGHT" class="0">
@@ -11392,13 +11392,6 @@ More information and support community is available at https://www.element14.com
 <junction x="274.32" y="40.64"/>
 </segment>
 </net>
-<net name="GPIO23" class="0">
-<segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO23"/>
-<wire x1="292.1" y1="180.34" x2="297.18" y2="180.34" width="0.1524" layer="91"/>
-<label x="299.72" y="180.34" size="1.016" layer="95"/>
-</segment>
-</net>
 <net name="GPIO16" class="0">
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GPIO16"/>
@@ -11439,6 +11432,13 @@ More information and support community is available at https://www.element14.com
 <pinref part="PCB1" gate="G$1" pin="GPIO5"/>
 <wire x1="264.16" y1="144.78" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
 <label x="256.54" y="144.78" size="1.016" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="GPIO15" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="GPIO15"/>
+<wire x1="292.1" y1="195.58" x2="297.18" y2="195.58" width="0.1524" layer="91"/>
+<label x="299.72" y="195.58" size="1.016" layer="95"/>
 </segment>
 </net>
 </nets>

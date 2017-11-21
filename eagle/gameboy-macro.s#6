@@ -11241,9 +11241,9 @@ More information and support community is available at https://www.element14.com
 <label x="35.56" y="65.278" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO2"/>
-<wire x1="264.16" y1="210.82" x2="259.08" y2="210.82" width="0.1524" layer="91"/>
-<label x="256.54" y="210.82" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO3"/>
+<wire x1="264.16" y1="205.74" x2="259.08" y2="205.74" width="0.1524" layer="91"/>
+<label x="256.54" y="205.74" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="R1" class="0">
@@ -11253,9 +11253,9 @@ More information and support community is available at https://www.element14.com
 <label x="66.04" y="65.278" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO3"/>
-<wire x1="264.16" y1="205.74" x2="259.08" y2="205.74" width="0.1524" layer="91"/>
-<label x="256.54" y="205.74" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO2"/>
+<wire x1="264.16" y1="210.82" x2="259.08" y2="210.82" width="0.1524" layer="91"/>
+<label x="256.54" y="210.82" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="LED" class="0">

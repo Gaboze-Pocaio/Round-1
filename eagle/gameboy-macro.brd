@@ -173,14 +173,26 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="10" x2="0" y2="59.5" width="0.254" layer="20"/>
-<wire x1="0" y1="59.5" x2="2.5" y2="62" width="0.254" layer="20" curve="-90"/>
-<wire x1="2.5" y1="62" x2="157.5" y2="62" width="0.254" layer="20"/>
-<wire x1="157.5" y1="62" x2="160" y2="59.5" width="0.254" layer="20" curve="-90"/>
-<wire x1="160" y1="59.5" x2="160" y2="10" width="0.254" layer="20"/>
+<wire x1="0" y1="10" x2="0" y2="61.5" width="0.254" layer="20"/>
+<wire x1="0" y1="61.5" x2="2.5" y2="64" width="0.254" layer="20" curve="-90"/>
+<wire x1="2.5" y1="64" x2="157.5" y2="64" width="0.254" layer="20"/>
+<wire x1="157.5" y1="64" x2="160" y2="61.5" width="0.254" layer="20" curve="-90"/>
+<wire x1="160" y1="61.5" x2="160" y2="10" width="0.254" layer="20"/>
 <wire x1="160" y1="10" x2="150" y2="0" width="0.254" layer="20" curve="-90"/>
 <wire x1="150" y1="0" x2="10" y2="0" width="0.254" layer="20"/>
 <wire x1="10" y1="0" x2="0" y2="10" width="0.254" layer="20" curve="-90"/>
+<wire x1="0" y1="10" x2="0" y2="61.5" width="0" layer="51"/>
+<wire x1="0" y1="61.5" x2="2.5" y2="64" width="0" layer="51" curve="-90"/>
+<wire x1="2.5" y1="64" x2="157.5" y2="64" width="0" layer="51"/>
+<wire x1="157.5" y1="64" x2="160" y2="61.5" width="0" layer="51" curve="-90"/>
+<wire x1="160" y1="61.5" x2="160" y2="10" width="0" layer="51"/>
+<wire x1="160" y1="10" x2="150" y2="0" width="0" layer="51" curve="-90"/>
+<wire x1="150" y1="0" x2="10" y2="0" width="0" layer="51"/>
+<wire x1="10" y1="0" x2="0" y2="10" width="0" layer="51" curve="-90"/>
+<wire x1="37.25" y1="61" x2="114.75" y2="61" width="0" layer="51"/>
+<wire x1="114.75" y1="61" x2="114.75" y2="7" width="0" layer="51"/>
+<wire x1="114.75" y1="7" x2="37.25" y2="7" width="0" layer="51"/>
+<wire x1="37.25" y1="7" x2="37.25" y2="61" width="0" layer="51"/>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -845,6 +857,31 @@ For more documentation, please visit http://www.raspberrypi.org/documentation/ha
 </package>
 </packages>
 </library>
+<library name="holes" urn="urn:adsk.eagle:library:237">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,8" urn="urn:adsk.eagle:footprint:14239/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="2.8"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="2,8" urn="urn:adsk.eagle:package:14271/1" type="box" library_version="1">
+<description>MOUNTING HOLE 2.8 mm with drill center</description>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1040,12 +1077,12 @@ design rules under a new name.</description>
 <element name="BTN_X" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="140.42" y="52.21" smashed="yes" rot="R180"/>
 <element name="BTN_Y" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="126.42" y="46.21" smashed="yes" rot="R180"/>
 <element name="BTN_A" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="137.42" y="37.21" smashed="yes" rot="R180"/>
-<element name="BTN_B" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="123.42" y="31.21" smashed="yes" rot="R180"/>
+<element name="BTN_B" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="123.42" y="31.21" rot="R180"/>
 <element name="BTN_L1" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="151.47" y="41.7" smashed="yes" rot="R180"/>
 <element name="BTN_R1" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="148.42" y="27.21" smashed="yes" rot="R180"/>
-<element name="BTN_START" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="24" y="8" smashed="yes"/>
-<element name="BTN_SELECT" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="12" y="8" smashed="yes"/>
-<element name="R2" library="adafruit" package="R0805" value="220" x="43" y="5"/>
+<element name="BTN_START" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="26" y="8" smashed="yes"/>
+<element name="BTN_SELECT" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="14" y="8" smashed="yes"/>
+<element name="R2" library="adafruit" package="R0805" value="1K" x="43" y="5"/>
 <element name="LED1" library="adafruit" package="CHIPLED_0805" value="Blue" x="39" y="5" rot="R90"/>
 <element name="BTN_UP" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="18" y="51" smashed="yes"/>
 <element name="BTN_DOWN" library="pad+switch+hole" package="PAD+SWITCH" value="PAD+SWITCH" x="18" y="35" smashed="yes"/>
@@ -1076,7 +1113,11 @@ design rules under a new name.</description>
 <attribute name="TOP_POS" value="+" x="16" y="18" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="PCB1" library="e14_Rpi3_RevA+mirror-pcb-no-silk" package="RPI3" value="RPI3RPI3" x="122" y="56" rot="R180"/>
-<element name="S1" library="adafruit" package="EG1213" value="EG1213" x="31" y="59" rot="R180"/>
+<element name="S1" library="adafruit" package="EG1213" value="EG1213" x="31" y="61" rot="R180"/>
+<element name="U$4" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="" x="4" y="60"/>
+<element name="U$5" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="" x="156" y="60"/>
+<element name="U$6" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="" x="155" y="7"/>
+<element name="U$7" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="" x="5" y="7"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1115,20 +1156,20 @@ design rules under a new name.</description>
 <contactref element="PCB1" pad="P$9"/>
 <polygon width="0.254" layer="1">
 <vertex x="0" y="10"/>
-<vertex x="0" y="59.5" curve="-90"/>
-<vertex x="2.5" y="62"/>
-<vertex x="157.5" y="62" curve="-90"/>
-<vertex x="160" y="59.5"/>
+<vertex x="0" y="61.5" curve="-90"/>
+<vertex x="2.5" y="64"/>
+<vertex x="157.5" y="64" curve="-90"/>
+<vertex x="160" y="61.5"/>
 <vertex x="160" y="10" curve="-90"/>
 <vertex x="150" y="0"/>
 <vertex x="10" y="0" curve="-90"/>
 </polygon>
 <polygon width="0.254" layer="16">
 <vertex x="160" y="10"/>
-<vertex x="160" y="59.5" curve="90"/>
-<vertex x="157.5" y="62"/>
-<vertex x="2.5" y="62" curve="90"/>
-<vertex x="0" y="59.5"/>
+<vertex x="160" y="61.5" curve="90"/>
+<vertex x="157.5" y="64"/>
+<vertex x="2.5" y="64" curve="90"/>
+<vertex x="0" y="61.5"/>
 <vertex x="0" y="10" curve="90"/>
 <vertex x="10" y="0"/>
 <vertex x="150" y="0" curve="90"/>
@@ -1225,8 +1266,8 @@ design rules under a new name.</description>
 <via x="79" y="15" extent="1-16" drill="0.5"/>
 <wire x1="79" y1="15" x2="64" y2="15" width="0.254" layer="16"/>
 <via x="64" y="15" extent="1-16" drill="0.5"/>
-<wire x1="64" y1="15" x2="14.475" y2="15" width="0.254" layer="1"/>
-<wire x1="14.475" y1="15" x2="14.475" y2="10.365" width="0.254" layer="1"/>
+<wire x1="64" y1="15" x2="16.475" y2="15" width="0.254" layer="1"/>
+<wire x1="16.475" y1="15" x2="16.475" y2="10.365" width="0.254" layer="1"/>
 <wire x1="95.8634" y1="15" x2="79" y2="15" width="0.254" layer="1"/>
 </signal>
 <signal name="A">
@@ -1269,8 +1310,8 @@ design rules under a new name.</description>
 <via x="78" y="14" extent="1-16" drill="0.5"/>
 <wire x1="78" y1="14" x2="65" y2="14" width="0.254" layer="16"/>
 <via x="65" y="14" extent="1-16" drill="0.5"/>
-<wire x1="65" y1="14" x2="26.475" y2="14" width="0.254" layer="1"/>
-<wire x1="26.475" y1="14" x2="26.475" y2="10.365" width="0.254" layer="1"/>
+<wire x1="65" y1="14" x2="28.475" y2="14" width="0.254" layer="1"/>
+<wire x1="28.475" y1="14" x2="28.475" y2="10.365" width="0.254" layer="1"/>
 <wire x1="94.6" y1="14" x2="78" y2="14" width="0.254" layer="1"/>
 </signal>
 <signal name="RIGHT">
@@ -1322,7 +1363,7 @@ design rules under a new name.</description>
 <wire x1="111.1034" y1="2.2282" x2="113.6434" y2="2.2282" width="0.254" layer="16"/>
 <wire x1="135" y1="13.5" x2="135" y2="13.15" width="0.254" layer="16"/>
 <wire x1="135" y1="13.15" x2="141" y2="13.15" width="0.254" layer="16"/>
-<wire x1="33" y1="59" x2="33" y2="38" width="0.254" layer="16"/>
+<wire x1="33" y1="61" x2="33" y2="38" width="0.254" layer="16"/>
 <wire x1="33" y1="38" x2="59" y2="38" width="0.254" layer="16"/>
 <wire x1="113.6434" y1="2.2282" x2="112.35" y2="2.2282" width="0.254" layer="1"/>
 <wire x1="112.35" y1="17" x2="133" y2="17" width="0.254" layer="1"/>
@@ -1353,7 +1394,7 @@ design rules under a new name.</description>
 <signal name="SWITCH_IN+">
 <contactref element="POWER1" pad="OUT+"/>
 <contactref element="S1" pad="2"/>
-<wire x1="31" y1="59" x2="31" y2="36" width="0.254" layer="16"/>
+<wire x1="31" y1="61" x2="31" y2="36" width="0.254" layer="16"/>
 <wire x1="55.65" y1="36" x2="55.65" y2="25.9" width="0.254" layer="16"/>
 <wire x1="31" y1="36" x2="55.65" y2="36" width="0.254" layer="16"/>
 </signal>
@@ -1900,68 +1941,74 @@ design rules under a new name.</description>
 <approved hash="5,1,b8f97f4f78dd7787"/>
 <approved hash="3,1,e2b092c092aae2da"/>
 <approved hash="3,16,9d4fed3fed549d24"/>
-<approved hash="5,1,96928f75e100dcc2"/>
-<approved hash="1,20,e80c50fc50bce84c"/>
 <approved hash="5,1,95ca28bebdee397a"/>
+<approved hash="5,1,368b8f6ca118ccdb"/>
+<approved hash="5,1,d9842e5106255eb3"/>
+<approved hash="5,1,96928f75e100dcc2"/>
 <approved hash="5,1,a3217bd33b8b3cbe"/>
-<approved hash="5,1,edb5d278135e3226"/>
+<approved hash="5,1,ddc8d8bcfdee09be"/>
+<approved hash="1,20,47743f84309c486c"/>
+<approved hash="1,20,c86830983040c8b0"/>
+<approved hash="1,20,97c6af36d13ee9ce"/>
+<approved hash="1,20,ece9d719d726ecd6"/>
+<approved hash="1,20,e8e9d019d022e8d2"/>
+<approved hash="1,20,d42624d624d0d420"/>
+<approved hash="1,20,0f69ff99feaf0e5f"/>
+<approved hash="1,20,9b68539852a39a53"/>
+<approved hash="1,20,da28f2d8f20cdafc"/>
+<approved hash="1,20,ec1e57ee57a4ec54"/>
+<approved hash="1,20,acdc5c2c5d2caddc"/>
+<approved hash="1,20,df7df78df08ed87e"/>
+<approved hash="1,20,e80c50fc50bce84c"/>
+<approved hash="1,20,9e3db6cdb1c09930"/>
+<approved hash="1,20,d82550d550d6d826"/>
+<approved hash="1,20,1b8dab7daab21a42"/>
+<approved hash="1,20,fc25ccd5ccd4fc24"/>
+<approved hash="1,20,aae85a185d42adb2"/>
+<approved hash="1,20,1e25d6d5d11319e3"/>
+<approved hash="1,20,ae185ee85d22add2"/>
+<approved hash="1,20,f58c497c573cebcc"/>
+<approved hash="1,20,c6683e983142c9b2"/>
+<approved hash="1,20,a85a58aa5aa8aa58"/>
+<approved hash="5,1,15cd46ea7b887421"/>
+<approved hash="5,1,5f73ed6caf868f74"/>
+<approved hash="5,1,7df96e7e6391f9d4"/>
+<approved hash="5,1,7e396d3e67904cf4"/>
+<approved hash="5,1,4cb8aeb805518778"/>
+<approved hash="5,1,acb8aebf8456c7ce"/>
+<approved hash="5,1,a5094646bf1a5dda"/>
 <approved hash="5,1,96b383c4a42f0131"/>
 <approved hash="5,1,04e39f7b5c6d8d92"/>
-<approved hash="5,1,0cf80f23ce673da1"/>
-<approved hash="5,1,acb8aebf8456c7ce"/>
-<approved hash="5,1,e6f35d05abbc4f0e"/>
-<approved hash="5,1,a95c605b1e65ebe4"/>
-<approved hash="5,1,4a862c75c9bd433f"/>
-<approved hash="5,1,96dc789b21a5d464"/>
-<approved hash="5,1,a5094646bf1a5dda"/>
 <approved hash="5,1,e0f27a00b1e92893"/>
-<approved hash="5,1,7e396d3e67904cf4"/>
-<approved hash="5,1,fb34f7412b9a5ac7"/>
-<approved hash="5,1,1c6abf3674dbcd04"/>
-<approved hash="1,20,e8e9d019d022e8d2"/>
-<approved hash="5,1,5bfd7a8a85683fef"/>
-<approved hash="5,1,7df96e7e6391f9d4"/>
-<approved hash="5,1,5f73ed6caf868f74"/>
-<approved hash="5,1,0108960c0f08c5b6"/>
-<approved hash="5,1,15cd46ea7b887421"/>
-<approved hash="5,1,d9842e5106255eb3"/>
-<approved hash="5,1,368b8f6ca118ccdb"/>
-<approved hash="1,20,c6683e983142c9b2"/>
-<approved hash="5,1,f331e1d484593069"/>
-<approved hash="5,1,ddc8d8bcfdee09be"/>
-<approved hash="5,1,4cb8aeb805518778"/>
-<approved hash="5,1,5316a405b62a043f"/>
-<approved hash="5,1,f3354de090ba5307"/>
-<approved hash="5,1,333821c0c44c3060"/>
-<approved hash="1,20,97c6af36d13ee9ce"/>
-<approved hash="4,16,e8e13134323de1dc"/>
-<approved hash="4,1,e8e13134323de1dc"/>
-<approved hash="4,16,e36111561c15e416"/>
+<approved hash="5,1,e6f35d05abbc4f0e"/>
 <approved hash="4,1,e36111561c15e416"/>
-<approved hash="1,20,acdc5c2c5d2caddc"/>
-<approved hash="1,20,da28f2d8f20cdafc"/>
-<approved hash="1,20,1b8dab7daab21a42"/>
-<approved hash="1,20,1e25d6d5d11319e3"/>
-<approved hash="1,20,df7df78df08ed87e"/>
-<approved hash="1,20,9b68539852a39a53"/>
-<approved hash="1,20,aae85a185d42adb2"/>
-<approved hash="1,20,d42624d624d0d420"/>
-<approved hash="1,20,a85a58aa5aa8aa58"/>
-<approved hash="1,20,fc25ccd5ccd4fc24"/>
-<approved hash="1,20,9e3db6cdb1c09930"/>
-<approved hash="1,20,f58c497c573cebcc"/>
-<approved hash="1,20,ec1e57ee57a4ec54"/>
-<approved hash="1,20,0f69ff99feaf0e5f"/>
-<approved hash="1,20,ae185ee85d22add2"/>
-<approved hash="1,20,d82550d550d6d826"/>
-<approved hash="1,20,ece9d719d726ecd6"/>
-<approved hash="1,20,c86830983040c8b0"/>
-<approved hash="1,20,47743f84309c486c"/>
+<approved hash="4,1,e8e13134323de1dc"/>
+<approved hash="5,1,0108960c0f08c5b6"/>
+<approved hash="5,1,f331e1d484593069"/>
+<approved hash="5,1,333821c0c44c3060"/>
+<approved hash="5,1,edb5d278135e3226"/>
+<approved hash="5,1,a95c605b1e65ebe4"/>
+<approved hash="5,1,fb34f7412b9a5ac7"/>
+<approved hash="5,1,96dc789b21a5d464"/>
+<approved hash="5,1,f3354de090ba5307"/>
+<approved hash="5,1,1c6abf3674dbcd04"/>
+<approved hash="5,1,5316a405b62a043f"/>
+<approved hash="5,1,0cf80f23ce673da1"/>
+<approved hash="4,16,e36111561c15e416"/>
+<approved hash="4,16,e8e13134323de1dc"/>
+<approved hash="5,1,f1cab0bfb5eca971"/>
+<approved hash="5,1,5bfd7a8a85683fef"/>
+<approved hash="5,1,4a862c75c9bd433f"/>
 <approved hash="5,1,fbdcf9c20ca41247"/>
 <approved hash="5,1,d95ddb4dc927502a"/>
 <approved hash="5,1,81784602eaaa630c"/>
+<approved hash="5,1,569f5778c16d34cf"/>
+<approved hash="5,1,198fce23f2327ab9"/>
+<approved hash="5,1,f691e774811934c1"/>
+<approved hash="5,1,232c932f5f8f00b3"/>
 <approved hash="5,1,40d4d7eb2add2c2f"/>
 <approved hash="5,1,e89b4d0d4091c0f7"/>
+<approved hash="5,1,d9cbb0bf45f199ab"/>
 <approved hash="5,1,9a8fba86dfcd311f"/>
 </errors>
 </board>

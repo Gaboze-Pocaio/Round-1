@@ -10609,7 +10609,7 @@ More information and support community is available at https://www.element14.com
 <part name="BTN_SELECT" library="pad+switch+hole" deviceset="PAD+SWITCH" device="" value="PAD+SWITCH"/>
 <part name="BTN_L1" library="pad+switch+hole" deviceset="PAD+SWITCH" device="" value="PAD+SWITCH"/>
 <part name="BTN_R1" library="pad+switch+hole" deviceset="PAD+SWITCH" device="" value="PAD+SWITCH"/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="220"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="1K"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="Blue"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BTN_UP" library="pad+switch+hole" deviceset="PAD+SWITCH" device="" value="PAD+SWITCH"/>
@@ -11299,7 +11299,7 @@ More information and support community is available at https://www.element14.com
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="294.64" y1="27.94" x2="292.1" y2="27.94" width="0.1524" layer="91"/>
-<label x="292.1" y="27.94" size="1.27" layer="95" rot="MR0"/>
+<label x="292.1" y="27.94" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11321,7 +11321,7 @@ More information and support community is available at https://www.element14.com
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="25.4" x2="292.1" y2="25.4" width="0.1524" layer="91"/>
-<label x="292.1" y="25.4" size="1.27" layer="95" rot="MR0"/>
+<label x="292.1" y="25.4" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="HEADPHONES" class="0">
