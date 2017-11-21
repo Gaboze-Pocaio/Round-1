@@ -10640,7 +10640,7 @@ More information and support community is available at https://www.element14.com
 <part name="GND29" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
 <part name="C10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="GND35" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
-<part name="R10" library="GBA" deviceset="VOLUME" device="" value="EVU-TUHB07C54"/>
+<part name="R10" library="GBA" deviceset="VOLUME" device="" value="27k"/>
 <part name="GND36" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
 <part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="10uF"/>
@@ -11059,9 +11059,9 @@ More information and support community is available at https://www.element14.com
 <label x="35.56" y="41.91" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO4"/>
-<wire x1="264.16" y1="200.66" x2="259.08" y2="200.66" width="0.1524" layer="91"/>
-<label x="256.54" y="200.66" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO14"/>
+<wire x1="292.1" y1="200.66" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
+<label x="299.72" y="200.66" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="Y" class="0">
@@ -11071,9 +11071,9 @@ More information and support community is available at https://www.element14.com
 <label x="66.04" y="34.29" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO27"/>
-<wire x1="264.16" y1="185.42" x2="259.08" y2="185.42" width="0.1524" layer="91"/>
-<label x="256.54" y="185.42" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO17"/>
+<wire x1="264.16" y1="190.5" x2="259.08" y2="190.5" width="0.1524" layer="91"/>
+<label x="256.54" y="190.5" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="X" class="0">
@@ -11083,9 +11083,9 @@ More information and support community is available at https://www.element14.com
 <label x="66.04" y="41.91" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO17"/>
-<wire x1="264.16" y1="190.5" x2="259.08" y2="190.5" width="0.1524" layer="91"/>
-<label x="256.54" y="190.5" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO4"/>
+<wire x1="264.16" y1="200.66" x2="259.08" y2="200.66" width="0.1524" layer="91"/>
+<label x="256.54" y="200.66" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -11095,9 +11095,9 @@ More information and support community is available at https://www.element14.com
 <label x="35.306" y="34.29" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO14"/>
-<wire x1="292.1" y1="200.66" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
-<label x="299.72" y="200.66" size="1.016" layer="95"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO27"/>
+<wire x1="264.16" y1="185.42" x2="259.08" y2="185.42" width="0.1524" layer="91"/>
+<label x="256.54" y="185.42" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="START" class="0">
@@ -11107,9 +11107,9 @@ More information and support community is available at https://www.element14.com
 <label x="66.04" y="86.36" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO23"/>
-<wire x1="292.1" y1="180.34" x2="297.18" y2="180.34" width="0.1524" layer="91"/>
-<label x="299.72" y="180.34" size="1.016" layer="95"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO15"/>
+<wire x1="292.1" y1="195.58" x2="297.18" y2="195.58" width="0.1524" layer="91"/>
+<label x="299.72" y="195.58" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="RIGHT" class="0">
@@ -11131,9 +11131,9 @@ More information and support community is available at https://www.element14.com
 <label x="66.04" y="8.89" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO19"/>
-<wire x1="264.16" y1="129.54" x2="259.08" y2="129.54" width="0.1524" layer="91"/>
-<label x="256.54" y="129.54" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO26"/>
+<wire x1="264.16" y1="124.46" x2="259.08" y2="124.46" width="0.1524" layer="91"/>
+<label x="256.54" y="124.46" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="DOWN" class="0">
@@ -11143,9 +11143,9 @@ More information and support community is available at https://www.element14.com
 <label x="35.56" y="8.89" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO26"/>
-<wire x1="264.16" y1="124.46" x2="259.08" y2="124.46" width="0.1524" layer="91"/>
-<label x="256.54" y="124.46" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO6"/>
+<wire x1="264.16" y1="139.7" x2="259.08" y2="139.7" width="0.1524" layer="91"/>
+<label x="256.54" y="139.7" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="UP" class="0">
@@ -11155,9 +11155,9 @@ More information and support community is available at https://www.element14.com
 <label x="35.56" y="16.51" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO6"/>
-<wire x1="264.16" y1="139.7" x2="259.08" y2="139.7" width="0.1524" layer="91"/>
-<label x="256.54" y="139.7" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO19"/>
+<wire x1="264.16" y1="129.54" x2="259.08" y2="129.54" width="0.1524" layer="91"/>
+<label x="256.54" y="129.54" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SWITCH_OUT+" class="0">
@@ -11241,9 +11241,9 @@ More information and support community is available at https://www.element14.com
 <label x="35.56" y="65.278" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO3"/>
-<wire x1="264.16" y1="205.74" x2="259.08" y2="205.74" width="0.1524" layer="91"/>
-<label x="256.54" y="205.74" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO2"/>
+<wire x1="264.16" y1="210.82" x2="259.08" y2="210.82" width="0.1524" layer="91"/>
+<label x="256.54" y="210.82" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="R1" class="0">
@@ -11253,9 +11253,9 @@ More information and support community is available at https://www.element14.com
 <label x="66.04" y="65.278" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO2"/>
-<wire x1="264.16" y1="210.82" x2="259.08" y2="210.82" width="0.1524" layer="91"/>
-<label x="256.54" y="210.82" size="1.016" layer="95" rot="MR0"/>
+<pinref part="PCB1" gate="G$1" pin="GPIO3"/>
+<wire x1="264.16" y1="205.74" x2="259.08" y2="205.74" width="0.1524" layer="91"/>
+<label x="256.54" y="205.74" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="LED" class="0">
@@ -11392,6 +11392,13 @@ More information and support community is available at https://www.element14.com
 <junction x="274.32" y="40.64"/>
 </segment>
 </net>
+<net name="GPIO23" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="GPIO23"/>
+<wire x1="292.1" y1="180.34" x2="297.18" y2="180.34" width="0.1524" layer="91"/>
+<label x="299.72" y="180.34" size="1.016" layer="95"/>
+</segment>
+</net>
 <net name="GPIO16" class="0">
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GPIO16"/>
@@ -11432,13 +11439,6 @@ More information and support community is available at https://www.element14.com
 <pinref part="PCB1" gate="G$1" pin="GPIO5"/>
 <wire x1="264.16" y1="144.78" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
 <label x="256.54" y="144.78" size="1.016" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="GPIO15" class="0">
-<segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO15"/>
-<wire x1="292.1" y1="195.58" x2="297.18" y2="195.58" width="0.1524" layer="91"/>
-<label x="299.72" y="195.58" size="1.016" layer="95"/>
 </segment>
 </net>
 </nets>
