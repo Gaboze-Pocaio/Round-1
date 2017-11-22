@@ -192,11 +192,11 @@
 <wire x1="114.75" y1="61" x2="114.75" y2="7" width="0" layer="51"/>
 <wire x1="114.75" y1="7" x2="37.25" y2="7" width="0" layer="51"/>
 <wire x1="37.25" y1="7" x2="37.25" y2="61" width="0" layer="51"/>
-<polygon width="0" layer="51" spacing="0.5" pour="hatch">
-<vertex x="2" y="55"/>
-<vertex x="35" y="55"/>
-<vertex x="35" y="12"/>
-<vertex x="2" y="12"/>
+<polygon width="0.1524" layer="51">
+<vertex x="170" y="0"/>
+<vertex x="170" y="51"/>
+<vertex x="235" y="51"/>
+<vertex x="235" y="0"/>
 </polygon>
 </plain>
 <libraries>

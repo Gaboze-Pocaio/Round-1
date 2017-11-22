@@ -192,12 +192,6 @@
 <wire x1="114.75" y1="61" x2="114.75" y2="7" width="0" layer="51"/>
 <wire x1="114.75" y1="7" x2="37.25" y2="7" width="0" layer="51"/>
 <wire x1="37.25" y1="7" x2="37.25" y2="61" width="0" layer="51"/>
-<polygon width="0" layer="51" spacing="0.5" pour="hatch">
-<vertex x="2" y="55"/>
-<vertex x="35" y="55"/>
-<vertex x="35" y="12"/>
-<vertex x="2" y="12"/>
-</polygon>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -1486,7 +1480,7 @@ design rules under a new name.</description>
 <wire x1="140.1" y1="7" x2="140.1" y2="9.5" width="0.254" layer="1"/>
 <wire x1="150.1" y1="9.5" x2="150.1" y2="7" width="0.254" layer="1"/>
 <wire x1="150.1" y1="7" x2="140.1" y2="7" width="0.254" layer="1"/>
-<wire x1="150.1" y1="9.5" x2="150.1" y2="16" width="0" layer="19" extent="16-16"/>
+<wire x1="150.1" y1="16" x2="150.1" y2="9.5" width="0.254" layer="16"/>
 </signal>
 <signal name="VIN">
 <contactref element="U1" pad="2"/>

@@ -886,6 +886,9 @@ For more documentation, please visit http://www.raspberrypi.org/documentation/ha
 <vertex x="-1.1" y="-0.01" curve="-90"/>
 <vertex x="-0.25" y="1.1"/>
 </polygon>
+<wire x1="-0.2" y1="3.1" x2="-2.8" y2="-1.75" width="0.2" layer="21" curve="125" cap="flat"/>
+<wire x1="0.2" y1="-3.1" x2="2.8" y2="1.75" width="0.2" layer="21" curve="125" cap="flat"/>
+<circle x="0" y="0" radius="1" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>

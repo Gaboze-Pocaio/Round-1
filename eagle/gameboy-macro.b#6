@@ -886,9 +886,6 @@ For more documentation, please visit http://www.raspberrypi.org/documentation/ha
 <vertex x="-1.1" y="-0.01" curve="-90"/>
 <vertex x="-0.25" y="1.1"/>
 </polygon>
-<wire x1="-0.2" y1="3.1" x2="-2.8" y2="-1.75" width="0.2" layer="21" curve="125" cap="flat"/>
-<wire x1="0.2" y1="-3.1" x2="2.8" y2="1.75" width="0.2" layer="21" curve="125" cap="flat"/>
-<circle x="0" y="0" radius="1" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1098,9 +1095,9 @@ design rules under a new name.</description>
 <element name="BTN_DOWN" library="GameboyZeroButtonLibrary" package="GAMEBOY-ZERO-BUTTON" value="GAMEBOY-ZERO-BUTTON" x="18" y="35" smashed="yes"/>
 <element name="BTN_LEFT" library="GameboyZeroButtonLibrary" package="GAMEBOY-ZERO-BUTTON" value="GAMEBOY-ZERO-BUTTON" x="10" y="43" smashed="yes"/>
 <element name="BTN_RIGHT" library="GameboyZeroButtonLibrary" package="GAMEBOY-ZERO-BUTTON" value="GAMEBOY-ZERO-BUTTON" x="26" y="43" smashed="yes"/>
-<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="AUDIO-JACK" package3d_urn="urn:adsk.eagle:package:37997/1" value="AUDIO_JACK_3.5MM_PTH" x="145.1" y="4.5" rot="MR90">
-<attribute name="PROD_ID" value="CONN-08774" x="145.1" y="4.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SF_ID" value="PRT-08032" x="145.1" y="4.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="AUDIO-JACK" package3d_urn="urn:adsk.eagle:package:37997/1" value="AUDIO_JACK_3.5MM_PTH" x="145.1" y="4.5" rot="R90">
+<attribute name="PROD_ID" value="CONN-08774" x="145.1" y="4.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SF_ID" value="PRT-08032" x="145.1" y="4.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="270Ohm" x="126" y="18.525" rot="MR180"/>
 <element name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="330nF" x="126" y="21" rot="MR180"/>
@@ -1442,14 +1439,14 @@ design rules under a new name.</description>
 <contactref element="J1" pad="RSH"/>
 <contactref element="C2" pad="-"/>
 <contactref element="J1" pad="TSH"/>
-<wire x1="148" y1="12" x2="147.6" y2="12" width="0.254" layer="1"/>
-<wire x1="148" y1="12" x2="152" y2="12" width="0.254" layer="1"/>
+<wire x1="142.6" y1="9.5" x2="142.6" y2="12" width="0.254" layer="16"/>
+<wire x1="147.6" y1="12" x2="147.6" y2="9.5" width="0.254" layer="16"/>
+<wire x1="142.6" y1="12" x2="147.6" y2="12" width="0.254" layer="16"/>
+<wire x1="147.6" y1="9.5" x2="147.6" y2="12" width="0.254" layer="1"/>
+<wire x1="147.6" y1="12" x2="152" y2="12" width="0.254" layer="1"/>
 <wire x1="152" y1="12" x2="152" y2="21" width="0.254" layer="1"/>
 <via x="152" y="21" extent="1-16" drill="0.5"/>
 <wire x1="152" y1="21" x2="149.4" y2="21" width="0.254" layer="16"/>
-<wire x1="148" y1="12" x2="142.6" y2="12" width="0.254" layer="1"/>
-<wire x1="142.6" y1="12" x2="142.6" y2="9.5" width="0.254" layer="1"/>
-<wire x1="147.6" y1="12" x2="147.6" y2="9.5" width="0.254" layer="1"/>
 </signal>
 <signal name="VOUT1">
 <contactref element="C2" pad="+"/>
@@ -1483,10 +1480,10 @@ design rules under a new name.</description>
 <wire x1="137" y1="18" x2="147" y2="18" width="0.254" layer="16"/>
 <wire x1="147" y1="18" x2="147" y2="16" width="0.254" layer="16"/>
 <wire x1="147" y1="16" x2="150.1" y2="16" width="0.254" layer="16"/>
-<wire x1="140.1" y1="7" x2="140.1" y2="9.5" width="0.254" layer="1"/>
-<wire x1="150.1" y1="9.5" x2="150.1" y2="7" width="0.254" layer="1"/>
-<wire x1="150.1" y1="7" x2="140.1" y2="7" width="0.254" layer="1"/>
 <wire x1="150.1" y1="16" x2="150.1" y2="9.5" width="0.254" layer="16"/>
+<wire x1="150.1" y1="9.5" x2="150.1" y2="7" width="0.254" layer="16"/>
+<wire x1="140.1" y1="7" x2="150.1" y2="7" width="0.254" layer="16"/>
+<wire x1="140.1" y1="9.5" x2="140.1" y2="7" width="0.254" layer="16"/>
 </signal>
 <signal name="VIN">
 <contactref element="U1" pad="2"/>
