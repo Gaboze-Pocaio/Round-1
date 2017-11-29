@@ -10515,7 +10515,7 @@ More information and support community is available at https://www.element14.com
 <smd name="P$NC" x="-3.975" y="2.365" dx="1.55" dy="1.3" layer="1"/>
 <smd name="P$NC2" x="3.975" y="-2.385" dx="1.55" dy="1.3" layer="1" rot="R180"/>
 <circle x="0" y="0" radius="0.75" width="0" layer="20"/>
-<hole x="0" y="0" drill="1.5"/>
+<hole x="0" y="0" drill="1.25"/>
 <polygon width="0.0762" layer="29">
 <vertex x="0.25" y="-2.99" curve="90"/>
 <vertex x="3.2" y="-0.01" curve="90"/>
