@@ -103,7 +103,7 @@ From you computer *(not the Raspberry Pi)*
 Enter the following to add a Loadable Kernel Module for the TFT Device
 
 ```shell
-sudo modprobe fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 fps=60 bgr=1 rotate=90
+sudo modprobe fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 fps=60 bgr=1 rotate=270
 ```
 
 Confirm the module has been loaded
@@ -178,7 +178,7 @@ sudo nano /etc/modprobe.d/fbtft.conf
 Add this line to the empty file
 
 ```shell
-options fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 fps=60 bgr=1 rotate=90 custom=1
+options fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 fps=60 bgr=1 rotate=270 custom=1
 ```
 
 *Hit 'CTRL+X' and 'Y' to confirm the save*
@@ -364,18 +364,18 @@ Ensure that your file's content are **exactly** as below
     <command>/opt/retropie/supplementary/emulationstation/scripts/inputconfiguration.sh</command>
   </inputAction>
   <inputConfig type="keyboard" deviceName="Keyboard" deviceGUID="-1">
+    <input name="up" type="key" id="1073741906" value="1"/>  
+    <input name="down" type="key" id="1073741905" value="1"/>    
+    <input name="left" type="key" id="1073741904" value="1"/>    
+    <input name="right" type="key" id="1073741903" value="1"/>    
+    <input name="b" type="key" id="1073742050" value="1"/>    
+    <input name="a" type="key" id="1073742048" value="1"/>    
+    <input name="x" type="key" id="122" value="1"/>    
+    <input name="y" type="key" id="120" value="1"/>    
     <input name="pageup" type="key" id="97" value="1"/>
-    <input name="start" type="key" id="13" value="1"/>
-    <input name="up" type="key" id="1073741906" value="1"/>
-    <input name="a" type="key" id="1073742048" value="1"/>
-    <input name="b" type="key" id="1073742050" value="1"/>
-    <input name="down" type="key" id="1073741905" value="1"/>
     <input name="pagedown" type="key" id="115" value="1"/>
-    <input name="right" type="key" id="1073741903" value="1"/>
-    <input name="x" type="key" id="122" value="1"/>
-    <input name="select" type="key" id="32" value="1"/>
-    <input name="y" type="key" id="120" value="1"/>
-    <input name="left" type="key" id="1073741904" value="1"/>  
+    <input name="start" type="key" id="13" value="1"/>    
+    <input name="select" type="key" id="32" value="1"/>  
   </inputConfig>
 </inputList>
 ```
