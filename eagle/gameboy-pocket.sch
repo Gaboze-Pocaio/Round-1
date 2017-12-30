@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -3772,34 +3772,34 @@ Source: http://www.osram.convergy.de/</description>
 </library>
 <library name="GameboyZeroHandheldDisplays">
 <packages>
-<package name="GAMEBOYZEROHANDHELDDISPLAYS-2.8">
+<package name="GAMEBOYZEROHANDHELDDISPLAYS-2.4">
 <description>Gameboy Zero Handheld Displays - 2.8 Inch connector for ili9341 screens with SPI interface</description>
-<smd name="P$9" x="-18" y="0.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$10" x="-18" y="-0.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$8" x="-18" y="1.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$7" x="-18" y="2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$6" x="-18" y="2.8" dx="4" dy="0.4" layer="1"/>
-<smd name="P$5" x="-18" y="3.6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$4" x="-18" y="4.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$3" x="-18" y="5.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$11" x="-18" y="-1.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$12" x="-18" y="-2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$13" x="-18" y="-2.8" dx="4" dy="0.4" layer="1"/>
-<smd name="P$14" x="-18" y="-3.6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$15" x="-18" y="-4.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$16" x="-18" y="-5.2" dx="4" dy="0.4" layer="1"/>
-<text x="-10" y="6" size="1.27" layer="25">&gt;name</text>
-<text x="-10" y="-3.2" size="1.27" layer="27">&gt;value</text>
-<smd name="P$2" x="-18" y="6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$1" x="-18" y="6.8" dx="4" dy="0.4" layer="1"/>
-<smd name="P$17" x="-18" y="-6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$18" x="-18" y="-6.8" dx="4" dy="0.4" layer="1"/>
-<text x="-18" y="9.4" size="1.27" layer="21">1</text>
-<text x="-18" y="-10" size="1.27" layer="21">18</text>
-<wire x1="-34.6" y1="25" x2="34.6" y2="25" width="0.127" layer="21"/>
-<wire x1="34.6" y1="25" x2="34.6" y2="-25" width="0.127" layer="21"/>
-<wire x1="34.6" y1="-25" x2="-34.6" y2="-25" width="0.127" layer="21"/>
-<wire x1="-34.6" y1="-25" x2="-34.6" y2="25" width="0.127" layer="21"/>
+<smd name="P$9" x="-16" y="0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$10" x="-16" y="-0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$8" x="-16" y="1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$7" x="-16" y="2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$6" x="-16" y="2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$5" x="-16" y="3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$4" x="-16" y="4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$3" x="-16" y="5.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$11" x="-16" y="-1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$12" x="-16" y="-2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$13" x="-16" y="-2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$14" x="-16" y="-3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$15" x="-16" y="-4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$16" x="-16" y="-5.2" dx="4" dy="0.4" layer="1"/>
+<text x="-8" y="6" size="1.27" layer="25">&gt;name</text>
+<text x="-8" y="-3.2" size="1.27" layer="27">&gt;value</text>
+<smd name="P$2" x="-16" y="6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$1" x="-16" y="6.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$17" x="-16" y="-6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$18" x="-16" y="-6.8" dx="4" dy="0.4" layer="1"/>
+<text x="-16" y="9.4" size="1.27" layer="21">1</text>
+<text x="-16" y="-10" size="1.27" layer="21">18</text>
+<wire x1="-30.13" y1="21.36" x2="30.13" y2="21.36" width="0.127" layer="21"/>
+<wire x1="30.13" y1="21.36" x2="30.13" y2="-21.36" width="0.127" layer="21"/>
+<wire x1="30.13" y1="-21.36" x2="-30.13" y2="-21.36" width="0.127" layer="21"/>
+<wire x1="-30.13" y1="-21.36" x2="-30.13" y2="21.36" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -3829,12 +3829,12 @@ Source: http://www.osram.convergy.de/</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GAMEBOYZEROHANDHELDDISPLAYS-2.8">
+<deviceset name="GAMEBOYZEROHANDHELDDISPLAYS-2.4">
 <gates>
 <gate name="G$1" symbol="GAMEBOYZEROHANDHELDDISPLAYS-2.8" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="GAMEBOYZEROHANDHELDDISPLAYS-2.8">
+<device name="" package="GAMEBOYZEROHANDHELDDISPLAYS-2.4">
 <connects>
 <connect gate="G$1" pin="CSX" pad="P$5"/>
 <connect gate="G$1" pin="D/CX" pad="P$4"/>
@@ -3851,9 +3851,9 @@ Source: http://www.osram.convergy.de/</description>
 <connect gate="G$1" pin="SDO" pad="P$7"/>
 <connect gate="G$1" pin="VCC" pad="P$9"/>
 <connect gate="G$1" pin="XL" pad="P$15"/>
-<connect gate="G$1" pin="XR" pad="P$17"/>
-<connect gate="G$1" pin="YD" pad="P$18"/>
-<connect gate="G$1" pin="YU" pad="P$16"/>
+<connect gate="G$1" pin="XR" pad="P$16"/>
+<connect gate="G$1" pin="YD" pad="P$17"/>
+<connect gate="G$1" pin="YU" pad="P$18"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10226,69 +10226,115 @@ Now with smashable polarity marks!</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pad+switch+hole">
+<library name="GameboyZeroButtonLibrary">
 <packages>
-<package name="PAD+SWITCH+HOLE">
-<smd name="P$ACTIVE" x="2.475" y="2.365" dx="4.5" dy="1.3" layer="1"/>
-<smd name="P$GND" x="-2.475" y="-2.385" dx="4.5" dy="1.3" layer="1" rot="R180"/>
-<polygon width="0.0762" layer="1">
-<vertex x="0.25" y="-2.99" curve="90"/>
-<vertex x="3.2" y="-0.01" curve="90"/>
-<vertex x="0.25" y="2.99"/>
-<vertex x="0.25" y="1.1" curve="-90"/>
-<vertex x="1.1" y="-0.01" curve="-90"/>
-<vertex x="0.25" y="-1.1"/>
-</polygon>
-<polygon width="0.0762" layer="1">
-<vertex x="-0.25" y="2.99" curve="90"/>
-<vertex x="-3.2" y="-0.01" curve="90"/>
-<vertex x="-0.25" y="-2.99"/>
-<vertex x="-0.25" y="-1.1" curve="-90"/>
-<vertex x="-1.1" y="-0.01" curve="-90"/>
-<vertex x="-0.25" y="1.1"/>
-</polygon>
+<package name="GAMEBOY-ZERO-BUTTON">
+<smd name="P$ACTIVE" x="3.975" y="2.365" dx="1.55" dy="1.3" layer="1"/>
+<smd name="P$GND" x="-3.975" y="-2.385" dx="1.55" dy="1.3" layer="1" rot="R180"/>
 <smd name="P$NC" x="-3.975" y="2.365" dx="1.55" dy="1.3" layer="1"/>
 <smd name="P$NC2" x="3.975" y="-2.385" dx="1.55" dy="1.3" layer="1" rot="R180"/>
-<circle x="0" y="0" radius="0.75" width="0" layer="20"/>
+<circle x="0" y="0" radius="0.5" width="0.254" layer="20"/>
 <hole x="0" y="0" drill="1"/>
-<polygon width="0.0762" layer="29">
-<vertex x="0.25" y="-2.99" curve="90"/>
-<vertex x="3.2" y="-0.01" curve="90"/>
-<vertex x="0.25" y="2.99"/>
-<vertex x="0.25" y="1.1" curve="-90"/>
-<vertex x="1.1" y="-0.01" curve="-90"/>
-<vertex x="0.25" y="-1.1"/>
+<wire x1="-2.575" y1="1.75" x2="2.1" y2="1.75" width="0.254" layer="1"/>
+<wire x1="0.925" y1="0.75" x2="2.55" y2="0.75" width="0.254" layer="1"/>
+<wire x1="1.175" y1="-0.25" x2="2.65" y2="-0.25" width="0.254" layer="1"/>
+<wire x1="-2.875" y1="-1.25" x2="0.25" y2="-1.25" width="0.254" layer="1"/>
+<wire x1="0.25" y1="-1.25" x2="2.375" y2="-1.25" width="0.254" layer="1"/>
+<wire x1="-2.1" y1="-2.25" x2="1.65" y2="-2.25" width="0.254" layer="1"/>
+<wire x1="-1.625" y1="2.25" x2="2.15" y2="2.25" width="0.254" layer="1"/>
+<wire x1="-2.4" y1="1.25" x2="-0.25" y2="1.25" width="0.254" layer="1"/>
+<wire x1="-0.25" y1="1.25" x2="2.875" y2="1.25" width="0.254" layer="1"/>
+<wire x1="1.625" y1="0.25" x2="3.15" y2="0.25" width="0.254" layer="1"/>
+<wire x1="1.425" y1="-0.75" x2="3.05" y2="-0.75" width="0.254" layer="1"/>
+<wire x1="-2.075" y1="-1.75" x2="2.6" y2="-1.75" width="0.254" layer="1"/>
+<wire x1="-0.925" y1="-0.75" x2="-2.55" y2="-0.75" width="0.254" layer="1"/>
+<wire x1="-1.175" y1="0.25" x2="-2.65" y2="0.25" width="0.254" layer="1"/>
+<wire x1="0.25" y1="3" x2="0.25" y2="-3" width="0.254" layer="1" curve="-180"/>
+<wire x1="-0.25" y1="-3" x2="-0.25" y2="3" width="0.254" layer="1" curve="-180"/>
+<wire x1="0.925" y1="0.75" x2="0.25" y2="-1.25" width="0.254" layer="1" curve="-115"/>
+<wire x1="-0.925" y1="-0.75" x2="-0.25" y2="1.25" width="0.254" layer="1" curve="-115"/>
+<wire x1="-1.425" y1="0.75" x2="-3.05" y2="0.75" width="0.254" layer="1"/>
+<wire x1="-1.625" y1="-0.25" x2="-3.15" y2="-0.25" width="0.254" layer="1"/>
+<polygon width="0.254" layer="1">
+<vertex x="0.25" y="3"/>
+<vertex x="4.75" y="3"/>
+<vertex x="4.75" y="1.75"/>
+<vertex x="2.75" y="1.75" curve="45"/>
 </polygon>
-<polygon width="0.0762" layer="29">
-<vertex x="-0.25" y="2.99" curve="90"/>
-<vertex x="-3.2" y="-0.01" curve="90"/>
-<vertex x="-0.25" y="-2.99"/>
-<vertex x="-0.25" y="-1.1" curve="-90"/>
-<vertex x="-1.1" y="-0.01" curve="-90"/>
-<vertex x="-0.25" y="1.1"/>
+<polygon width="0.254" layer="1">
+<vertex x="-0.25" y="-3"/>
+<vertex x="-4.75" y="-3"/>
+<vertex x="-4.75" y="-1.75"/>
+<vertex x="-2.75" y="-1.75" curve="45"/>
 </polygon>
-<polygon width="0.0762" layer="29">
-<vertex x="0.25" y="-2.99" curve="90"/>
-<vertex x="3.2" y="-0.01" curve="90"/>
-<vertex x="0.25" y="2.99"/>
-<vertex x="0.25" y="1.1" curve="-90"/>
-<vertex x="1.1" y="-0.01" curve="-90"/>
-<vertex x="0.25" y="-1.1"/>
+<wire x1="-2.575" y1="1.75" x2="2.1" y2="1.75" width="0.254" layer="29"/>
+<wire x1="0.925" y1="0.75" x2="2.55" y2="0.75" width="0.254" layer="29"/>
+<wire x1="1.175" y1="-0.25" x2="2.65" y2="-0.25" width="0.254" layer="29"/>
+<wire x1="-2.875" y1="-1.25" x2="0.25" y2="-1.25" width="0.254" layer="29"/>
+<wire x1="0.25" y1="-1.25" x2="2.375" y2="-1.25" width="0.254" layer="29"/>
+<wire x1="-2.1" y1="-2.25" x2="1.65" y2="-2.25" width="0.254" layer="29"/>
+<wire x1="-1.625" y1="2.25" x2="2.15" y2="2.25" width="0.254" layer="29"/>
+<wire x1="-2.4" y1="1.25" x2="-0.25" y2="1.25" width="0.254" layer="29"/>
+<wire x1="-0.25" y1="1.25" x2="2.875" y2="1.25" width="0.254" layer="29"/>
+<wire x1="1.625" y1="0.25" x2="3.15" y2="0.25" width="0.254" layer="29"/>
+<wire x1="1.425" y1="-0.75" x2="3.05" y2="-0.75" width="0.254" layer="29"/>
+<wire x1="-2.075" y1="-1.75" x2="2.6" y2="-1.75" width="0.254" layer="29"/>
+<wire x1="-0.925" y1="-0.75" x2="-2.55" y2="-0.75" width="0.254" layer="29"/>
+<wire x1="-1.175" y1="0.25" x2="-2.65" y2="0.25" width="0.254" layer="29"/>
+<wire x1="0.25" y1="3" x2="0.25" y2="-3" width="0.254" layer="29" curve="-180"/>
+<wire x1="-0.25" y1="-3" x2="-0.25" y2="3" width="0.254" layer="29" curve="-180"/>
+<wire x1="0.925" y1="0.75" x2="0.25" y2="-1.25" width="0.254" layer="29" curve="-115"/>
+<wire x1="-0.925" y1="-0.75" x2="-0.25" y2="1.25" width="0.254" layer="29" curve="-115"/>
+<wire x1="-1.425" y1="0.75" x2="-3.05" y2="0.75" width="0.254" layer="29"/>
+<wire x1="-1.625" y1="-0.25" x2="-3.15" y2="-0.25" width="0.254" layer="29"/>
+<polygon width="0.254" layer="29">
+<vertex x="0.25" y="3"/>
+<vertex x="4.75" y="3"/>
+<vertex x="4.75" y="1.75"/>
+<vertex x="2.75" y="1.75" curve="45"/>
 </polygon>
-<polygon width="0.0762" layer="29">
-<vertex x="-0.25" y="2.99" curve="90"/>
-<vertex x="-3.2" y="-0.01" curve="90"/>
-<vertex x="-0.25" y="-2.99"/>
-<vertex x="-0.25" y="-1.1" curve="-90"/>
-<vertex x="-1.1" y="-0.01" curve="-90"/>
-<vertex x="-0.25" y="1.1"/>
+<polygon width="0.254" layer="29">
+<vertex x="-0.25" y="-3"/>
+<vertex x="-4.75" y="-3"/>
+<vertex x="-4.75" y="-1.75"/>
+<vertex x="-2.75" y="-1.75" curve="45"/>
 </polygon>
-<smd name="P$GND1" x="-3.75" y="0" dx="2" dy="1.5" layer="1" rot="R180"/>
-<smd name="P$ACTIVE1" x="3.75" y="0" dx="2" dy="1.5" layer="1"/>
+<wire x1="-2.575" y1="1.75" x2="2.1" y2="1.75" width="0.254" layer="31"/>
+<wire x1="0.925" y1="0.75" x2="2.55" y2="0.75" width="0.254" layer="31"/>
+<wire x1="1.175" y1="-0.25" x2="2.65" y2="-0.25" width="0.254" layer="31"/>
+<wire x1="-2.875" y1="-1.25" x2="0.25" y2="-1.25" width="0.254" layer="31"/>
+<wire x1="0.25" y1="-1.25" x2="2.375" y2="-1.25" width="0.254" layer="31"/>
+<wire x1="-2.1" y1="-2.25" x2="1.65" y2="-2.25" width="0.254" layer="31"/>
+<wire x1="-1.625" y1="2.25" x2="2.15" y2="2.25" width="0.254" layer="31"/>
+<wire x1="-2.4" y1="1.25" x2="-0.25" y2="1.25" width="0.254" layer="31"/>
+<wire x1="-0.25" y1="1.25" x2="2.875" y2="1.25" width="0.254" layer="31"/>
+<wire x1="1.625" y1="0.25" x2="3.15" y2="0.25" width="0.254" layer="31"/>
+<wire x1="1.425" y1="-0.75" x2="3.05" y2="-0.75" width="0.254" layer="31"/>
+<wire x1="-2.075" y1="-1.75" x2="2.6" y2="-1.75" width="0.254" layer="31"/>
+<wire x1="-0.925" y1="-0.75" x2="-2.55" y2="-0.75" width="0.254" layer="31"/>
+<wire x1="-1.175" y1="0.25" x2="-2.65" y2="0.25" width="0.254" layer="31"/>
+<wire x1="0.25" y1="3" x2="0.25" y2="-3" width="0.254" layer="31" curve="-180"/>
+<wire x1="-0.25" y1="-3" x2="-0.25" y2="3" width="0.254" layer="31" curve="-180"/>
+<wire x1="0.925" y1="0.75" x2="0.25" y2="-1.25" width="0.254" layer="31" curve="-115"/>
+<wire x1="-0.925" y1="-0.75" x2="-0.25" y2="1.25" width="0.254" layer="31" curve="-115"/>
+<wire x1="-1.425" y1="0.75" x2="-3.05" y2="0.75" width="0.254" layer="31"/>
+<wire x1="-1.625" y1="-0.25" x2="-3.15" y2="-0.25" width="0.254" layer="31"/>
+<polygon width="0.254" layer="31">
+<vertex x="0.25" y="3"/>
+<vertex x="4.75" y="3"/>
+<vertex x="4.75" y="1.75"/>
+<vertex x="2.75" y="1.75" curve="45"/>
+</polygon>
+<polygon width="0.254" layer="31">
+<vertex x="-0.25" y="-3"/>
+<vertex x="-4.75" y="-3"/>
+<vertex x="-4.75" y="-1.75"/>
+<vertex x="-2.75" y="-1.75" curve="45"/>
+</polygon>
 </package>
 </packages>
 <symbols>
-<symbol name="PAD+SWITCH+HOLE">
+<symbol name="GAMEBOY-ZERO-BUTTON">
 <wire x1="-5.08" y1="0" x2="-3.048" y2="0" width="0.254" layer="94"/>
 <wire x1="3.048" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="1.27" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
@@ -10305,14 +10351,14 @@ Now with smashable polarity marks!</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PAD+SWITCH+HOLE">
+<deviceset name="GAMEBOY-ZERO-BUTTON">
 <gates>
-<gate name="G$1" symbol="PAD+SWITCH+HOLE" x="0" y="0"/>
+<gate name="G$1" symbol="GAMEBOY-ZERO-BUTTON" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PAD+SWITCH+HOLE">
+<device name="" package="GAMEBOY-ZERO-BUTTON">
 <connects>
-<connect gate="G$1" pin="P$ACTIVE" pad="P$ACTIVE P$ACTIVE1 P$GND1"/>
+<connect gate="G$1" pin="P$ACTIVE" pad="P$ACTIVE"/>
 <connect gate="G$1" pin="P$GND" pad="P$GND"/>
 </connects>
 <technologies>
@@ -10335,34 +10381,34 @@ Now with smashable polarity marks!</description>
 <parts>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="ILI9341-TFT-2.8" library="GameboyZeroHandheldDisplays" deviceset="GAMEBOYZEROHANDHELDDISPLAYS-2.8" device=""/>
+<part name="ILI9341-TFT-2.8" library="GameboyZeroHandheldDisplays" deviceset="GAMEBOYZEROHANDHELDDISPLAYS-2.4" device=""/>
 <part name="PI1" library="RPI-Zero" deviceset="RPI-ZERO" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="POWER1" library="03962A" deviceset="03962A" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BTN_X" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
-<part name="BTN_Y" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
-<part name="BTN_A" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
-<part name="BTN_B" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
-<part name="BTN_START" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
-<part name="BTN_SELECT" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
+<part name="BTN_X" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
+<part name="BTN_Y" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
+<part name="BTN_A" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
+<part name="BTN_B" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
+<part name="BTN_START" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
+<part name="BTN_SELECT" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BTN_L1" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
-<part name="BTN_R1" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
+<part name="BTN_L1" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
+<part name="BTN_R1" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="220"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="Blue"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BTN_UP" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
-<part name="BTN_DOWN" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
-<part name="BTN_LEFT" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
-<part name="BTN_RIGHT" library="pad+switch+hole" deviceset="PAD+SWITCH+HOLE" device="" value="PAD+SWITCH+HOLE"/>
+<part name="BTN_UP" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
+<part name="BTN_DOWN" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
+<part name="BTN_LEFT" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
+<part name="BTN_RIGHT" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
