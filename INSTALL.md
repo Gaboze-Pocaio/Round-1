@@ -386,6 +386,14 @@ If all is good as above, hit CTRL+X to exit the editor and
 
 > The final reboot, you can now unplug the HDMI from the Raspberry Pi
 
+```shell
+sudo nano /boot/cmdline.txt
+```
+
+```shell
+dwc_otg.lpm_enable=0 console=tty1 console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait fbcon=map:10 fbcon=font:6x12 logo.nologo
+```
+
 Reboot
 
 ```shell
