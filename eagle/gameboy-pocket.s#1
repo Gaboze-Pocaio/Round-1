@@ -10886,7 +10886,7 @@ Now with smashable polarity marks!</description>
 <part name="BTN_R1" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="1.5K"/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="Red"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="Blue"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BTN_UP" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>
 <part name="BTN_DOWN" library="GameboyZeroButtonLibrary" deviceset="GAMEBOY-ZERO-BUTTON" device="" value="GAMEBOY-ZERO-BUTTON"/>

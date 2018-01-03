@@ -184,13 +184,13 @@
 <wire x1="69.5" y1="113" x2="17" y2="113" width="0" layer="20"/>
 <wire x1="17" y1="113" x2="17" y2="116" width="0" layer="20"/>
 <wire x1="17" y1="116" x2="16.5" y2="116" width="0" layer="20"/>
-<wire x1="16.5" y1="116" x2="16.5" y2="116.5" width="0" layer="20"/>
-<wire x1="16.5" y1="116.5" x2="14" y2="116.5" width="0" layer="20"/>
-<wire x1="14" y1="116.5" x2="14" y2="116" width="0" layer="20"/>
+<wire x1="16.5" y1="116" x2="16.5" y2="117" width="0" layer="20"/>
+<wire x1="16.5" y1="117" x2="14" y2="117" width="0" layer="20"/>
+<wire x1="14" y1="117" x2="14" y2="116" width="0" layer="20"/>
 <wire x1="14" y1="116" x2="8" y2="116" width="0" layer="20"/>
-<wire x1="8" y1="116" x2="8" y2="116.5" width="0" layer="20"/>
-<wire x1="8" y1="116.5" x2="5.5" y2="116.5" width="0" layer="20"/>
-<wire x1="5.5" y1="116.5" x2="5.5" y2="116" width="0" layer="20"/>
+<wire x1="8" y1="116" x2="8" y2="117" width="0" layer="20"/>
+<wire x1="8" y1="117" x2="5.5" y2="117" width="0" layer="20"/>
+<wire x1="5.5" y1="117" x2="5.5" y2="116" width="0" layer="20"/>
 <wire x1="5.5" y1="116" x2="5" y2="116" width="0" layer="20"/>
 <wire x1="5" y1="116" x2="5" y2="113" width="0" layer="20"/>
 <wire x1="5" y1="113" x2="0" y2="113" width="0" layer="20"/>
@@ -245,6 +245,8 @@
 <wire x1="43.45" y1="12.5" x2="37.76" y2="12.5" width="0.0762" layer="51"/>
 <wire x1="37.76" y1="19.62" x2="43.45" y2="19.62" width="0.0762" layer="51"/>
 <wire x1="43.45" y1="19.62" x2="47.01" y2="16.06" width="0.0762" layer="51" curve="-90"/>
+<circle x="1.8" y="114.5" radius="1.3" width="0.01" layer="20"/>
+<circle x="66.8" y="114.5" radius="1.3" width="0.01" layer="20"/>
 <wire x1="-1.75" y1="84" x2="-1.75" y2="66" width="0" layer="20"/>
 <wire x1="0" y1="84" x2="-1.75" y2="84" width="0" layer="20"/>
 <wire x1="-1.75" y1="66" x2="0" y2="66" width="0" layer="20"/>
@@ -424,30 +426,34 @@ Datasheet</description>
 </library>
 <library name="GameboyZeroHandheldDisplays">
 <packages>
-<package name="GAMEBOYZEROHANDHELDDISPLAYS-2.2">
-<description>Gameboy Zero Handheld Displays - 2.2 Inch connector for ili9341 screens with SPI interface</description>
-<smd name="P$7" x="-12" y="0.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$8" x="-12" y="-0.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$6" x="-12" y="1.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$5" x="-12" y="2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$4" x="-12" y="2.8" dx="4" dy="0.4" layer="1"/>
-<smd name="P$3" x="-12" y="3.6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$2" x="-12" y="4.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$1" x="-12" y="5.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$9" x="-12" y="-1.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$10" x="-12" y="-2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$11" x="-12" y="-2.8" dx="4" dy="0.4" layer="1"/>
-<smd name="P$12" x="-12" y="-3.6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$13" x="-12" y="-4.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$14" x="-12" y="-5.2" dx="4" dy="0.4" layer="1"/>
-<wire x1="-27.6" y1="20" x2="27.6" y2="20" width="0.127" layer="21"/>
-<wire x1="27.6" y1="20" x2="27.6" y2="-20" width="0.127" layer="21"/>
-<wire x1="27.6" y1="-20" x2="-27.6" y2="-20" width="0.127" layer="21"/>
-<wire x1="-27.6" y1="-20" x2="-27.6" y2="19.8" width="0.127" layer="21"/>
-<text x="-12.4" y="6.2" size="1.27" layer="21">1</text>
-<text x="-13" y="-7" size="1.27" layer="21">14</text>
-<text x="-4.4" y="6" size="1.27" layer="25">&gt;name</text>
-<text x="-4.2" y="-3.2" size="1.27" layer="27">&gt;value</text>
+<package name="GAMEBOYZEROHANDHELDDISPLAYS-2.4">
+<description>Gameboy Zero Handheld Displays - 2.8 Inch connector for ili9341 screens with SPI interface</description>
+<smd name="P$9" x="-16" y="0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$10" x="-16" y="-0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$8" x="-16" y="1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$7" x="-16" y="2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$6" x="-16" y="2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$5" x="-16" y="3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$4" x="-16" y="4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$3" x="-16" y="5.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$11" x="-16" y="-1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$12" x="-16" y="-2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$13" x="-16" y="-2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$14" x="-16" y="-3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$15" x="-16" y="-4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$16" x="-16" y="-5.2" dx="4" dy="0.4" layer="1"/>
+<text x="-8" y="6" size="1.27" layer="25">&gt;name</text>
+<text x="-8" y="-3.2" size="1.27" layer="27">&gt;value</text>
+<smd name="P$2" x="-16" y="6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$1" x="-16" y="6.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$17" x="-16" y="-6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$18" x="-16" y="-6.8" dx="4" dy="0.4" layer="1"/>
+<text x="-16" y="9.4" size="1.27" layer="21">1</text>
+<text x="-16" y="-10" size="1.27" layer="21">18</text>
+<wire x1="-30.13" y1="21.36" x2="30.13" y2="21.36" width="0.127" layer="21"/>
+<wire x1="30.13" y1="21.36" x2="30.13" y2="-21.36" width="0.127" layer="21"/>
+<wire x1="30.13" y1="-21.36" x2="-30.13" y2="-21.36" width="0.127" layer="21"/>
+<wire x1="-30.13" y1="-21.36" x2="-30.13" y2="21.36" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1136,10 +1142,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R1" library="adafruit" package="R0805" value="100" x="65" y="87.5" rot="R270"/>
-<element name="ILI9341-TFT-2.4" library="GameboyZeroHandheldDisplays" package="GAMEBOYZEROHANDHELDDISPLAYS-2.2" value="GAMEBOYZEROHANDHELDDISPLAYS-2.2" x="34.75" y="86" rot="R180"/>
+<element name="R1" library="adafruit" package="R0805" value="100" x="64.5" y="55" rot="R180"/>
+<element name="ILI9341-TFT-2.4" library="GameboyZeroHandheldDisplays" package="GAMEBOYZEROHANDHELDDISPLAYS-2.4" value="GAMEBOYZEROHANDHELDDISPLAYS-2.4" x="34.75" y="86" rot="R180"/>
 <element name="PI1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="69.5" y="73" rot="MR0"/>
-<element name="POWER1" library="03962A" package="03962A" value="03962A" x="29" y="65" rot="MR270"/>
+<element name="POWER1" library="03962A" package="03962A" value="03962A" x="28.5" y="64" rot="MR270"/>
 <element name="BTN_X" library="GameboyZeroButtonLibrary" package="GAMEBOY-ZERO-BUTTON" value="GAMEBOY-ZERO-BUTTON" x="51.42" y="49.21" smashed="yes">
 <attribute name="NAME" x="51.42" y="52.385" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 </element>
@@ -1164,8 +1170,8 @@ design rules under a new name.</description>
 <element name="BTN_R1" library="GameboyZeroButtonLibrary" package="GAMEBOY-ZERO-BUTTON" value="GAMEBOY-ZERO-BUTTON" x="59.42" y="24.21" smashed="yes">
 <attribute name="NAME" x="59.42" y="27.385" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 </element>
-<element name="R2" library="adafruit" package="R0805" value="1.5K" x="4" y="106" rot="R180"/>
-<element name="LED1" library="adafruit" package="CHIPLED_0805" value="Red" x="4" y="104" rot="R90"/>
+<element name="R2" library="adafruit" package="R0805" value="1.5K" x="7" y="55"/>
+<element name="LED1" library="adafruit" package="CHIPLED_0805" value="Blue" x="3" y="55" rot="R90"/>
 <element name="BTN_UP" library="GameboyZeroButtonLibrary" package="GAMEBOY-ZERO-BUTTON" value="GAMEBOY-ZERO-BUTTON" x="12.2" y="44.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.025" y="44.9" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
@@ -1198,15 +1204,15 @@ design rules under a new name.</description>
 <element name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="100nF" x="20" y="4" rot="MR90"/>
 <element name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C0805" value="10uF" x="18" y="4" rot="MR90"/>
 <element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="48" y="9" rot="MR270"/>
-<element name="J3" library="SparkFun-Connectors" package="JST-2-SMD" value="" x="37" y="60.75" rot="MR90">
-<attribute name="BTM_NEG" value="-" x="54" y="50.75" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="BTM_POS" value="+" x="54" y="50.75" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PROD_ID" value="CONN-11443" x="54" y="50.75" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TOP_NEG" value="-" x="54" y="50.75" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TOP_POS" value="+" x="54" y="50.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="J3" library="SparkFun-Connectors" package="JST-2-SMD" value="" x="36" y="59.75" rot="MR90">
+<attribute name="BTM_NEG" value="-" x="53" y="49.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="BTM_POS" value="+" x="53" y="49.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PROD_ID" value="CONN-11443" x="53" y="49.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOP_NEG" value="-" x="53" y="49.75" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOP_POS" value="+" x="53" y="49.75" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-B-MICRO-SMD" package3d_urn="urn:adsk.eagle:package:38238/1" value="" x="2" y="90" rot="MR180">
-<attribute name="PROD_ID" value="CONN-11752" x="2" y="90" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-B-MICRO-SMD" package3d_urn="urn:adsk.eagle:package:38238/1" value="" x="1.5" y="90" rot="MR180">
+<attribute name="PROD_ID" value="CONN-11752" x="1.5" y="90" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1245,7 +1251,7 @@ design rules under a new name.</description>
 <contactref element="C10" pad="2"/>
 <contactref element="R10" pad="1"/>
 <contactref element="J4" pad="GND"/>
-<polygon width="0.254" layer="1">
+<polygon width="0.127" layer="1">
 <vertex x="0" y="0"/>
 <vertex x="50.3" y="0"/>
 <vertex x="50.3" y="16.95"/>
@@ -1254,12 +1260,12 @@ design rules under a new name.</description>
 <vertex x="17" y="113"/>
 <vertex x="17" y="116"/>
 <vertex x="16.5" y="116"/>
-<vertex x="16.5" y="116.5"/>
-<vertex x="14" y="116.5"/>
+<vertex x="16.5" y="117"/>
+<vertex x="14" y="117"/>
 <vertex x="14" y="116"/>
 <vertex x="8" y="116"/>
-<vertex x="8" y="116.5"/>
-<vertex x="5.5" y="116.5"/>
+<vertex x="8" y="117"/>
+<vertex x="5.5" y="117"/>
 <vertex x="5.5" y="116"/>
 <vertex x="5" y="116"/>
 <vertex x="5" y="113"/>
@@ -1278,12 +1284,12 @@ design rules under a new name.</description>
 <vertex x="17" y="113"/>
 <vertex x="17" y="116"/>
 <vertex x="16.5" y="116"/>
-<vertex x="16.5" y="116.5"/>
-<vertex x="14" y="116.5"/>
+<vertex x="16.5" y="117"/>
+<vertex x="14" y="117"/>
 <vertex x="14" y="116"/>
 <vertex x="8" y="116"/>
-<vertex x="8" y="116.5"/>
-<vertex x="5.5" y="116.5"/>
+<vertex x="8" y="117"/>
+<vertex x="5.5" y="117"/>
 <vertex x="5.5" y="116"/>
 <vertex x="5" y="116"/>
 <vertex x="5" y="113"/>
@@ -1293,51 +1299,51 @@ design rules under a new name.</description>
 <vertex x="-1.75" y="66"/>
 <vertex x="0" y="66"/>
 </polygon>
-<wire x1="12.858" y1="97.384" x2="4.725" y2="91.3" width="0" layer="19" extent="16-16"/>
+<wire x1="12.858" y1="97.384" x2="4.225" y2="91.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RESET">
 <contactref element="ILI9341-TFT-2.4" pad="P$2"/>
 <contactref element="PI1" pad="22"/>
-<wire x1="46.75" y1="81.6" x2="35.718" y2="101.702" width="0" layer="19" extent="1-16"/>
+<wire x1="50.75" y1="80" x2="35.718" y2="101.702" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SCL">
 <contactref element="ILI9341-TFT-2.4" pad="P$3"/>
 <contactref element="PI1" pad="23"/>
-<wire x1="46.75" y1="82.4" x2="33.178" y2="97.384" width="0" layer="19" extent="1-16"/>
+<wire x1="50.75" y1="80.8" x2="33.178" y2="97.384" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SDI">
 <contactref element="ILI9341-TFT-2.4" pad="P$6"/>
 <contactref element="PI1" pad="19"/>
-<wire x1="46.75" y1="84.8" x2="38.258" y2="97.384" width="0" layer="19" extent="1-16"/>
+<wire x1="50.75" y1="83.2" x2="38.258" y2="97.384" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SDO">
 <contactref element="ILI9341-TFT-2.4" pad="P$7"/>
 <contactref element="PI1" pad="21"/>
-<wire x1="46.75" y1="85.6" x2="35.718" y2="97.384" width="0" layer="19" extent="1-16"/>
+<wire x1="35.718" y1="97.384" x2="50.75" y2="84" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="3V3100OHM">
 <contactref element="R1" pad="1"/>
 <contactref element="ILI9341-TFT-2.4" pad="P$10"/>
-<wire x1="46.75" y1="88" x2="65" y2="88.5" width="0" layer="19" extent="1-1"/>
+<wire x1="65.5" y1="55" x2="50.75" y2="86.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D/CX">
 <contactref element="PI1" pad="18"/>
 <contactref element="ILI9341-TFT-2.4" pad="P$4"/>
-<wire x1="46.75" y1="83.2" x2="40.798" y2="101.702" width="0" layer="19" extent="1-16"/>
+<wire x1="50.75" y1="81.6" x2="40.798" y2="101.702" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="CSX">
 <contactref element="ILI9341-TFT-2.4" pad="P$5"/>
 <contactref element="PI1" pad="24"/>
-<wire x1="46.75" y1="84" x2="33.178" y2="101.702" width="0" layer="19" extent="1-16"/>
+<wire x1="50.75" y1="82.4" x2="33.178" y2="101.702" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="3V3">
 <contactref element="R1" pad="2"/>
 <contactref element="PI1" pad="1"/>
 <contactref element="PI1" pad="17"/>
 <contactref element="ILI9341-TFT-2.4" pad="P$9"/>
-<wire x1="65" y1="86.5" x2="61.118" y2="97.384" width="0" layer="19" extent="1-16"/>
-<wire x1="46.75" y1="87.2" x2="61.118" y2="97.384" width="0" layer="19" extent="1-16"/>
-<wire x1="40.798" y1="97.384" x2="46.75" y2="87.2" width="0" layer="19" extent="1-16"/>
+<wire x1="50.75" y1="85.6" x2="61.118" y2="97.384" width="0" layer="19" extent="1-16"/>
+<wire x1="40.798" y1="97.384" x2="50.75" y2="85.6" width="0" layer="19" extent="1-16"/>
+<wire x1="63.5" y1="55" x2="50.75" y2="85.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SELECT">
 <contactref element="BTN_SELECT" pad="P$ACTIVE"/>
@@ -1400,26 +1406,26 @@ design rules under a new name.</description>
 <contactref element="C11" pad="1"/>
 <wire x1="58.578" y1="101.702" x2="61.118" y2="101.702" width="0" layer="19" extent="16-16"/>
 <wire x1="13.25" y1="112.75" x2="58.578" y2="101.702" width="0" layer="19" extent="1-16"/>
-<wire x1="3" y1="106" x2="13.25" y2="112.75" width="0" layer="19" extent="1-1"/>
-<wire x1="11.5" y1="71.05" x2="3" y2="106" width="0" layer="19" extent="1-16"/>
-<wire x1="10" y1="3" x2="11.5" y2="71.05" width="0" layer="19" extent="16-16"/>
+<wire x1="11.5" y1="71.05" x2="13.25" y2="112.75" width="0" layer="19" extent="1-16"/>
+<wire x1="8" y1="55" x2="11.5" y2="71.05" width="0" layer="19" extent="1-16"/>
+<wire x1="10" y1="3" x2="8" y2="55" width="0" layer="19" extent="1-16"/>
 <wire x1="18" y1="3.15" x2="10" y2="3" width="0" layer="19" extent="16-16"/>
 <wire x1="20" y1="3.15" x2="18" y2="3.15" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="BATT+">
 <contactref element="POWER1" pad="B+"/>
 <contactref element="J3" pad="2"/>
-<wire x1="27.65" y1="53" x2="33.3" y2="61.75" width="0" layer="19" extent="16-16"/>
+<wire x1="27.15" y1="52" x2="32.3" y2="60.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="BATT-">
 <contactref element="POWER1" pad="B-"/>
 <contactref element="J3" pad="1"/>
-<wire x1="27.65" y1="60" x2="33.3" y2="59.75" width="0" layer="19" extent="16-16"/>
+<wire x1="27.15" y1="59" x2="32.3" y2="58.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SWITCH_IN+">
 <contactref element="POWER1" pad="OUT+"/>
 <contactref element="U$1" pad="P"/>
-<wire x1="27.65" y1="49.35" x2="10.25" y2="112.75" width="0" layer="19" extent="1-16"/>
+<wire x1="27.15" y1="48.35" x2="10.25" y2="112.75" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="L1">
 <contactref element="BTN_L1" pad="P$ACTIVE"/>
@@ -1434,7 +1440,7 @@ design rules under a new name.</description>
 <signal name="LED">
 <contactref element="LED1" pad="A"/>
 <contactref element="R2" pad="1"/>
-<wire x1="5.05" y1="104" x2="5" y2="106" width="0" layer="19" extent="1-1"/>
+<wire x1="4.05" y1="55" x2="6" y2="55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWM">
 <contactref element="PI1" pad="12"/>
@@ -1522,7 +1528,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="J4" pad="VBUS"/>
 <contactref element="POWER1" pad="IN+"/>
-<wire x1="4.35" y1="49.35" x2="4.725" y2="88.7" width="0" layer="19" extent="16-16"/>
+<wire x1="3.85" y1="48.35" x2="4.225" y2="88.7" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <errors>
@@ -2112,6 +2118,8 @@ design rules under a new name.</description>
 <approved hash="1,20,663f82ce7fcc9b3d"/>
 <approved hash="1,20,c8272cd72c21c8d1"/>
 <approved hash="1,20,1854fca4fc5d18ad"/>
+<approved hash="19,1,37a406de1e849fdb"/>
+<approved hash="19,1,775b1f7a5f8a656f"/>
 <approved hash="19,1,d7d166e41ea6dfb5"/>
 <approved hash="19,1,97033f277f8ea53a"/>
 <approved hash="19,1,8939af3bde3dc31f"/>
@@ -2129,6 +2137,8 @@ design rules under a new name.</description>
 <approved hash="19,1,8939af3bde3dc31f"/>
 <approved hash="19,1,775b1f7a5f8a656f"/>
 <approved hash="19,1,7726d1a5572f2b18"/>
+<approved hash="19,1,bc25698b466915c0"/>
+<approved hash="19,1,bf1d48efbb0f58e0"/>
 <approved hash="19,1,7726d1a5572f2b18"/>
 <approved hash="19,1,2f7042c92508c07c"/>
 <approved hash="19,1,37a406de1e849fdb"/>
@@ -2137,25 +2147,61 @@ design rules under a new name.</description>
 <approved hash="19,1,275752b87191696f"/>
 <approved hash="19,1,a6277f8278d48760"/>
 <approved hash="19,1,bc25698b466915c0"/>
+<approved hash="19,1,c7a54f1782f9ab82"/>
+<approved hash="19,1,1ef44968fed49217"/>
+<approved hash="19,1,3753d06b4b66c14f"/>
+<approved hash="19,1,e43ebb34e6a8a6c7"/>
+<approved hash="19,1,31ad89a49eac3320"/>
+<approved hash="19,1,ce70ee83f5d0aeb7"/>
+<approved hash="19,1,0a7b83a94fcf7b9c"/>
 <approved hash="19,1,97033f277f8ea53a"/>
+<approved hash="19,1,1605531fd91a48b3"/>
+<approved hash="19,1,c5adcba7f7779c44"/>
+<approved hash="19,1,8a898657eee5c83b"/>
+<approved hash="19,1,e306c42837376515"/>
+<approved hash="19,1,08cd9f632eea1787"/>
 <approved hash="19,1,8939af3bde3dc31f"/>
 <approved hash="19,1,bf1d48efbb0f58e0"/>
 <approved hash="1,20,60707404740b607f"/>
+<approved hash="19,1,60ad4f0312ec8acb"/>
+<approved hash="19,1,885e1049e291e8fe"/>
+<approved hash="19,1,17ca2172428c42c2"/>
+<approved hash="19,1,54f7bb493ee3ca90"/>
+<approved hash="19,1,0967050c06c76a90"/>
 <approved hash="19,1,7726d1a5572f2b18"/>
+<approved hash="19,1,604189032596d478"/>
 <approved hash="1,20,7dc87dbc7d0e7d7a"/>
 <approved hash="19,1,2f7042c92508c07c"/>
+<approved hash="19,1,a7d7921587d4abef"/>
 <approved hash="19,1,a6277f8278d48760"/>
+<approved hash="19,1,500d798e37d85632"/>
 <approved hash="1,20,9870ec04ee069a72"/>
 <approved hash="19,1,d7d166e41ea6dfb5"/>
+<approved hash="19,1,221c4395f73ec8eb"/>
 <approved hash="1,20,1b686f1c6e0d1a79"/>
+<approved hash="19,1,2b84abbb0e467a42"/>
 <approved hash="1,20,4048143c14cc40b8"/>
+<approved hash="19,1,d7974cc2ff4b63a2"/>
+<approved hash="19,1,e1f0ebdfff0f25b4"/>
+<approved hash="4,16,0361195614140417"/>
+<approved hash="4,1,0361195614140417"/>
+<approved hash="19,1,ad33475f599936a0"/>
 <approved hash="1,20,5ff02b842b025f76"/>
+<approved hash="19,1,b1d44f59945783fa"/>
 <approved hash="1,20,b9f03d843d04b970"/>
 <approved hash="19,16,cd9c659e6bcec3cc"/>
 <approved hash="1,20,b8700c040bc5bfb1"/>
+<approved hash="19,1,7cf2ab5daad653b8"/>
+<approved hash="19,1,4eb7f456549b3e68"/>
+<approved hash="19,1,c26ea3d8d773289b"/>
 <approved hash="19,1,37a406de1e849fdb"/>
+<approved hash="4,1,e0e129342a41e9a0"/>
+<approved hash="4,16,e0e129342a41e9a0"/>
+<approved hash="19,1,aa2923f96fce3bcc"/>
 <approved hash="19,1,775b1f7a5f8a656f"/>
 <approved hash="1,20,b008047c05cfb1bb"/>
+<approved hash="19,1,71a91b27809bbffe"/>
+<approved hash="19,1,c6d3be8412e33179"/>
 <approved hash="19,1,8ded2250d00df9b7"/>
 <approved hash="1,20,38993ced3eee3a9a"/>
 <approved hash="19,16,d8c470c66e72c670"/>
@@ -2192,91 +2238,30 @@ design rules under a new name.</description>
 <approved hash="19,1,e5ba7688dbf83a85"/>
 <approved hash="19,1,4a91444bb81806e7"/>
 <approved hash="19,1,20c76167979d84f9"/>
+<approved hash="19,1,2adde474781ec691"/>
+<approved hash="19,1,809d0131f79404a8"/>
+<approved hash="19,1,d327cb80a3b7785d"/>
+<approved hash="19,1,6b472d404bb721bd"/>
+<approved hash="19,1,b4c52cf7ae39c862"/>
+<approved hash="19,1,50b4e6334cd9de51"/>
+<approved hash="19,1,b6d807d69042121e"/>
+<approved hash="19,1,f62707ebdc881664"/>
+<approved hash="19,1,d89380eb8b9d0951"/>
+<approved hash="19,1,8fc8bd869181d1ae"/>
 <approved hash="19,1,b44c7cd22502f60f"/>
 <approved hash="19,1,457746b6cba415eb"/>
 <approved hash="19,1,1f4f90c9d1b611c0"/>
 <approved hash="19,1,02666890dcbaa47a"/>
 <approved hash="19,1,6793ad11a5ac64fd"/>
 <approved hash="19,1,79befec8699abcc4"/>
+<approved hash="19,1,1ec84f36b6936fa0"/>
 <approved hash="19,1,151bfa9cd7096a9a"/>
+<approved hash="19,1,5d75393c3d737f2b"/>
 <approved hash="19,1,1832500dfbcd472b"/>
 <approved hash="19,1,1f023dfa9237d61b"/>
 <approved hash="19,1,7ff10f31e3b98764"/>
 <approved hash="19,1,77d7037b6217efcf"/>
 <approved hash="19,1,b6df96b38e7eb438"/>
-<approved hash="19,1,7cf2ab5daad653b8"/>
-<approved hash="19,1,d7d166e41ea6dfb5"/>
-<approved hash="19,1,221c4395f73ec8eb"/>
-<approved hash="19,1,c26ea3d8d773289b"/>
-<approved hash="19,1,37a406de1e849fdb"/>
-<approved hash="19,1,c6d1c5544abd1cd3"/>
-<approved hash="19,1,a7d7921587d4abef"/>
-<approved hash="19,1,2f7042c92508c07c"/>
-<approved hash="19,1,31ad89a49eac3320"/>
-<approved hash="19,1,ce70ee83f5d0aeb7"/>
-<approved hash="19,1,50b4e6334cd9de51"/>
-<approved hash="19,1,1605531fd91a48b3"/>
-<approved hash="19,1,6b472d404bb721bd"/>
-<approved hash="19,1,1ef44968fed49217"/>
-<approved hash="19,1,c5adcba7f7779c44"/>
-<approved hash="19,1,7726d1a5572f2b18"/>
-<approved hash="19,1,500d798e37d85632"/>
-<approved hash="19,1,4eb7f456549b3e68"/>
-<approved hash="19,1,275752b87191696f"/>
-<approved hash="19,1,60ad4f0312ec8acb"/>
-<approved hash="19,1,8a898657eee5c83b"/>
-<approved hash="19,1,08cd9f632eea1787"/>
-<approved hash="19,1,c6d3be8412e33179"/>
-<approved hash="19,1,0a7b83a94fcf7b9c"/>
-<approved hash="19,1,97033f277f8ea53a"/>
-<approved hash="19,1,bc25698b466915c0"/>
-<approved hash="19,1,54f7bb493ee3ca90"/>
-<approved hash="19,1,e1f0ebdfff0f25b4"/>
-<approved hash="19,1,ad33475f599936a0"/>
-<approved hash="19,1,f62707ebdc881664"/>
-<approved hash="19,1,c7a54f1782f9ab82"/>
-<approved hash="19,1,7ff10f31e3b98764"/>
-<approved hash="19,1,d7974cc2ff4b63a2"/>
-<approved hash="19,1,604189032596d478"/>
-<approved hash="19,1,0967050c06c76a90"/>
-<approved hash="19,1,d327cb80a3b7785d"/>
-<approved hash="19,1,2b84abbb0e467a42"/>
-<approved hash="19,1,b1d44f59945783fa"/>
-<approved hash="19,1,885e1049e291e8fe"/>
-<approved hash="19,1,aa2923f96fce3bcc"/>
-<approved hash="19,1,20c76167979d84f9"/>
-<approved hash="19,1,a6277f8278d48760"/>
-<approved hash="4,16,e0e129342a41e9a0"/>
-<approved hash="4,1,e0e129342a41e9a0"/>
-<approved hash="4,16,0361195614140417"/>
-<approved hash="4,1,0361195614140417"/>
-<approved hash="4,1,a885086d5d1be769"/>
-<approved hash="4,1,dde18187c155274d"/>
-<approved hash="4,1,9b5a3ddeabbaf9fe"/>
-<approved hash="4,1,edb5ad9978b36fbe"/>
-<approved hash="4,1,92c7dfa4eade6a7e"/>
-<approved hash="4,1,961b0ecc0e890002"/>
-<approved hash="4,1,6883f43627edefe0"/>
-<approved hash="4,1,df691db6d0e07ecc"/>
-<approved hash="4,1,c01a00220c3e95d2"/>
-<approved hash="4,1,51d1575dff91b02b"/>
-<approved hash="19,1,2adde474781ec691"/>
-<approved hash="19,1,809d0131f79404a8"/>
-<approved hash="19,1,b4c52cf7ae39c862"/>
-<approved hash="19,1,b6d807d69042121e"/>
-<approved hash="19,1,e306c42837376515"/>
-<approved hash="19,1,3753d06b4b66c14f"/>
-<approved hash="19,1,71a91b27809bbffe"/>
-<approved hash="19,1,d89380eb8b9d0951"/>
-<approved hash="19,1,8fc8bd869181d1ae"/>
-<approved hash="19,1,e43ebb34e6a8a6c7"/>
-<approved hash="19,1,1ec84f36b6936fa0"/>
-<approved hash="19,1,5d75393c3d737f2b"/>
-<approved hash="19,1,17ca2172428c42c2"/>
-<approved hash="4,16,f85234ca8e37861e"/>
-<approved hash="4,16,42b29acbc02f1d05"/>
-<approved hash="4,16,5a3ad0da938c398a"/>
-<approved hash="4,16,95b80ddc5836cdb1"/>
 </errors>
 </board>
 </drawing>
