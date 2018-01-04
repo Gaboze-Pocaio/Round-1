@@ -10938,6 +10938,7 @@ Now with smashable polarity marks!</description>
 <part name="J3" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="USB_MICRO-B" device="_FEMALE-SMT" package3d_urn="urn:adsk.eagle:package:38238/1"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11089,6 +11090,7 @@ Now with smashable polarity marks!</description>
 <instance part="J3" gate="G$1" x="45.72" y="134.62" rot="R90"/>
 <instance part="J4" gate="G$1" x="10.414" y="109.982" rot="R180"/>
 <instance part="GND24" gate="1" x="20.574" y="115.062" rot="R90"/>
+<instance part="GND26" gate="1" x="22.86" y="106.68" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -11231,6 +11233,11 @@ Now with smashable polarity marks!</description>
 <pinref part="J4" gate="G$1" pin="GND"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="18.034" y1="115.062" x2="15.494" y2="115.062" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="POWER1" gate="G$1" pin="IN-"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="25.4" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -11737,13 +11744,13 @@ Now with smashable polarity marks!</description>
 <label x="165.1" y="91.44" size="1.016" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="VUSB" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="VBUS"/>
-<wire x1="15.494" y1="104.902" x2="22.86" y2="104.902" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="104.902" x2="22.86" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="15.494" y1="104.902" x2="20.32" y2="104.902" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="104.902" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="POWER1" gate="G$1" pin="IN+"/>
-<wire x1="22.86" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
