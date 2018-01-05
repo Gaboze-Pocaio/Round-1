@@ -3772,38 +3772,42 @@ Source: http://www.osram.convergy.de/</description>
 </library>
 <library name="GameboyZeroHandheldDisplays">
 <packages>
-<package name="GAMEBOYZEROHANDHELDDISPLAYS-2.2">
-<description>Gameboy Zero Handheld Displays - 2.2 Inch connector for ili9341 screens with SPI interface</description>
-<smd name="P$7" x="-12" y="0.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$8" x="-12" y="-0.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$6" x="-12" y="1.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$5" x="-12" y="2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$4" x="-12" y="2.8" dx="4" dy="0.4" layer="1"/>
-<smd name="P$3" x="-12" y="3.6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$2" x="-12" y="4.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$1" x="-12" y="5.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$9" x="-12" y="-1.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$10" x="-12" y="-2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$11" x="-12" y="-2.8" dx="4" dy="0.4" layer="1"/>
-<smd name="P$12" x="-12" y="-3.6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$13" x="-12" y="-4.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$14" x="-12" y="-5.2" dx="4" dy="0.4" layer="1"/>
-<wire x1="-27.6" y1="20" x2="27.6" y2="20" width="0.127" layer="21"/>
-<wire x1="27.6" y1="20" x2="27.6" y2="-20" width="0.127" layer="21"/>
-<wire x1="27.6" y1="-20" x2="-27.6" y2="-20" width="0.127" layer="21"/>
-<wire x1="-27.6" y1="-20" x2="-27.6" y2="19.8" width="0.127" layer="21"/>
-<text x="-12.4" y="6.2" size="1.27" layer="21">1</text>
-<text x="-13" y="-7" size="1.27" layer="21">14</text>
-<text x="-4.4" y="6" size="1.27" layer="25">&gt;name</text>
-<text x="-4.2" y="-3.2" size="1.27" layer="27">&gt;value</text>
+<package name="GAMEBOYZEROHANDHELDDISPLAYS-2.4">
+<description>Gameboy Zero Handheld Displays - 2.8 Inch connector for ili9341 screens with SPI interface</description>
+<smd name="P$9" x="-16" y="0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$10" x="-16" y="-0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$8" x="-16" y="1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$7" x="-16" y="2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$6" x="-16" y="2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$5" x="-16" y="3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$4" x="-16" y="4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$3" x="-16" y="5.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$11" x="-16" y="-1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$12" x="-16" y="-2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$13" x="-16" y="-2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$14" x="-16" y="-3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$15" x="-16" y="-4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$16" x="-16" y="-5.2" dx="4" dy="0.4" layer="1"/>
+<text x="-8" y="6" size="1.27" layer="25">&gt;name</text>
+<text x="-8" y="-3.2" size="1.27" layer="27">&gt;value</text>
+<smd name="P$2" x="-16" y="6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$1" x="-16" y="6.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$17" x="-16" y="-6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$18" x="-16" y="-6.8" dx="4" dy="0.4" layer="1"/>
+<text x="-16" y="9.4" size="1.27" layer="21">1</text>
+<text x="-16" y="-10" size="1.27" layer="21">18</text>
+<wire x1="-30.13" y1="21.36" x2="30.13" y2="21.36" width="0.127" layer="21"/>
+<wire x1="30.13" y1="21.36" x2="30.13" y2="-21.36" width="0.127" layer="21"/>
+<wire x1="30.13" y1="-21.36" x2="-30.13" y2="-21.36" width="0.127" layer="21"/>
+<wire x1="-30.13" y1="-21.36" x2="-30.13" y2="21.36" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="GAMEBOYZEROHANDHELDDISPLAYS-2.2">
+<symbol name="GAMEBOYZEROHANDHELDDISPLAYS-2.8">
 <wire x1="-5.08" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
-<wire x1="5.08" y1="20.32" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-27.94" x2="-5.08" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-27.94" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
 <pin name="GND" x="-10.16" y="17.78" length="middle"/>
 <pin name="RESET" x="-10.16" y="15.24" length="middle"/>
 <pin name="SCL" x="-10.16" y="12.7" length="middle"/>
@@ -3818,15 +3822,19 @@ Source: http://www.osram.convergy.de/</description>
 <pin name="LED_K2" x="-10.16" y="-10.16" length="middle"/>
 <pin name="LED_K3" x="-10.16" y="-12.7" length="middle"/>
 <pin name="LED_K4" x="-10.16" y="-15.24" length="middle"/>
+<pin name="XL" x="-10.16" y="-17.78" length="middle"/>
+<pin name="YU" x="-10.16" y="-20.32" length="middle"/>
+<pin name="XR" x="-10.16" y="-22.86" length="middle"/>
+<pin name="YD" x="-10.16" y="-25.4" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GAMEBOYZEROHANDHELDDISPLAYS-2.2">
+<deviceset name="GAMEBOYZEROHANDHELDDISPLAYS-2.4">
 <gates>
-<gate name="G$1" symbol="GAMEBOYZEROHANDHELDDISPLAYS-2.2" x="0" y="-2.54"/>
+<gate name="G$1" symbol="GAMEBOYZEROHANDHELDDISPLAYS-2.8" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="GAMEBOYZEROHANDHELDDISPLAYS-2.2">
+<device name="" package="GAMEBOYZEROHANDHELDDISPLAYS-2.4">
 <connects>
 <connect gate="G$1" pin="CSX" pad="P$5"/>
 <connect gate="G$1" pin="D/CX" pad="P$4"/>
@@ -3842,6 +3850,10 @@ Source: http://www.osram.convergy.de/</description>
 <connect gate="G$1" pin="SDI" pad="P$6"/>
 <connect gate="G$1" pin="SDO" pad="P$7"/>
 <connect gate="G$1" pin="VCC" pad="P$9"/>
+<connect gate="G$1" pin="XL" pad="P$15"/>
+<connect gate="G$1" pin="XR" pad="P$16"/>
+<connect gate="G$1" pin="YD" pad="P$17"/>
+<connect gate="G$1" pin="YU" pad="P$18"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10864,7 +10876,7 @@ Now with smashable polarity marks!</description>
 <parts>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="ILI9341-TFT-2.4" library="GameboyZeroHandheldDisplays" deviceset="GAMEBOYZEROHANDHELDDISPLAYS-2.2" device=""/>
+<part name="ILI9341-TFT-2.4" library="GameboyZeroHandheldDisplays" deviceset="GAMEBOYZEROHANDHELDDISPLAYS-2.4" device=""/>
 <part name="PI1" library="RPI-Zero" deviceset="RPI-ZERO" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="POWER1" library="03962A" deviceset="03962A" device=""/>
