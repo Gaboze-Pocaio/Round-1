@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11492,17 +11492,17 @@ Now with smashable polarity marks!</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R10" gate="R$1" pin="E"/>
-<wire x1="193.04" y1="15.24" x2="195.58" y2="15.24" width="0.1524" layer="91"/>
-<label x="195.58" y="15.24" size="1.016" layer="95"/>
-</segment>
-<segment>
 <pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="33.02" x2="281.94" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="40.64" x2="284.48" y2="40.64" width="0.1524" layer="91"/>
 <junction x="281.94" y="40.64"/>
 <label x="284.48" y="40.64" size="1.016" layer="95"/>
+</segment>
+<segment>
+<pinref part="R10" gate="R$1" pin="S"/>
+<wire x1="187.96" y1="10.16" x2="195.58" y2="10.16" width="0.1524" layer="91"/>
+<label x="195.58" y="10.16" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="BATT+" class="0">
@@ -11672,9 +11672,9 @@ Now with smashable polarity marks!</description>
 <label x="213.36" y="25.4" size="1.016" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="R10" gate="R$1" pin="S"/>
-<wire x1="187.96" y1="10.16" x2="195.58" y2="10.16" width="0.1524" layer="91"/>
-<label x="195.58" y="10.16" size="1.016" layer="95"/>
+<pinref part="R10" gate="R$1" pin="E"/>
+<wire x1="193.04" y1="15.24" x2="195.58" y2="15.24" width="0.1524" layer="91"/>
+<label x="195.58" y="15.24" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="BYP" class="0">
