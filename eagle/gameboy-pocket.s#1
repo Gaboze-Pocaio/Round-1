@@ -10493,7 +10493,7 @@ Now with smashable polarity marks!</description>
 <parts>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="2.4&quot;TFT-ILI9341" library="GameboyZeroHandheldDisplays" deviceset="GAMEBOYZEROHANDHELDDISPLAYS-2.4" device=""/>
+<part name="ILI9341-TFT-2.4" library="GameboyZeroHandheldDisplays" deviceset="GAMEBOYZEROHANDHELDDISPLAYS-2.4" device=""/>
 <part name="PI1" library="RPI-Zero" deviceset="RPI-ZERO" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="POWER1" library="03962A" deviceset="03962A" device=""/>
@@ -10618,7 +10618,7 @@ Now with smashable polarity marks!</description>
 <instances>
 <instance part="R1" gate="G$1" x="119.38" y="101.6"/>
 <instance part="GND3" gate="1" x="111.76" y="78.74" rot="R90"/>
-<instance part="2.4&quot;TFT-ILI9341" gate="G$1" x="99.06" y="96.52" rot="R180"/>
+<instance part="ILI9341-TFT-2.4" gate="G$1" x="99.06" y="96.52" rot="R180"/>
 <instance part="PI1" gate="G$1" x="195.58" y="96.52"/>
 <instance part="GND1" gate="1" x="53.34" y="104.14" rot="R90"/>
 <instance part="POWER1" gate="G$1" x="38.1" y="109.22"/>
@@ -10711,26 +10711,26 @@ Now with smashable polarity marks!</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="GND"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="POWER1" gate="G$1" pin="OUT-"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="GND2"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="GND2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="LED_K4"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="LED_K4"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="LED_K3"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="LED_K3"/>
 <wire x1="109.22" y1="111.76" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
 <junction x="109.22" y="111.76"/>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="LED_K2"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="LED_K2"/>
 <wire x1="109.22" y1="109.22" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
 <junction x="109.22" y="109.22"/>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="LED_K1"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="LED_K1"/>
 <wire x1="109.22" y1="106.68" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
 <junction x="109.22" y="106.68"/>
 </segment>
@@ -10857,7 +10857,7 @@ Now with smashable polarity marks!</description>
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="RESET"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="RESET"/>
 <wire x1="127" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
 <label x="129.54" y="81.28" size="1.016" layer="95"/>
 </segment>
@@ -10869,7 +10869,7 @@ Now with smashable polarity marks!</description>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="SCL"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="SCL"/>
 <wire x1="127" y1="83.82" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
 <label x="129.54" y="83.82" size="1.016" layer="95"/>
 </segment>
@@ -10881,7 +10881,7 @@ Now with smashable polarity marks!</description>
 </net>
 <net name="SDI" class="0">
 <segment>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="SDI"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="SDI"/>
 <wire x1="127" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
 <label x="129.54" y="91.44" size="1.016" layer="95"/>
 </segment>
@@ -10893,7 +10893,7 @@ Now with smashable polarity marks!</description>
 </net>
 <net name="SDO" class="0">
 <segment>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="SDO"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="SDO"/>
 <wire x1="127" y1="93.98" x2="109.22" y2="93.98" width="0.1524" layer="91"/>
 <label x="129.54" y="93.98" size="1.016" layer="95"/>
 </segment>
@@ -10906,7 +10906,7 @@ Now with smashable polarity marks!</description>
 <net name="3V3100OHM" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="LEDA"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="LEDA"/>
 <wire x1="114.3" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10917,14 +10917,14 @@ Now with smashable polarity marks!</description>
 <label x="228.6" y="106.68" size="1.016" layer="95"/>
 </segment>
 <segment>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="D/CX"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="D/CX"/>
 <wire x1="127" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
 <label x="129.54" y="86.36" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="CSX" class="0">
 <segment>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="CSX"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="CSX"/>
 <wire x1="127" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
 <label x="129.54" y="88.9" size="1.016" layer="95"/>
 </segment>
@@ -10951,7 +10951,7 @@ Now with smashable polarity marks!</description>
 <label x="165.1" y="106.68" size="1.016" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="2.4&quot;TFT-ILI9341" gate="G$1" pin="VCC"/>
+<pinref part="ILI9341-TFT-2.4" gate="G$1" pin="VCC"/>
 <wire x1="127" y1="99.06" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 <label x="129.54" y="99.06" size="1.016" layer="95"/>
 </segment>

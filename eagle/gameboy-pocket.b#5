@@ -9,21 +9,21 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="1" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="1" visible="no" active="yes"/>
@@ -35,20 +35,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="5" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="13" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -252,30 +252,24 @@
 <wire x1="59.6" y1="64.8" x2="8.9" y2="64.8" width="0.254" layer="51"/>
 <wire x1="8.9" y1="108.8" x2="8.9" y2="64.8" width="0.254" layer="51"/>
 <wire x1="59.6" y1="108.8" x2="59.6" y2="64.8" width="0.254" layer="51"/>
-<text x="19" y="17" size="0.6096" layer="22" rot="MR0">C1
+<text x="20" y="15" size="0.8128" layer="22" rot="MR0">C1
 C2
 C10
 C12
+R1
+R2
 R3
 R4
-R5
-U1</text>
-<text x="12" y="17" size="0.6096" layer="22" rot="MR0" align="bottom-right">100uF
+R5</text>
+<text x="12" y="15" size="0.8128" layer="22" rot="MR0" align="bottom-right">100uF
 220nF
 1uF
 1uF
+100
+1.5K
 1KOhm
 150Ohm
-1KOhm
-LM4875</text>
-<text x="21" y="11" size="0.6096" layer="22" rot="MR0" align="center-right">C1</text>
-<text x="21" y="8.5" size="0.6096" layer="22" rot="MR0" align="center-right">R4</text>
-<text x="21" y="5" size="0.6096" layer="22" rot="MR0" align="center-right">C10</text>
-<text x="12" y="3" size="0.6096" layer="22" rot="MR0" align="top-center">U1</text>
-<text x="3" y="5" size="0.6096" layer="22" rot="MR0" align="center-left">C12</text>
-<text x="3" y="8" size="0.6096" layer="22" rot="MR0" align="center-left">C2</text>
-<text x="13" y="14" size="0.6096" layer="22" rot="MR0" align="bottom-center">R3</text>
-<text x="11" y="14" size="0.6096" layer="22" rot="MR0" align="bottom-center">R5</text>
+1KOhm</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -1137,9 +1131,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="R1" library="adafruit" package="R0805" value="100" x="67" y="86.8" rot="R270"/>
-<element name="2.4&quot;TFT-ILI9341" library="GameboyZeroHandheldDisplays" package="GAMEBOYZEROHANDHELDDISPLAYS-2.4" value="GAMEBOYZEROHANDHELDDISPLAYS-2.4" x="34.75" y="86.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.75" y="80.8" size="0.6096" layer="25" rot="R180" align="center"/>
-</element>
+<element name="ILI9341-TFT-2.4" library="GameboyZeroHandheldDisplays" package="GAMEBOYZEROHANDHELDDISPLAYS-2.4" value="GAMEBOYZEROHANDHELDDISPLAYS-2.4" x="34.75" y="86.8" rot="R180"/>
 <element name="PI1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="69.5" y="73" rot="MR0"/>
 <element name="POWER1" library="03962A" package="03962A" value="03962A" x="36" y="64" rot="MR270"/>
 <element name="BTN_X" library="GameboyZeroButtonLibrary" package="GAMEBOY-ZERO-BUTTON" value="GAMEBOY-ZERO-BUTTON" x="51.42" y="49.21" smashed="yes">
@@ -1207,13 +1199,13 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$1"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$1"/>
 <contactref element="POWER1" pad="OUT-"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$8"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$14"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$13"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$12"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$11"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$8"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$14"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$13"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$12"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$11"/>
 <contactref element="BTN_SELECT" pad="P$GND"/>
 <contactref element="BTN_START" pad="P$GND"/>
 <contactref element="BTN_B" pad="P$GND"/>
@@ -1304,7 +1296,7 @@ design rules under a new name.</description>
 <via x="21.75" y="5" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="RESET">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$2"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$2"/>
 <contactref element="PI1" pad="22"/>
 <wire x1="35.718" y1="101.702" x2="37" y2="101.702" width="0.3048" layer="16"/>
 <via x="37" y="80.8" extent="1-16" drill="0.35"/>
@@ -1312,7 +1304,7 @@ design rules under a new name.</description>
 <wire x1="37" y1="101.702" x2="37" y2="80.8" width="0.3048" layer="16"/>
 </signal>
 <signal name="SCL">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$3"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$3"/>
 <contactref element="PI1" pad="23"/>
 <wire x1="33.178" y1="97.384" x2="33" y2="97.384" width="0.3048" layer="16"/>
 <wire x1="33" y1="97.384" x2="33" y2="81.6" width="0.3048" layer="16"/>
@@ -1321,14 +1313,14 @@ design rules under a new name.</description>
 <wire x1="33" y1="81.6" x2="50.75" y2="81.6" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDI">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$6"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$6"/>
 <contactref element="PI1" pad="19"/>
 <wire x1="38.258" y1="97.384" x2="38.258" y2="84" width="0.3048" layer="16"/>
 <via x="38.258" y="84" extent="1-16" drill="0.35"/>
 <wire x1="38.258" y1="84" x2="50.75" y2="84" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDO">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$7"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$7"/>
 <contactref element="PI1" pad="21"/>
 <wire x1="35.718" y1="97.384" x2="35.718" y2="84.8" width="0.3048" layer="16"/>
 <via x="35.718" y="84.8" extent="1-16" drill="0.35"/>
@@ -1336,20 +1328,20 @@ design rules under a new name.</description>
 </signal>
 <signal name="3V3100OHM">
 <contactref element="R1" pad="1"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$10"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$10"/>
 <wire x1="67" y1="87.8" x2="67" y2="87.2" width="0.254" layer="1"/>
 <wire x1="67" y1="87.2" x2="50.75" y2="87.2" width="0.254" layer="1"/>
 </signal>
 <signal name="D/CX">
 <contactref element="PI1" pad="18"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$4"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$4"/>
 <wire x1="40.798" y1="101.702" x2="42" y2="101.702" width="0.3048" layer="16"/>
 <wire x1="42" y1="101.702" x2="42" y2="82.4" width="0.3048" layer="16"/>
 <via x="42" y="82.4" extent="1-16" drill="0.35"/>
 <wire x1="42" y1="82.4" x2="50.75" y2="82.4" width="0.3048" layer="1"/>
 </signal>
 <signal name="CSX">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$5"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$5"/>
 <contactref element="PI1" pad="24"/>
 <wire x1="33.178" y1="101.702" x2="34.2956" y2="101.702" width="0.3048" layer="16"/>
 <wire x1="34.2956" y1="101.702" x2="34.2956" y2="83.2" width="0.3048" layer="16"/>
@@ -1360,7 +1352,7 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="PI1" pad="1"/>
 <contactref element="PI1" pad="17"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$9"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$9"/>
 <wire x1="67" y1="85.8" x2="67" y2="86.4" width="0.3048" layer="1"/>
 <wire x1="67" y1="86.4" x2="61" y2="86.4" width="0.3048" layer="1"/>
 <wire x1="61" y1="86.4" x2="50.75" y2="86.4" width="0.3048" layer="1"/>

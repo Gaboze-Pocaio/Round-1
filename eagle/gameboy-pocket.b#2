@@ -1137,9 +1137,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="R1" library="adafruit" package="R0805" value="100" x="67" y="86.8" rot="R270"/>
-<element name="2.4&quot;TFT-ILI9341" library="GameboyZeroHandheldDisplays" package="GAMEBOYZEROHANDHELDDISPLAYS-2.4" value="GAMEBOYZEROHANDHELDDISPLAYS-2.4" x="34.75" y="86.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.75" y="80.8" size="0.6096" layer="25" rot="R180" align="center"/>
-</element>
+<element name="ILI9341-TFT-2.4" library="GameboyZeroHandheldDisplays" package="GAMEBOYZEROHANDHELDDISPLAYS-2.4" value="GAMEBOYZEROHANDHELDDISPLAYS-2.4" x="34.75" y="86.8" rot="R180"/>
 <element name="PI1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="69.5" y="73" rot="MR0"/>
 <element name="POWER1" library="03962A" package="03962A" value="03962A" x="36" y="64" rot="MR270"/>
 <element name="BTN_X" library="GameboyZeroButtonLibrary" package="GAMEBOY-ZERO-BUTTON" value="GAMEBOY-ZERO-BUTTON" x="51.42" y="49.21" smashed="yes">
@@ -1207,13 +1205,13 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$1"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$1"/>
 <contactref element="POWER1" pad="OUT-"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$8"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$14"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$13"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$12"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$11"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$8"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$14"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$13"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$12"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$11"/>
 <contactref element="BTN_SELECT" pad="P$GND"/>
 <contactref element="BTN_START" pad="P$GND"/>
 <contactref element="BTN_B" pad="P$GND"/>
@@ -1304,7 +1302,7 @@ design rules under a new name.</description>
 <via x="21.75" y="5" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="RESET">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$2"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$2"/>
 <contactref element="PI1" pad="22"/>
 <wire x1="35.718" y1="101.702" x2="37" y2="101.702" width="0.3048" layer="16"/>
 <via x="37" y="80.8" extent="1-16" drill="0.35"/>
@@ -1312,7 +1310,7 @@ design rules under a new name.</description>
 <wire x1="37" y1="101.702" x2="37" y2="80.8" width="0.3048" layer="16"/>
 </signal>
 <signal name="SCL">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$3"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$3"/>
 <contactref element="PI1" pad="23"/>
 <wire x1="33.178" y1="97.384" x2="33" y2="97.384" width="0.3048" layer="16"/>
 <wire x1="33" y1="97.384" x2="33" y2="81.6" width="0.3048" layer="16"/>
@@ -1321,14 +1319,14 @@ design rules under a new name.</description>
 <wire x1="33" y1="81.6" x2="50.75" y2="81.6" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDI">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$6"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$6"/>
 <contactref element="PI1" pad="19"/>
 <wire x1="38.258" y1="97.384" x2="38.258" y2="84" width="0.3048" layer="16"/>
 <via x="38.258" y="84" extent="1-16" drill="0.35"/>
 <wire x1="38.258" y1="84" x2="50.75" y2="84" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDO">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$7"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$7"/>
 <contactref element="PI1" pad="21"/>
 <wire x1="35.718" y1="97.384" x2="35.718" y2="84.8" width="0.3048" layer="16"/>
 <via x="35.718" y="84.8" extent="1-16" drill="0.35"/>
@@ -1336,20 +1334,20 @@ design rules under a new name.</description>
 </signal>
 <signal name="3V3100OHM">
 <contactref element="R1" pad="1"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$10"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$10"/>
 <wire x1="67" y1="87.8" x2="67" y2="87.2" width="0.254" layer="1"/>
 <wire x1="67" y1="87.2" x2="50.75" y2="87.2" width="0.254" layer="1"/>
 </signal>
 <signal name="D/CX">
 <contactref element="PI1" pad="18"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$4"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$4"/>
 <wire x1="40.798" y1="101.702" x2="42" y2="101.702" width="0.3048" layer="16"/>
 <wire x1="42" y1="101.702" x2="42" y2="82.4" width="0.3048" layer="16"/>
 <via x="42" y="82.4" extent="1-16" drill="0.35"/>
 <wire x1="42" y1="82.4" x2="50.75" y2="82.4" width="0.3048" layer="1"/>
 </signal>
 <signal name="CSX">
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$5"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$5"/>
 <contactref element="PI1" pad="24"/>
 <wire x1="33.178" y1="101.702" x2="34.2956" y2="101.702" width="0.3048" layer="16"/>
 <wire x1="34.2956" y1="101.702" x2="34.2956" y2="83.2" width="0.3048" layer="16"/>
@@ -1360,7 +1358,7 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="PI1" pad="1"/>
 <contactref element="PI1" pad="17"/>
-<contactref element="2.4&quot;TFT-ILI9341" pad="P$9"/>
+<contactref element="ILI9341-TFT-2.4" pad="P$9"/>
 <wire x1="67" y1="85.8" x2="67" y2="86.4" width="0.3048" layer="1"/>
 <wire x1="67" y1="86.4" x2="61" y2="86.4" width="0.3048" layer="1"/>
 <wire x1="61" y1="86.4" x2="50.75" y2="86.4" width="0.3048" layer="1"/>
