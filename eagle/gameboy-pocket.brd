@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8302,7 +8302,6 @@ design rules under a new name.</description>
 <approved hash="19,1,c26ea3d8d773289b"/>
 <approved hash="19,1,0a7b83a94fcf7b9c"/>
 <approved hash="19,1,221c4395f73ec8eb"/>
-<approved hash="19,1,d327cb80a3b7785d"/>
 <approved hash="19,1,b1d44f59945783fa"/>
 <approved hash="19,1,0967050c06c76a90"/>
 <approved hash="19,1,e1f0ebdfff0f25b4"/>
@@ -8350,18 +8349,12 @@ design rules under a new name.</description>
 <approved hash="4,1,31b58746770eca81"/>
 <approved hash="4,1,00912588ddc0f3a5"/>
 <approved hash="19,1,20c76167979d84f9"/>
-<approved hash="19,1,2adde474781ec691"/>
-<approved hash="19,1,809d0131f79404a8"/>
-<approved hash="19,1,c7a54f1782f9ab82"/>
 <approved hash="19,1,365f94f1a0ba2e19"/>
 <approved hash="19,1,3989cb76c8d0c446"/>
 <approved hash="19,1,ad33475f599936a0"/>
 <approved hash="19,1,b6d807d69042121e"/>
-<approved hash="19,1,e306c42837376515"/>
 <approved hash="19,1,c5adcba7f7779c44"/>
-<approved hash="19,1,17ca2172428c42c2"/>
 <approved hash="19,1,3753d06b4b66c14f"/>
-<approved hash="19,1,1ec84f36b6936fa0"/>
 <approved hash="19,1,5d75393c3d737f2b"/>
 <approved hash="19,1,bf1d48efbb0f58e0"/>
 <approved hash="19,1,c6d1c5544abd1cd3"/>
