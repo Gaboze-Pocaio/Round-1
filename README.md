@@ -1,9 +1,24 @@
-# Gameboy Zero - Pocket All In One
+<img src="images/logo.jpg">
+
+
+
+
+
 > Looking for a no frills multi system emulator that fits in your pocket? 
 >
 > Look no further! 
 >
 > **This is it, Gameboy Zero - Pocket All In One**
+
+
+
+
+
+<img src="images/big.jpg" height="300px">
+
+
+
+
 
 ## Introduction
 
