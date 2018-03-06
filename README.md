@@ -4,15 +4,19 @@
 # Gaboze Pocaio
 > Gaboze Pocaio is a concatenation Game Boy Zero Pocket All In One
 
-* ​
+* **Ga**me
+* **Bo**y
+* **Ze**ro
+* **Poc**ket
+* **A**ll
+* **I**n
+* **O**ne
 
 
 
 
-|                                                              |                                           |
-| ------------------------------------------------------------ | ----------------------------------------- |
-| **Ga**me<br />**Bo**y<br />**Ze**ro<br />**Poc**ket<br />**A**ll<br />**I**n<br />**O**ne | <img src="images/big.jpg" height="300px"> |
 
+<img src="images/big.jpg" height="300px">
 
 
 
