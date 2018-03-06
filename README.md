@@ -1,12 +1,12 @@
-<img src="images/logo.jpg">
+<img src="images/logo.jpg" width="50%">
 
 
 
 
 
-> Looking for a no frills multi system emulator that fits in your pocket? 
+> Looking for a no frills multi system emulator that fits in your pocket?
 >
-> Look no further! 
+> Look no further!
 >
 > **This is it, Gameboy Zero - Pocket All In One**
 
