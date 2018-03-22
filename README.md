@@ -13,13 +13,7 @@
 * **O**ne
 
 
-
-
-
 <img src="images/big.jpg" height="300px">
-
-
-
 
 
 ## Introduction
@@ -36,6 +30,8 @@ Raspberry Pi Zero based arcade in you pocket, and in your Gameboy Pocket
 * 60 frames per second display
 * Headphone Jack (LM4857)
 * Speaker capability (LM4857)
+
+![In Action](images/video.gif)
 
 
 
