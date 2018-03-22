@@ -60,4 +60,4 @@ With our project we have included a few custom Eagle CAD Libraries
 | <img src="images/eagleUp_gameboy-pocket_board_top.png" height="350"> | <img src="images/eagleUp_gameboy-pocket_board_bottom.png" height="350"> | <img src="images/video.gif" height="350">
 
 ## 3D Model
-[Check it out here](https://32teeth.github.io/GameboyZeroPocket/)
+[Check it out here](https://32teeth.github.io/GabozePocaio/)
