@@ -31,8 +31,6 @@ Raspberry Pi Zero based arcade in you pocket, and in your Gameboy Pocket
 * Headphone Jack (LM4857)
 * Speaker capability (LM4857)
 
-![In Action](images/video.gif)
-
 
 
 ### Platforms:
@@ -57,9 +55,9 @@ With our project we have included a few custom Eagle CAD Libraries
 
 ## Details
 
-| Top                                                          | Bottom                                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="images/eagleUp_gameboy-pocket_board_top.png" height="350"> | <img src="images/eagleUp_gameboy-pocket_board_bottom.png" height="350"> |
+| Top                                                          | Bottom                                                       | Money Shot                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="images/eagleUp_gameboy-pocket_board_top.png" height="350"> | <img src="images/eagleUp_gameboy-pocket_board_bottom.png" height="350"> | <img src="images/action.gif" height="350">
 
 ## 3D Model
 [Check it out here](https://32teeth.github.io/GameboyZeroPocket/)
