@@ -61,6 +61,6 @@ With our project we have included a few custom Eagle CAD Libraries
 
 
 ## 3D Model
-[Standalone Board](https://gameboyzero.github.io/GabozePocaio/)
-[With Shell](https://gameboyzero.github.io/GabozePocaio/?shell)
+* [Standalone Board](https://gameboyzero.github.io/GabozePocaio/)
+* [With Shell](https://gameboyzero.github.io/GabozePocaio/?shell)
 
