@@ -1,4 +1,4 @@
-<img src="images/logo.jpg" width="50%">
+<img src="images/logo.png" width="50%">
 
 
 # Gaboze Pocaio
@@ -13,12 +13,12 @@
 * **O**ne
 
 
-<img src="images/big.jpg" height="300px">
+<img src="images/top-texture.jpg" height="300px">
 
 
 ## Introduction
 
-### Gameboy Zero - Pocket All In One
+### Gaboze Pocaio - Pocket All In One
 Raspberry Pi Zero based arcade in you pocket, and in your Gameboy Pocket
 
 ### Features:
@@ -55,9 +55,12 @@ With our project we have included a few custom Eagle CAD Libraries
 
 ## Details
 
-| Top                                                          | Bottom                                                       | Money Shot                                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="images/eagleUp_gameboy-pocket_board_top.png" height="350"> | <img src="images/eagleUp_gameboy-pocket_board_bottom.png" height="350"> | <img src="images/video.gif" height="350">
+| Top                                                          | Bottom                                                       | Money Shot                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------- |
+| <img src="images/eagleUp_gameboy-pocket_board_top.png" height="250"> | <img src="images/eagleUp_gameboy-pocket_board_bottom.png"  height="250"> | <img src="images/video.gif"> |
+
 
 ## 3D Model
-[Check it out here](https://gameboyzero.github.io/GabozePocaio/)
+[Standalone Board](https://gameboyzero.github.io/GabozePocaio/)
+[With Shell](https://gameboyzero.github.io/GabozePocaio/?shell)
+
