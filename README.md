@@ -57,7 +57,7 @@ With our project we have included a few custom Eagle CAD Libraries
 
 | Top                                                          | Bottom                                                       | Money Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------- |
-| <img src="images/eagleUp_gameboy-pocket_board_top.png" height="250"> | <img src="images/eagleUp_gameboy-pocket_board_bottom.png"  height="250"> | <img src="images/video.gif"> |
+| <img src="images/eagleUp_gameboy-pocket_board_top.png" height="250"> | <img src="images/eagleUp_gameboy-pocket_board_bottom.png"  height="250"> | <img src="images/video.gif"   height="250"> |
 
 
 ## 3D Model
