@@ -96,7 +96,7 @@
             init();
             animate();
 
-            function init() {
+            function init(model = location.search.slice(1) || 'board') {
 
                 container = document.querySelector( '.container' );
                 progress = document.querySelector( '.progress' );
@@ -114,16 +114,21 @@
 
                 var loadingManager = new THREE.LoadingManager( function() {
 
-                    scene.add( dot );
+                    scene.add( dae );
 
                 } );
 
                 // collada
 
+                var models = {
+                    board: './assets/GabozePocaioBoard.dae',
+                    shell: './assets/GabozePocaio.dae'
+                }
+
                 var loader = new THREE.ColladaLoader( loadingManager );
                 loader.options.convertUpAxis = true;
                 loader.load(
-                    './assets/GBPAIO.dae',
+                    models[model]
                     function ( collada ) {
                         dot = collada.scene;
                         dot.scale.x = dot.scale.y = dot.scale.z = 0.005;
