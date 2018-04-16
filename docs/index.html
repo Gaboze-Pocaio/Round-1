@@ -128,7 +128,7 @@
                 var loader = new THREE.ColladaLoader( loadingManager );
                 loader.options.convertUpAxis = true;
                 loader.load(
-                    models[model]
+                    models[model],
                     function ( collada ) {
                         dot = collada.scene;
                         dot.scale.x = dot.scale.y = dot.scale.z = 0.005;
