@@ -7,22 +7,22 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -33,19 +33,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -166,32 +166,40 @@
 </package>
 <package name="GAMEBOYZEROHANDHELDDISPLAYS-2.4">
 <description>Gameboy Zero Handheld Displays - 2.8 Inch connector for ili9341 screens with SPI interface</description>
-<smd name="P$9" x="-16" y="0.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$10" x="-16" y="-0.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$8" x="-16" y="1.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$7" x="-16" y="2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$6" x="-16" y="2.8" dx="4" dy="0.4" layer="1"/>
-<smd name="P$5" x="-16" y="3.6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$4" x="-16" y="4.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$3" x="-16" y="5.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$11" x="-16" y="-1.2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$12" x="-16" y="-2" dx="4" dy="0.4" layer="1"/>
-<smd name="P$13" x="-16" y="-2.8" dx="4" dy="0.4" layer="1"/>
-<smd name="P$14" x="-16" y="-3.6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$15" x="-16" y="-4.4" dx="4" dy="0.4" layer="1"/>
-<smd name="P$16" x="-16" y="-5.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$9" x="-13" y="0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$10" x="-13" y="-0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$8" x="-13" y="1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$7" x="-13" y="2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$6" x="-13" y="2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$5" x="-13" y="3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$4" x="-13" y="4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$3" x="-13" y="5.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$11" x="-13" y="-1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$12" x="-13" y="-2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$13" x="-13" y="-2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$14" x="-13" y="-3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$15" x="-13" y="-4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$16" x="-13" y="-5.2" dx="4" dy="0.4" layer="1"/>
 <text x="-8" y="6" size="1.27" layer="25">&gt;name</text>
 <text x="-8" y="-3.2" size="1.27" layer="27">&gt;value</text>
-<smd name="P$2" x="-16" y="6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$1" x="-16" y="6.8" dx="4" dy="0.4" layer="1"/>
-<smd name="P$17" x="-16" y="-6" dx="4" dy="0.4" layer="1"/>
-<smd name="P$18" x="-16" y="-6.8" dx="4" dy="0.4" layer="1"/>
-<text x="-16" y="9.4" size="1.27" layer="21">1</text>
-<text x="-16" y="-10" size="1.27" layer="21">18</text>
+<smd name="P$2" x="-13" y="6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$1" x="-13" y="6.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$17" x="-13" y="-6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$18" x="-13" y="-6.8" dx="4" dy="0.4" layer="1"/>
+<text x="-13" y="9.4" size="1.27" layer="21">1</text>
+<text x="-13" y="-10" size="1.27" layer="21">18</text>
 <wire x1="-30.13" y1="21.36" x2="30.13" y2="21.36" width="0.127" layer="21"/>
 <wire x1="30.13" y1="21.36" x2="30.13" y2="-21.36" width="0.127" layer="21"/>
 <wire x1="30.13" y1="-21.36" x2="-30.13" y2="-21.36" width="0.127" layer="21"/>
 <wire x1="-30.13" y1="-21.36" x2="-30.13" y2="21.36" width="0.127" layer="21"/>
+<wire x1="27.13" y1="-18.36" x2="27.13" y2="18.36" width="0.127" layer="51"/>
+<wire x1="-21.83" y1="-18.36" x2="-21.83" y2="18.36" width="0.127" layer="51"/>
+<wire x1="-21.83" y1="18.36" x2="27.13" y2="18.36" width="0.127" layer="51"/>
+<wire x1="-21.83" y1="-18.36" x2="27.13" y2="-18.36" width="0.127" layer="51"/>
+<wire x1="29.13" y1="-20.16" x2="29.13" y2="20.16" width="0.127" layer="51"/>
+<wire x1="-27.13" y1="-20.16" x2="-27.13" y2="20.16" width="0.127" layer="51"/>
+<wire x1="-27.13" y1="-20.16" x2="29.13" y2="-20.16" width="0.127" layer="51"/>
+<wire x1="-27.13" y1="20.16" x2="29.13" y2="20.16" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>

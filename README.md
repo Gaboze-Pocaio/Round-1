@@ -57,10 +57,16 @@ With our project we have included a few custom Eagle CAD Libraries
 
 | Top                                                          | Bottom                                                       | Money Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------- |
-| <img src="images/eagleUp_gameboy-pocket_board_top.png" height="250"> | <img src="images/eagleUp_gameboy-pocket_board_bottom.png"  height="250"> | <img src="images/video.gif"   height="250"> |
+| <img src="images/eagleUp_gameboy-pocket_board_top_small.jpg" height="250"> | <img src="images/eagleUp_gameboy-pocket_board_bottom_small.jpg"  height="250"> | <img src="images/video.gif" height="250"> |
 
 
 ## 3D Model
 * [Standalone Board](https://gameboyzero.github.io/GabozePocaio/)
 * [With Shell](https://gameboyzero.github.io/GabozePocaio/?shell)
+
+# Buy me a Coffee
+> This is a labor of love, and much time has been put in...  ...i could use a [coffee](https://www.paypal.me/32teeth/1usd) *(donuts are okay too)*
+
+**Thank you for your support**
+
 
