@@ -51,7 +51,12 @@ With our project we have included a few custom Eagle CAD Libraries
 * [Displays](/library/GameboyZeroHandheldDisplays.lbr)
 * [Raspberry Pi Zero](/library/RPI-Zero.lbr)
 
+## Components
+> Building this yourself? Here are your components
 
+* [DigiKey Prefilled Cart](http://www.digikey.ca/short/j423p2) - ~$13 USD
+* [TP4056](https://www.aliexpress.com/item/Free-Shipping-1PCS-5V-Micro-USB-1A-18650-Lithium-Battery-Charging-Board-With-Protection-Charger-Module/32476957358.html) from AliExpress - $0.33 USD for 1 unit
+* [2.4" ILI9341 TFT LCD](https://www.aliexpress.com/item/-/32854563773.html) from AliExpress - $4.74 USD
 
 ## Details
 
