@@ -1,4 +1,4 @@
-# Gameboy Zero Installation
+# Gaboze Pocaio Installation
 
 > This document is intended for a somewhat advanced user base, but we have made it simple enough to follow along for anyone
 
@@ -102,8 +102,14 @@ From you computer *(not the Raspberry Pi)*
 
 Enter the following to add a Loadable Kernel Module for the TFT Device
 
+*TFT LCD footprint on right*
 ```shell
-sudo modprobe fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 fps=60 bgr=1 rotate=270
+sudo modprobe fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=60000000 fps=60 bgr=1 rotate=270
+```
+
+*TFT LCD footprint on left*
+```shell
+sudo modprobe fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=60000000 fps=60 bgr=1 rotate=90
 ```
 
 Confirm the module has been loaded
@@ -177,9 +183,14 @@ sudo nano /etc/modprobe.d/fbtft.conf
 
 Add this line to the empty file
 
+*TFT LCD footprint on right*
 ```shell
 options fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 fps=60 bgr=1 rotate=270 custom=1
 ```
+
+*TFT LCD footprint on left*
+```shell
+options fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 fps=60 bgr=1 rotate=90 custom=1
 
 *Hit 'CTRL+X' and 'Y' to confirm the save*
 
@@ -187,7 +198,7 @@ options fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 
 
 The following lines will download and install the Frambuffer Copy tool in a folder in the root directory
 
-```shell
+​```shell
 cd
 sudo apt-get install cmake
 git clone https://github.com/tasanakorn/rpi-fbcp fbcp
@@ -233,64 +244,56 @@ exit 0
 ```
 
 
+## Step 4
+
+### General Config
+
+Enable PWM sound, lcd rotation and overlay, open cmdline.txt
+
+```shell
+sudo nano /boot/cmdline.txt
+```
+
+add this to the bottom
+```shell
+# PWM audio
+dtoverlay=pwm,pin=18,func=2
+
+# Rotate screen for Gameboy Pocket Zero
+# 2 = TFT LCD on right, 0 = TFT LCD on left
+lcd_rotate=2
+```
+
+now go find the line with ```disable_overscan``` and uncomment and add 0 as the value
+```shell
+disable_overscan=0
+overscan_scale=1
+```
+
+below that you will see a few commented out lines for overscan. change them as such
+
+*TFT LCD footprint on right*
+```shell
+overscan_left=15
+overscan_right=-30
+overscan_top=-30
+overscan_bottom=-30
+```
+
+*TFT LCD footprint on left* (you may need to play with the numbers a bit)
+```shell
+overscan_left=-30
+overscan_right=15
+overscan_top=-30
+overscan_bottom=-30
+```
+
+If you are lazy, the whole config.txt file is in the *boot* folder of this repository. Simply replace the whole thing.
+
+Reboot.
+
 
 ## Step 5
-
-> USB Audio Configuration
-
-Plug in your USB Audio Card, and list your usb devices
-
-```shell
-lsusb
-```
-
-Now run the sound modules probe
-
-```shell
-cat /proc/asound/modules
-```
-
-You will see something like
-
-```shell
- 0 snd_bcm2835
- 1 snd_usb_audio
-```
-
-The ```snd_bcm2835``` is the default, we wan't to force the USB output so, we will edit the conf file
-
-```shell
-sudo nano /etc/modprobe.d/alsa-base.conf
-```
-
-Add these lines
-
-```shell
-options snd_usb_audio index=0
-options snd_bcm2835 index=1
-options snd slots=snd-usb-audio,snd-bcm2835
-```
-
-Reboot, and return to terminal (F4) once EmulationStation has restarted
-
-List out the module probe
-
-```
-cat /proc/asound/modules
-```
-
-You will see something like
-
-```shell
- 0 snd_usb_audio
- 1 snd_bcm2835
-```
-
-Success, enjoy the sound
-
-
-
-## Step 6
 
 > Now we are ready to configure the GPIO on the Raspberry Pi as a controller
 
@@ -310,7 +313,7 @@ Once complete, you will be asked if you want to reboot.
 
 #### Don't reboot just yet
 
-## Step 7
+## Step 6
 
 > You will now be assigning keyboard inputs to action buttons of the controller (GPIO pins on the Raspberry Pi)
 
@@ -382,13 +385,18 @@ Ensure that your file's content are **exactly** as below
 
 If all is good as above, hit CTRL+X to exit the editor and
 
-# Step 8
-
+## Step 7 
 > Command line to show boot message (optional)
+
+Default cmdline.txt should be as follows
+
+```shell
+dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=PARTUUID=3d24ca30-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait loglevel=3 consoleblank=0 plymouth.enable=0
+```
 
 If you want to see a boot message instead of a black screen.
 
-```shel
+```shell
 sudo nano /boot/cmdline.txt
 ```
 
@@ -412,9 +420,7 @@ With your keyboard plugged in, press and hold 'Enter' until the Controller Confi
 
 Hit your keys on your keyboard as mapped above, skip the analog sticks
 
-- **pro tip**: When you get to the section*
-
-# Step 9
+## Step 8
 
 > This one is all on you
 
