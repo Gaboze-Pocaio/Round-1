@@ -12,10 +12,11 @@ overscan_scale=1
 
 # uncomment the following to adjust overscan. Use positive numbers if console
 # goes off screen, and negative if there is too much border
-overscan_left=50
-overscan_right=-20
-overscan_top=-32
-overscan_bottom=-26
+overscan_left=15
+overscan_right=-30
+overscan_top=-30
+overscan_bottom=-30
+
 
 # uncomment to force a console size. By default it will be display's size minus
 # overscan.
@@ -58,6 +59,9 @@ dtparam=audio=on
 gpu_mem_256=128
 gpu_mem_512=256
 gpu_mem_1024=256
+#overscan_scale=1
+
+dtoverlay=pwm,pin=18,func=2
 
 # Rotate screen for Gameboy Pocket Zero
 lcd_rotate=2
