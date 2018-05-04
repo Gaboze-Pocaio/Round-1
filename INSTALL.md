@@ -199,7 +199,7 @@ options fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 
 
 The following lines will download and install the Frambuffer Copy tool in a folder in the root directory
 
-​```shell
+```shell
 cd
 sudo apt-get install cmake
 git clone https://github.com/tasanakorn/rpi-fbcp fbcp
