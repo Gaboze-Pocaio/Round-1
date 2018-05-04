@@ -252,7 +252,7 @@ exit 0
 Enable PWM sound, lcd rotation and overlay, open cmdline.txt
 
 ```shell
-sudo nano /boot/cmdline.txt
+sudo nano /boot/config.txt
 ```
 
 add this to the bottom
