@@ -191,6 +191,7 @@ options fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 
 *TFT LCD footprint on left*
 ```shell
 options fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 fps=60 bgr=1 rotate=90 custom=1
+```
 
 *Hit 'CTRL+X' and 'Y' to confirm the save*
 
@@ -198,7 +199,7 @@ options fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=80000000 
 
 The following lines will download and install the Frambuffer Copy tool in a folder in the root directory
 
-​```shell
+```shell
 cd
 sudo apt-get install cmake
 git clone https://github.com/tasanakorn/rpi-fbcp fbcp
@@ -251,7 +252,7 @@ exit 0
 Enable PWM sound, lcd rotation and overlay, open cmdline.txt
 
 ```shell
-sudo nano /boot/cmdline.txt
+sudo nano /boot/config.txt
 ```
 
 add this to the bottom
