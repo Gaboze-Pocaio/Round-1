@@ -26,7 +26,7 @@ The boards have been tested with the following platforms:
 - [x] [RetroPie](https://retropie.org.uk/)
 
 
-## Components
+## DIY
 > Building this yourself? Read the [Wiki](https://github.com/GameboyZero/GabozePocaio/wiki/)
 * [Preperation](https://github.com/GameboyZero/GabozePocaio/wiki/DIY---Preperation)
 * [Sound](https://github.com/GameboyZero/GabozePocaio/wiki/DIY---Sound-Components)
