@@ -5,7 +5,8 @@ R1,RES 3.9 OHM 1% 1/8W 0805,RMCF0805FT3R90,https://www.digikey.ca/product-detail
 R3,RES 100K OHM 5% 1/4W 0805,RPC0805JT100KCT,https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RPC0805JT100K/RPC0805JT100KCT-ND/5766007,1
 C1,CAP TANT 100UF 4V 20% 1206,RPC0805JT100K,https://www.digikey.ca/product-detail/en/avx-corporation/F930G107MAA/478-8134-1-ND/4005954,1
 R4,RES 150 OHM 1% 1/4W 0805,RNCP0805FTD150R,https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RNCP0805FTD150R/RNCP0805FTD150RCT-ND/2240550,1
-"C3,C4",CAP CER 1UF 25V X7R 0805,C0805C105K3RACTU,https://www.digikey.ca/product-detail/en/kemet/C0805C105K3RACTU/399-8004-1-ND/3471727,2
+C3,CAP CER 1UF 25V X7R 0805,C0805C105K3RACTU,https://www.digikey.ca/product-detail/en/kemet/C0805C105K3RACTU/399-8004-1-ND/3471727,2
+C4,CAP CER 1UF 25V X7R 0805,C0805C105K3RACTU,https://www.digikey.ca/product-detail/en/kemet/C0805C105K3RACTU/399-8004-1-ND/3471727,2
 C2,CAP CER 220PF 50V X7R 0805,C0805C221M5RACTU,https://www.digikey.ca/product-detail/en/kemet/C0805C221M5RACTU/399-8039-1-ND/3471762,1
 R10,Replacement Volume Switch for Game boy,N/A,https://www.aliexpress.com/item/Replacement-Volume-Switch-for-Game-boy-for-GBA-GBC-Motherboard-Potentiomete-100pcs-lot/32830491244.html?spm=a2g0s.8937460.0.0.g6VhGD,1
 J3,CONN HEADER PH SIDE 2POS 2MM SMD,S2B-PH-SM4-TB(LF)(SN,https://www.digikey.ca/product-detail/en/jst-sales-america-inc/S2B-PH-SM4-TB(LF)(SN)/455-1749-1-ND/926846,1
