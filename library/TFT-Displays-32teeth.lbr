@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TFT-DISPLAY-1.8">
+<description>1.8" Display</description>
+<smd name="P$1" x="-12" y="4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$2" x="-12" y="3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$3" x="-12" y="2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$4" x="-12" y="2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$5" x="-12" y="1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$6" x="-12" y="0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$7" x="-12" y="-0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$8" x="-12" y="-1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$9" x="-12" y="-2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$10" x="-12" y="-2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$11" x="-12" y="-3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$12" x="-12" y="-4.4" dx="4" dy="0.4" layer="1"/>
+<wire x1="-23" y1="17" x2="23" y2="17" width="0.127" layer="21"/>
+<wire x1="23" y1="17" x2="22.999953125" y2="-17" width="0.127" layer="21"/>
+<wire x1="22.999953125" y1="-17" x2="-22.999953125" y2="-17" width="0.127" layer="21"/>
+<wire x1="-22.999953125" y1="-17" x2="-23" y2="17" width="0.127" layer="21"/>
+<text x="-12.4" y="6.2" size="1.27" layer="21">1</text>
+<text x="-13" y="-7" size="1.27" layer="21">12</text>
+<text x="-4.4" y="6" size="1.27" layer="25">&gt;name</text>
+<text x="-4.2" y="-3.2" size="1.27" layer="27">&gt;value</text>
+</package>
+<package name="TFT-DISPLAY-2.2">
+<description>2.2" Display</description>
+<smd name="P$7" x="-12" y="0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$8" x="-12" y="-0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$6" x="-12" y="1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$5" x="-12" y="2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$4" x="-12" y="2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$3" x="-12" y="3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$2" x="-12" y="4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$1" x="-12" y="5.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$9" x="-12" y="-1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$10" x="-12" y="-2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$11" x="-12" y="-2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$12" x="-12" y="-3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$13" x="-12" y="-4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$14" x="-12" y="-5.2" dx="4" dy="0.4" layer="1"/>
+<wire x1="-27.6" y1="20" x2="27.6" y2="20" width="0.127" layer="21"/>
+<wire x1="27.6" y1="20" x2="27.6" y2="-20" width="0.127" layer="21"/>
+<wire x1="27.6" y1="-20" x2="-27.6" y2="-20" width="0.127" layer="21"/>
+<wire x1="-27.6" y1="-20" x2="-27.6" y2="19.8" width="0.127" layer="21"/>
+<text x="-12.4" y="6.2" size="1.27" layer="21">1</text>
+<text x="-13" y="-7" size="1.27" layer="21">14</text>
+<text x="-4.4" y="6" size="1.27" layer="25">&gt;name</text>
+<text x="-4.2" y="-3.2" size="1.27" layer="27">&gt;value</text>
+</package>
+<package name="TFT-DISPLAY-2.8">
+<description>2.8" Display</description>
+<smd name="P$9" x="-18" y="0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$10" x="-18" y="-0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$8" x="-18" y="1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$7" x="-18" y="2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$6" x="-18" y="2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$5" x="-18" y="3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$4" x="-18" y="4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$3" x="-18" y="5.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$11" x="-18" y="-1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$12" x="-18" y="-2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$13" x="-18" y="-2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$14" x="-18" y="-3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$15" x="-18" y="-4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$16" x="-18" y="-5.2" dx="4" dy="0.4" layer="1"/>
+<text x="-10" y="6" size="1.27" layer="25">&gt;name</text>
+<text x="-10" y="-3.2" size="1.27" layer="27">&gt;value</text>
+<smd name="P$2" x="-18" y="6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$1" x="-18" y="6.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$17" x="-18" y="-6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$18" x="-18" y="-6.8" dx="4" dy="0.4" layer="1"/>
+<text x="-18" y="9.4" size="1.27" layer="21">1</text>
+<text x="-18" y="-10" size="1.27" layer="21">18</text>
+<wire x1="-34.6" y1="25" x2="34.6" y2="25" width="0.127" layer="21"/>
+<wire x1="34.6" y1="25" x2="34.6" y2="-25" width="0.127" layer="21"/>
+<wire x1="34.6" y1="-25" x2="-34.6" y2="-25" width="0.127" layer="21"/>
+<wire x1="-34.6" y1="-25" x2="-34.6" y2="25" width="0.127" layer="21"/>
+</package>
+<package name="TFT-DISPLAY-3.2">
+<description>3.2" Display</description>
+<smd name="P$9" x="-22" y="0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$10" x="-22" y="-0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$8" x="-22" y="1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$7" x="-22" y="2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$6" x="-22" y="2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$5" x="-22" y="3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$4" x="-22" y="4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$3" x="-22" y="5.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$11" x="-22" y="-1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$12" x="-22" y="-2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$13" x="-22" y="-2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$14" x="-22" y="-3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$15" x="-22" y="-4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$16" x="-22" y="-5.2" dx="4" dy="0.4" layer="1"/>
+<text x="-14" y="6" size="1.27" layer="25">&gt;name</text>
+<text x="-14" y="-5.74" size="1.27" layer="27">&gt;value</text>
+<smd name="P$2" x="-22" y="6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$1" x="-22" y="6.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$17" x="-22" y="-6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$18" x="-22" y="-6.8" dx="4" dy="0.4" layer="1"/>
+<text x="-22" y="9.4" size="1.27" layer="21">1</text>
+<text x="-22" y="-10" size="1.27" layer="21">18</text>
+<wire x1="-38.7" y1="27" x2="38.7" y2="27" width="0.127" layer="21"/>
+<wire x1="38.7" y1="27" x2="38.7" y2="-27" width="0.127" layer="21"/>
+<wire x1="38.7" y1="-27" x2="-38.7" y2="-27" width="0.127" layer="21"/>
+<wire x1="-38.7" y1="-27" x2="-38.7" y2="27" width="0.127" layer="21"/>
+</package>
+<package name="TFT-DISPLAY-2.4">
+<description>2.4" Display</description>
+<smd name="P$9" x="-13" y="0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$10" x="-13" y="-0.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$8" x="-13" y="1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$7" x="-13" y="2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$6" x="-13" y="2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$5" x="-13" y="3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$4" x="-13" y="4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$3" x="-13" y="5.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$11" x="-13" y="-1.2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$12" x="-13" y="-2" dx="4" dy="0.4" layer="1"/>
+<smd name="P$13" x="-13" y="-2.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$14" x="-13" y="-3.6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$15" x="-13" y="-4.4" dx="4" dy="0.4" layer="1"/>
+<smd name="P$16" x="-13" y="-5.2" dx="4" dy="0.4" layer="1"/>
+<text x="-8" y="6" size="1.27" layer="25">&gt;name</text>
+<text x="-8" y="-3.2" size="1.27" layer="27">&gt;value</text>
+<smd name="P$2" x="-13" y="6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$1" x="-13" y="6.8" dx="4" dy="0.4" layer="1"/>
+<smd name="P$17" x="-13" y="-6" dx="4" dy="0.4" layer="1"/>
+<smd name="P$18" x="-13" y="-6.8" dx="4" dy="0.4" layer="1"/>
+<text x="-13" y="9.4" size="1.27" layer="21">1</text>
+<text x="-13" y="-10" size="1.27" layer="21">18</text>
+<wire x1="-30.13" y1="21.36" x2="30.13" y2="21.36" width="0.127" layer="21"/>
+<wire x1="30.13" y1="21.36" x2="30.13" y2="-21.36" width="0.127" layer="21"/>
+<wire x1="30.13" y1="-21.36" x2="-30.13" y2="-21.36" width="0.127" layer="21"/>
+<wire x1="-30.13" y1="-21.36" x2="-30.13" y2="21.36" width="0.127" layer="21"/>
+<wire x1="27.13" y1="-18.36" x2="27.13" y2="18.36" width="0.127" layer="51"/>
+<wire x1="-21.83" y1="-18.36" x2="-21.83" y2="18.36" width="0.127" layer="51"/>
+<wire x1="-21.83" y1="18.36" x2="27.13" y2="18.36" width="0.127" layer="51"/>
+<wire x1="-21.83" y1="-18.36" x2="27.13" y2="-18.36" width="0.127" layer="51"/>
+<wire x1="29.13" y1="-20.16" x2="29.13" y2="20.16" width="0.127" layer="51"/>
+<wire x1="-27.13" y1="-20.16" x2="-27.13" y2="20.16" width="0.127" layer="51"/>
+<wire x1="-27.13" y1="-20.16" x2="29.13" y2="-20.16" width="0.127" layer="51"/>
+<wire x1="-27.13" y1="20.16" x2="29.13" y2="20.16" width="0.127" layer="51"/>
+<polygon width="0.127" layer="21" pour="hatch">
+<vertex x="27.13" y="18.36"/>
+<vertex x="-21.83" y="18.36"/>
+<vertex x="-21.83" y="-18.36"/>
+<vertex x="27.13" y="-18.36"/>
+</polygon>
+</package>
+<package name="TFT-DISPLAY-2.6-37PIN">
+<smd name="P$1" x="18" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<wire x1="-28.6" y1="24.015" x2="28.6" y2="24.015" width="0.127" layer="21"/>
+<wire x1="-28.6" y1="-24.015" x2="28.6" y2="-24.015" width="0.127" layer="21"/>
+<wire x1="-25.92" y1="21.715" x2="25.92" y2="21.715" width="0.127" layer="21"/>
+<wire x1="-25.92" y1="-17.885" x2="25.92" y2="-17.885" width="0.127" layer="21"/>
+<wire x1="25.92" y1="-17.885" x2="25.92" y2="21.715" width="0.127" layer="21"/>
+<wire x1="-25.92" y1="-17.885" x2="-25.92" y2="21.715" width="0.127" layer="21"/>
+<wire x1="-28.6" y1="-24.015" x2="-28.6" y2="24.015" width="0.127" layer="21"/>
+<wire x1="28.6" y1="-24.015" x2="28.6" y2="24.015" width="0.127" layer="21"/>
+<wire x1="-27.25" y1="-12.015" x2="27.25" y2="-12.015" width="0.127" layer="51"/>
+<wire x1="-27.25" y1="-22.585" x2="-18" y2="-22.585" width="0.127" layer="51"/>
+<wire x1="18" y1="-22.585" x2="27.25" y2="-22.585" width="0.127" layer="51"/>
+<wire x1="-27.25" y1="-22.585" x2="-27.25" y2="-12.015" width="0.127" layer="51"/>
+<wire x1="27.25" y1="-22.585" x2="27.25" y2="-12.015" width="0.127" layer="51"/>
+<wire x1="-18" y1="-14.55" x2="18" y2="-14.55" width="0.127" layer="51"/>
+<smd name="P$2" x="17" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$3" x="16" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$4" x="15" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$5" x="14" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$6" x="13" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$7" x="12" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$8" x="11" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$9" x="10" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$10" x="9" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$11" x="8" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$12" x="7" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$13" x="6" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$14" x="5" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$15" x="4" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$16" x="3" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$17" x="2" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$18" x="1" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$19" x="0" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$20" x="-1" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$21" x="-2" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$22" x="-3" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$23" x="-4" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$24" x="-5" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$25" x="-6" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$26" x="-7" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$27" x="-8" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$28" x="-9" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$29" x="-10" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$30" x="-11" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$31" x="-12" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$32" x="-13" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$33" x="-14" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$34" x="-15" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$35" x="-16" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$36" x="-17" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$37" x="-18" y="-13.2605" dx="4" dy="0.4" layer="1" rot="R270"/>
+<text x="-20.1" y="-12.733" size="1.27" layer="21" rot="R180" align="bottom-center">37</text>
+<text x="20.1" y="-12.733" size="1.27" layer="21" rot="R180" align="bottom-center">1</text>
+</package>
+<package name="TFT-DISPLAY-2.6-51PIN">
+<wire x1="-28.57" y1="25.15" x2="28.57" y2="25.15" width="0.127" layer="21"/>
+<wire x1="-28.57" y1="-25.15" x2="28.57" y2="-25.15" width="0.127" layer="21"/>
+<wire x1="-26.67" y1="23.25" x2="26.67" y2="23.25" width="0.127" layer="21"/>
+<wire x1="-26.67" y1="-17.13" x2="26.67" y2="-17.13" width="0.127" layer="21"/>
+<wire x1="26.67" y1="-17.13" x2="26.67" y2="23.25" width="0.127" layer="21"/>
+<wire x1="-26.67" y1="-17.13" x2="-26.67" y2="23.25" width="0.127" layer="21"/>
+<wire x1="-28.57" y1="-25.15" x2="-28.57" y2="25.15" width="0.127" layer="21"/>
+<wire x1="28.57" y1="-25.15" x2="28.57" y2="25.15" width="0.127" layer="21"/>
+<wire x1="-25" y1="-10.93" x2="-22.665" y2="-10.93" width="0.127" layer="51"/>
+<smd name="P$1" x="-20" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$2" x="-19.2" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$3" x="-18.4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$4" x="-17.6" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$5" x="-16.8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$6" x="-16" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$7" x="-15.2" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$8" x="-14.4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$9" x="-13.6" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$10" x="-12.8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$11" x="-12" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$12" x="-11.2" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$13" x="-10.4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$14" x="-9.6" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$15" x="-8.8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$16" x="-8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$17" x="-7.2" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$18" x="-6.4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$19" x="-5.6" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$20" x="-4.8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$21" x="-4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$22" x="-3.2" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$23" x="-2.4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$24" x="-1.6" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$25" x="-0.8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$26" x="0" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$27" x="0.8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$28" x="1.6" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$29" x="2.4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$30" x="3.2" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$31" x="4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$32" x="4.8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$33" x="5.6" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$34" x="6.4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$35" x="7.2" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$36" x="8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$37" x="8.8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$38" x="9.6" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$39" x="10.4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$40" x="11.2" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$41" x="12" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$42" x="12.8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$43" x="13.6" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$44" x="14.4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$45" x="15.2" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$46" x="16" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$47" x="16.8" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$48" x="17.6" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$49" x="18.4" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$50" x="19.2" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<smd name="P$51" x="20" y="-8.12" dx="3" dy="0.4" layer="1" rot="R270"/>
+<text x="-25.5" y="-12.733" size="1.27" layer="21" rot="R180" align="bottom-center">1</text>
+<text x="25.5" y="-12.733" size="1.27" layer="21" rot="R180" align="bottom-center">51</text>
+<wire x1="22.665" y1="-10.93" x2="25" y2="-10.93" width="0.127" layer="51"/>
+<wire x1="-26.32" y1="22.9" x2="26.32" y2="22.9" width="0.127" layer="21"/>
+<wire x1="-26.32" y1="-16.78" x2="26.32" y2="-16.78" width="0.127" layer="21"/>
+<wire x1="-26.32" y1="-16.78" x2="-26.32" y2="22.9" width="0.127" layer="21"/>
+<wire x1="-25.92" y1="22.5" x2="25.92" y2="22.5" width="0.127" layer="21"/>
+<wire x1="-25.92" y1="-16.38" x2="25.92" y2="-16.38" width="0.127" layer="21"/>
+<wire x1="26.32" y1="-16.78" x2="26.32" y2="22.9" width="0.127" layer="21"/>
+<wire x1="-25.92" y1="-16.38" x2="-25.92" y2="22.5" width="0.127" layer="21"/>
+<wire x1="25.92" y1="-16.38" x2="25.92" y2="22.5" width="0.127" layer="21"/>
+<wire x1="-22.665" y1="-7.12" x2="22.665" y2="-7.12" width="0.127" layer="51"/>
+<wire x1="-22.665" y1="-10.93" x2="-22.665" y2="-7.12" width="0.127" layer="51"/>
+<wire x1="22.665" y1="-10.93" x2="22.665" y2="-7.12" width="0.127" layer="51"/>
+<wire x1="-27.92" y1="-18.12" x2="-25" y2="-18.12" width="0.127" layer="51"/>
+<wire x1="25" y1="-18.12" x2="27.92" y2="-18.12" width="0.127" layer="51"/>
+<wire x1="-27.92" y1="-24.47" x2="27.92" y2="-24.47" width="0.127" layer="51"/>
+<wire x1="-25" y1="-18.12" x2="-25" y2="-10.93" width="0.127" layer="51"/>
+<wire x1="25" y1="-18.12" x2="25" y2="-10.93" width="0.127" layer="51"/>
+<wire x1="-27.92" y1="-24.47" x2="-27.92" y2="-18.12" width="0.127" layer="51"/>
+<wire x1="27.92" y1="-24.47" x2="27.92" y2="-18.12" width="0.127" layer="51"/>
+<polygon width="0" layer="21" pour="hatch">
+<vertex x="-25.92" y="22.5"/>
+<vertex x="25.92" y="22.5"/>
+<vertex x="25.92" y="-16.38"/>
+<vertex x="-25.92" y="-16.38"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="TFT-DISPLAY-1.8">
+<wire x1="-5.08" y1="17.78" x2="5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-15.24" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<pin name="GND" x="-12.78" y="15.24"/>
+<pin name="LEDK" x="-12.78" y="12.7"/>
+<pin name="LEDA" x="-12.78" y="10.16"/>
+<pin name="GND2" x="-12.78" y="7.62"/>
+<pin name="RESET" x="-12.78" y="5.08"/>
+<pin name="RS" x="-12.78" y="2.54"/>
+<pin name="SDA" x="-12.78" y="0"/>
+<pin name="SCL" x="-12.78" y="-2.54"/>
+<pin name="VCC" x="-12.78" y="-5.08"/>
+<pin name="VCC2" x="-12.78" y="-7.62"/>
+<pin name="CS" x="-12.78" y="-10.16"/>
+<pin name="GND3" x="-12.78" y="-12.7"/>
+</symbol>
+<symbol name="TFT-DISPLAY-2.2">
+<wire x1="-5.08" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<pin name="GND" x="-10.16" y="17.78" length="middle"/>
+<pin name="RESET" x="-10.16" y="15.24" length="middle"/>
+<pin name="SCL" x="-10.16" y="12.7" length="middle"/>
+<pin name="D/CX" x="-10.16" y="10.16" length="middle"/>
+<pin name="CSX" x="-10.16" y="7.62" length="middle"/>
+<pin name="SDI" x="-10.16" y="5.08" length="middle"/>
+<pin name="SDO" x="-10.16" y="2.54" length="middle"/>
+<pin name="GND2" x="-10.16" y="0" length="middle"/>
+<pin name="VCC" x="-10.16" y="-2.54" length="middle"/>
+<pin name="LEDA" x="-10.16" y="-5.08" length="middle"/>
+<pin name="LED_K1" x="-10.16" y="-7.62" length="middle"/>
+<pin name="LED_K2" x="-10.16" y="-10.16" length="middle"/>
+<pin name="LED_K3" x="-10.16" y="-12.7" length="middle"/>
+<pin name="LED_K4" x="-10.16" y="-15.24" length="middle"/>
+</symbol>
+<symbol name="TFT-DISPLAY-2.8">
+<wire x1="-5.08" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-27.94" x2="-5.08" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-27.94" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<pin name="GND" x="-10.16" y="17.78" length="middle"/>
+<pin name="RESET" x="-10.16" y="15.24" length="middle"/>
+<pin name="SCL" x="-10.16" y="12.7" length="middle"/>
+<pin name="D/CX" x="-10.16" y="10.16" length="middle"/>
+<pin name="CSX" x="-10.16" y="7.62" length="middle"/>
+<pin name="SDI" x="-10.16" y="5.08" length="middle"/>
+<pin name="SDO" x="-10.16" y="2.54" length="middle"/>
+<pin name="GND2" x="-10.16" y="0" length="middle"/>
+<pin name="VCC" x="-10.16" y="-2.54" length="middle"/>
+<pin name="LEDA" x="-10.16" y="-5.08" length="middle"/>
+<pin name="LED_K1" x="-10.16" y="-7.62" length="middle"/>
+<pin name="LED_K2" x="-10.16" y="-10.16" length="middle"/>
+<pin name="LED_K3" x="-10.16" y="-12.7" length="middle"/>
+<pin name="LED_K4" x="-10.16" y="-15.24" length="middle"/>
+<pin name="XL" x="-10.16" y="-17.78" length="middle"/>
+<pin name="YU" x="-10.16" y="-20.32" length="middle"/>
+<pin name="XR" x="-10.16" y="-22.86" length="middle"/>
+<pin name="YD" x="-10.16" y="-25.4" length="middle"/>
+</symbol>
+<symbol name="TFT-DISPLAY-3.2">
+<wire x1="-5.08" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-27.94" x2="-5.08" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-27.94" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<pin name="GND" x="-10.16" y="17.78" length="middle"/>
+<pin name="RESET" x="-10.16" y="15.24" length="middle"/>
+<pin name="SCL" x="-10.16" y="12.7" length="middle"/>
+<pin name="D/CX" x="-10.16" y="10.16" length="middle"/>
+<pin name="CSX" x="-10.16" y="7.62" length="middle"/>
+<pin name="SDI" x="-10.16" y="5.08" length="middle"/>
+<pin name="SDO" x="-10.16" y="2.54" length="middle"/>
+<pin name="GND2" x="-10.16" y="0" length="middle"/>
+<pin name="VCC" x="-10.16" y="-2.54" length="middle"/>
+<pin name="LEDA" x="-10.16" y="-5.08" length="middle"/>
+<pin name="LED_K1" x="-10.16" y="-7.62" length="middle"/>
+<pin name="LED_K2" x="-10.16" y="-10.16" length="middle"/>
+<pin name="LED_K3" x="-10.16" y="-12.7" length="middle"/>
+<pin name="LED_K4" x="-10.16" y="-15.24" length="middle"/>
+<pin name="XL" x="-10.16" y="-17.78" length="middle"/>
+<pin name="YU" x="-10.16" y="-20.32" length="middle"/>
+<pin name="XR" x="-10.16" y="-22.86" length="middle"/>
+<pin name="YD" x="-10.16" y="-25.4" length="middle"/>
+</symbol>
+<symbol name="TFT-DISPLAY-2.4">
+<wire x1="-5.08" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-27.94" x2="-5.08" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-27.94" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<pin name="GND" x="-10.16" y="17.78" length="middle"/>
+<pin name="RESET" x="-10.16" y="15.24" length="middle"/>
+<pin name="SCL" x="-10.16" y="12.7" length="middle"/>
+<pin name="D/CX" x="-10.16" y="10.16" length="middle"/>
+<pin name="CSX" x="-10.16" y="7.62" length="middle"/>
+<pin name="SDI" x="-10.16" y="5.08" length="middle"/>
+<pin name="SDO" x="-10.16" y="2.54" length="middle"/>
+<pin name="GND2" x="-10.16" y="0" length="middle"/>
+<pin name="VCC" x="-10.16" y="-2.54" length="middle"/>
+<pin name="LEDA" x="-10.16" y="-5.08" length="middle"/>
+<pin name="LED_K1" x="-10.16" y="-7.62" length="middle"/>
+<pin name="LED_K2" x="-10.16" y="-10.16" length="middle"/>
+<pin name="LED_K3" x="-10.16" y="-12.7" length="middle"/>
+<pin name="LED_K4" x="-10.16" y="-15.24" length="middle"/>
+<pin name="XL" x="-10.16" y="-17.78" length="middle"/>
+<pin name="YU" x="-10.16" y="-20.32" length="middle"/>
+<pin name="XR" x="-10.16" y="-22.86" length="middle"/>
+<pin name="YD" x="-10.16" y="-25.4" length="middle"/>
+</symbol>
+<symbol name="TFT-DISPLAY-2.6-37PIN">
+<pin name="GND" x="-5.08" y="0" length="middle"/>
+<pin name="VCC" x="-5.08" y="-2.54" length="middle"/>
+<pin name="IOVCC" x="-5.08" y="-5.08" length="middle"/>
+<pin name="CS" x="-5.08" y="-7.62" length="middle"/>
+<pin name="RS" x="-5.08" y="-10.16" length="middle"/>
+<pin name="WR" x="-5.08" y="-12.7" length="middle"/>
+<pin name="RD" x="-5.08" y="-15.24" length="middle"/>
+<pin name="RESET" x="-5.08" y="-17.78" length="middle"/>
+<pin name="DBD0" x="-5.08" y="-20.32" length="middle"/>
+<pin name="DBD1" x="-5.08" y="-22.86" length="middle"/>
+<pin name="DBD2" x="-5.08" y="-25.4" length="middle"/>
+<pin name="DBD3" x="-5.08" y="-27.94" length="middle"/>
+<pin name="DBD4" x="-5.08" y="-30.48" length="middle"/>
+<pin name="DBD5" x="-5.08" y="-33.02" length="middle"/>
+<pin name="DBD6" x="-5.08" y="-35.56" length="middle"/>
+<pin name="DBD7" x="-5.08" y="-38.1" length="middle"/>
+<pin name="DBD8" x="-5.08" y="-40.64" length="middle"/>
+<pin name="DBD9" x="-5.08" y="-43.18" length="middle"/>
+<pin name="DBD10" x="-5.08" y="-45.72" length="middle"/>
+<pin name="DBD11" x="-5.08" y="-48.26" length="middle"/>
+<pin name="DBD12" x="-5.08" y="-50.8" length="middle"/>
+<pin name="DBD13" x="-5.08" y="-53.34" length="middle"/>
+<pin name="DBD14" x="-5.08" y="-55.88" length="middle"/>
+<pin name="DBD15" x="-5.08" y="-58.42" length="middle"/>
+<pin name="ID" x="-5.08" y="-60.96" length="middle"/>
+<pin name="YD" x="-5.08" y="-63.5" length="middle"/>
+<pin name="XR" x="-5.08" y="-66.04" length="middle"/>
+<pin name="YU" x="-5.08" y="-68.58" length="middle"/>
+<pin name="XL" x="-5.08" y="-71.12" length="middle"/>
+<pin name="LED1" x="-5.08" y="-73.66" length="middle"/>
+<pin name="LED2" x="-5.08" y="-76.2" length="middle"/>
+<pin name="LED3" x="-5.08" y="-78.74" length="middle"/>
+<pin name="LED4" x="-5.08" y="-81.28" length="middle"/>
+<pin name="NC" x="-5.08" y="-83.82" length="middle"/>
+<pin name="LEDA" x="-5.08" y="-86.36" length="middle"/>
+<pin name="NC2" x="-5.08" y="-88.9" length="middle"/>
+<pin name="GND2" x="-5.08" y="-91.44" length="middle"/>
+<wire x1="0" y1="-93.98" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="-93.98" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-93.98" x2="0" y2="-93.98" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TFT-DISPLAY-2.6-51PIN">
+<pin name="YU" x="-22.86" y="-60.96"/>
+<pin name="XL" x="-22.86" y="-58.42"/>
+<pin name="YD" x="-22.86" y="-55.88"/>
+<pin name="XR" x="-22.86" y="-53.34"/>
+<pin name="GND" x="-22.86" y="-50.8"/>
+<pin name="IOVCC" x="-22.86" y="-48.26"/>
+<pin name="VCC" x="-22.86" y="-45.72"/>
+<pin name="PWM_OUT" x="-22.86" y="-43.18"/>
+<pin name="FMARK" x="-22.86" y="-40.64"/>
+<pin name="RESET" x="-22.86" y="-38.1"/>
+<pin name="DB0" x="-22.86" y="-35.56"/>
+<pin name="DB1" x="-22.86" y="-33.02"/>
+<pin name="DB2" x="-22.86" y="-30.48"/>
+<pin name="DB3" x="-22.86" y="-27.94"/>
+<pin name="DB4" x="-22.86" y="-25.4"/>
+<pin name="DB5" x="-22.86" y="-22.86"/>
+<pin name="DB6" x="-22.86" y="-20.32"/>
+<pin name="DB7" x="-22.86" y="-17.78"/>
+<pin name="DB8" x="-22.86" y="-15.24"/>
+<pin name="DB9" x="-22.86" y="-12.7"/>
+<pin name="DB10" x="-22.86" y="-10.16"/>
+<pin name="DB11" x="-22.86" y="-7.62"/>
+<pin name="DB12" x="-22.86" y="-5.08"/>
+<pin name="DB13" x="-22.86" y="-2.54"/>
+<pin name="DB14" x="-22.86" y="0"/>
+<pin name="DB15" x="-22.86" y="2.54"/>
+<pin name="DB16" x="-22.86" y="5.08"/>
+<pin name="DB17" x="-22.86" y="7.62"/>
+<pin name="CSX" x="-22.86" y="10.16"/>
+<pin name="RSX" x="-22.86" y="12.7"/>
+<pin name="WRX" x="-22.86" y="15.24"/>
+<pin name="RDX" x="-22.86" y="17.78"/>
+<pin name="DSI_VCC" x="-22.86" y="20.32"/>
+<pin name="DSI_DON" x="-22.86" y="22.96"/>
+<pin name="DSI_DOP" x="-22.86" y="25.4"/>
+<pin name="DSI_CLKN" x="-22.86" y="27.94"/>
+<pin name="DSI_CLKP" x="-22.86" y="30.48"/>
+<pin name="DE" x="-22.86" y="33.02"/>
+<pin name="PCLK" x="-22.86" y="35.56"/>
+<pin name="HSYNC" x="-22.86" y="38.1"/>
+<pin name="VSYNC" x="-22.86" y="40.64"/>
+<pin name="SDI" x="-22.86" y="43.18"/>
+<pin name="BS0" x="-22.86" y="45.72"/>
+<pin name="BS1" x="-22.86" y="48.26"/>
+<pin name="BS2" x="-22.86" y="50.8"/>
+<pin name="BS3" x="-22.86" y="53.34"/>
+<pin name="LEDA" x="-22.86" y="55.88"/>
+<pin name="LEDK1" x="-22.86" y="58.42"/>
+<pin name="LEDK2" x="-22.86" y="60.96"/>
+<pin name="LEDK3" x="-22.86" y="63.5"/>
+<pin name="LEDK4" x="-22.86" y="66.04"/>
+<wire x1="-15.24" y1="-63.5" x2="-15.24" y2="68.58" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="68.58" x2="0" y2="68.58" width="0.254" layer="94"/>
+<wire x1="0" y1="68.58" x2="0" y2="-63.5" width="0.254" layer="94"/>
+<wire x1="0" y1="-63.5" x2="-15.24" y2="-63.5" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TFT-DISPLAY-1.8">
+<gates>
+<gate name="G$1" symbol="TFT-DISPLAY-1.8" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TFT-DISPLAY-1.8">
+<connects>
+<connect gate="G$1" pin="CS" pad="P$11"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="GND2" pad="P$4"/>
+<connect gate="G$1" pin="GND3" pad="P$12"/>
+<connect gate="G$1" pin="LEDA" pad="P$3"/>
+<connect gate="G$1" pin="LEDK" pad="P$2"/>
+<connect gate="G$1" pin="RESET" pad="P$5"/>
+<connect gate="G$1" pin="RS" pad="P$6"/>
+<connect gate="G$1" pin="SCL" pad="P$8"/>
+<connect gate="G$1" pin="SDA" pad="P$7"/>
+<connect gate="G$1" pin="VCC" pad="P$9"/>
+<connect gate="G$1" pin="VCC2" pad="P$10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TFT-DISPLAY-2.2">
+<gates>
+<gate name="G$1" symbol="TFT-DISPLAY-2.2" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TFT-DISPLAY-2.2">
+<connects>
+<connect gate="G$1" pin="CSX" pad="P$5"/>
+<connect gate="G$1" pin="D/CX" pad="P$4"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="GND2" pad="P$8"/>
+<connect gate="G$1" pin="LEDA" pad="P$10"/>
+<connect gate="G$1" pin="LED_K1" pad="P$11"/>
+<connect gate="G$1" pin="LED_K2" pad="P$12"/>
+<connect gate="G$1" pin="LED_K3" pad="P$13"/>
+<connect gate="G$1" pin="LED_K4" pad="P$14"/>
+<connect gate="G$1" pin="RESET" pad="P$2"/>
+<connect gate="G$1" pin="SCL" pad="P$3"/>
+<connect gate="G$1" pin="SDI" pad="P$6"/>
+<connect gate="G$1" pin="SDO" pad="P$7"/>
+<connect gate="G$1" pin="VCC" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TFT-DISPLAY-2.8">
+<gates>
+<gate name="G$1" symbol="TFT-DISPLAY-2.8" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TFT-DISPLAY-2.8">
+<connects>
+<connect gate="G$1" pin="CSX" pad="P$5"/>
+<connect gate="G$1" pin="D/CX" pad="P$4"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="GND2" pad="P$8"/>
+<connect gate="G$1" pin="LEDA" pad="P$10"/>
+<connect gate="G$1" pin="LED_K1" pad="P$11"/>
+<connect gate="G$1" pin="LED_K2" pad="P$12"/>
+<connect gate="G$1" pin="LED_K3" pad="P$13"/>
+<connect gate="G$1" pin="LED_K4" pad="P$14"/>
+<connect gate="G$1" pin="RESET" pad="P$2"/>
+<connect gate="G$1" pin="SCL" pad="P$3"/>
+<connect gate="G$1" pin="SDI" pad="P$6"/>
+<connect gate="G$1" pin="SDO" pad="P$7"/>
+<connect gate="G$1" pin="VCC" pad="P$9"/>
+<connect gate="G$1" pin="XL" pad="P$15"/>
+<connect gate="G$1" pin="XR" pad="P$17"/>
+<connect gate="G$1" pin="YD" pad="P$18"/>
+<connect gate="G$1" pin="YU" pad="P$16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TFT-DISPLAY-3.2">
+<gates>
+<gate name="G$1" symbol="TFT-DISPLAY-3.2" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TFT-DISPLAY-3.2">
+<connects>
+<connect gate="G$1" pin="CSX" pad="P$5"/>
+<connect gate="G$1" pin="D/CX" pad="P$4"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="GND2" pad="P$8"/>
+<connect gate="G$1" pin="LEDA" pad="P$10"/>
+<connect gate="G$1" pin="LED_K1" pad="P$11"/>
+<connect gate="G$1" pin="LED_K2" pad="P$12"/>
+<connect gate="G$1" pin="LED_K3" pad="P$13"/>
+<connect gate="G$1" pin="LED_K4" pad="P$14"/>
+<connect gate="G$1" pin="RESET" pad="P$2"/>
+<connect gate="G$1" pin="SCL" pad="P$3"/>
+<connect gate="G$1" pin="SDI" pad="P$6"/>
+<connect gate="G$1" pin="SDO" pad="P$7"/>
+<connect gate="G$1" pin="VCC" pad="P$9"/>
+<connect gate="G$1" pin="XL" pad="P$15"/>
+<connect gate="G$1" pin="XR" pad="P$16"/>
+<connect gate="G$1" pin="YD" pad="P$17"/>
+<connect gate="G$1" pin="YU" pad="P$18"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TFT-DISPLAY-2.4">
+<gates>
+<gate name="G$1" symbol="TFT-DISPLAY-2.4" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TFT-DISPLAY-2.4">
+<connects>
+<connect gate="G$1" pin="CSX" pad="P$5"/>
+<connect gate="G$1" pin="D/CX" pad="P$4"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="GND2" pad="P$8"/>
+<connect gate="G$1" pin="LEDA" pad="P$10"/>
+<connect gate="G$1" pin="LED_K1" pad="P$11"/>
+<connect gate="G$1" pin="LED_K2" pad="P$12"/>
+<connect gate="G$1" pin="LED_K3" pad="P$13"/>
+<connect gate="G$1" pin="LED_K4" pad="P$14"/>
+<connect gate="G$1" pin="RESET" pad="P$2"/>
+<connect gate="G$1" pin="SCL" pad="P$3"/>
+<connect gate="G$1" pin="SDI" pad="P$6"/>
+<connect gate="G$1" pin="SDO" pad="P$7"/>
+<connect gate="G$1" pin="VCC" pad="P$9"/>
+<connect gate="G$1" pin="XL" pad="P$15"/>
+<connect gate="G$1" pin="XR" pad="P$16"/>
+<connect gate="G$1" pin="YD" pad="P$17"/>
+<connect gate="G$1" pin="YU" pad="P$18"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TFT-DISPLAY-2.6-37PIN">
+<gates>
+<gate name="G$1" symbol="TFT-DISPLAY-2.6-37PIN" x="2.54" y="43.18"/>
+</gates>
+<devices>
+<device name="" package="TFT-DISPLAY-2.6-37PIN">
+<connects>
+<connect gate="G$1" pin="CS" pad="P$4"/>
+<connect gate="G$1" pin="DBD0" pad="P$9"/>
+<connect gate="G$1" pin="DBD1" pad="P$10"/>
+<connect gate="G$1" pin="DBD10" pad="P$19"/>
+<connect gate="G$1" pin="DBD11" pad="P$20"/>
+<connect gate="G$1" pin="DBD12" pad="P$21"/>
+<connect gate="G$1" pin="DBD13" pad="P$22"/>
+<connect gate="G$1" pin="DBD14" pad="P$23"/>
+<connect gate="G$1" pin="DBD15" pad="P$24"/>
+<connect gate="G$1" pin="DBD2" pad="P$11"/>
+<connect gate="G$1" pin="DBD3" pad="P$12"/>
+<connect gate="G$1" pin="DBD4" pad="P$13"/>
+<connect gate="G$1" pin="DBD5" pad="P$14"/>
+<connect gate="G$1" pin="DBD6" pad="P$15"/>
+<connect gate="G$1" pin="DBD7" pad="P$16"/>
+<connect gate="G$1" pin="DBD8" pad="P$17"/>
+<connect gate="G$1" pin="DBD9" pad="P$18"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="GND2" pad="P$37"/>
+<connect gate="G$1" pin="ID" pad="P$25"/>
+<connect gate="G$1" pin="IOVCC" pad="P$3"/>
+<connect gate="G$1" pin="LED1" pad="P$30"/>
+<connect gate="G$1" pin="LED2" pad="P$31"/>
+<connect gate="G$1" pin="LED3" pad="P$32"/>
+<connect gate="G$1" pin="LED4" pad="P$33"/>
+<connect gate="G$1" pin="LEDA" pad="P$35"/>
+<connect gate="G$1" pin="NC" pad="P$34"/>
+<connect gate="G$1" pin="NC2" pad="P$36"/>
+<connect gate="G$1" pin="RD" pad="P$7"/>
+<connect gate="G$1" pin="RESET" pad="P$8"/>
+<connect gate="G$1" pin="RS" pad="P$5"/>
+<connect gate="G$1" pin="VCC" pad="P$2"/>
+<connect gate="G$1" pin="WR" pad="P$6"/>
+<connect gate="G$1" pin="XL" pad="P$29"/>
+<connect gate="G$1" pin="XR" pad="P$27"/>
+<connect gate="G$1" pin="YD" pad="P$26"/>
+<connect gate="G$1" pin="YU" pad="P$28"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TFT-DISPLAY-2.6-51PIN">
+<gates>
+<gate name="G$1" symbol="TFT-DISPLAY-2.6-51PIN" x="2.54" y="43.18"/>
+</gates>
+<devices>
+<device name="" package="TFT-DISPLAY-2.6-51PIN">
+<connects>
+<connect gate="G$1" pin="BS0" pad="P$43"/>
+<connect gate="G$1" pin="BS1" pad="P$44"/>
+<connect gate="G$1" pin="BS2" pad="P$45"/>
+<connect gate="G$1" pin="BS3" pad="P$46"/>
+<connect gate="G$1" pin="CSX" pad="P$29"/>
+<connect gate="G$1" pin="DB0" pad="P$11"/>
+<connect gate="G$1" pin="DB1" pad="P$12"/>
+<connect gate="G$1" pin="DB10" pad="P$21"/>
+<connect gate="G$1" pin="DB11" pad="P$22"/>
+<connect gate="G$1" pin="DB12" pad="P$23"/>
+<connect gate="G$1" pin="DB13" pad="P$24"/>
+<connect gate="G$1" pin="DB14" pad="P$25"/>
+<connect gate="G$1" pin="DB15" pad="P$26"/>
+<connect gate="G$1" pin="DB16" pad="P$27"/>
+<connect gate="G$1" pin="DB17" pad="P$28"/>
+<connect gate="G$1" pin="DB2" pad="P$13"/>
+<connect gate="G$1" pin="DB3" pad="P$14"/>
+<connect gate="G$1" pin="DB4" pad="P$15"/>
+<connect gate="G$1" pin="DB5" pad="P$16"/>
+<connect gate="G$1" pin="DB6" pad="P$17"/>
+<connect gate="G$1" pin="DB7" pad="P$18"/>
+<connect gate="G$1" pin="DB8" pad="P$19"/>
+<connect gate="G$1" pin="DB9" pad="P$20"/>
+<connect gate="G$1" pin="DE" pad="P$38"/>
+<connect gate="G$1" pin="DSI_CLKN" pad="P$36"/>
+<connect gate="G$1" pin="DSI_CLKP" pad="P$37"/>
+<connect gate="G$1" pin="DSI_DON" pad="P$34"/>
+<connect gate="G$1" pin="DSI_DOP" pad="P$35"/>
+<connect gate="G$1" pin="DSI_VCC" pad="P$33"/>
+<connect gate="G$1" pin="FMARK" pad="P$9"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="HSYNC" pad="P$40"/>
+<connect gate="G$1" pin="IOVCC" pad="P$6"/>
+<connect gate="G$1" pin="LEDA" pad="P$47"/>
+<connect gate="G$1" pin="LEDK1" pad="P$48"/>
+<connect gate="G$1" pin="LEDK2" pad="P$49"/>
+<connect gate="G$1" pin="LEDK3" pad="P$50"/>
+<connect gate="G$1" pin="LEDK4" pad="P$51"/>
+<connect gate="G$1" pin="PCLK" pad="P$39"/>
+<connect gate="G$1" pin="PWM_OUT" pad="P$8"/>
+<connect gate="G$1" pin="RDX" pad="P$32"/>
+<connect gate="G$1" pin="RESET" pad="P$10"/>
+<connect gate="G$1" pin="RSX" pad="P$30"/>
+<connect gate="G$1" pin="SDI" pad="P$42"/>
+<connect gate="G$1" pin="VCC" pad="P$7"/>
+<connect gate="G$1" pin="VSYNC" pad="P$41"/>
+<connect gate="G$1" pin="WRX" pad="P$31"/>
+<connect gate="G$1" pin="XL" pad="P$2"/>
+<connect gate="G$1" pin="XR" pad="P$4"/>
+<connect gate="G$1" pin="YD" pad="P$3"/>
+<connect gate="G$1" pin="YU" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
