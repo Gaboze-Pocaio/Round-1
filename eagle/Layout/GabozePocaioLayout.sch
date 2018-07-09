@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5154,20 +5154,20 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 <smd name="P$ACTIVE" x="2.525" y="0" dx="1.27" dy="1.27" layer="1" roundness="20"/>
 <smd name="P$GND" x="-2.525" y="0" dx="1.27" dy="1.27" layer="1" roundness="20" rot="R180"/>
 <polygon width="0.0762" layer="1">
-<vertex x="-0.2" y="3" curve="90"/>
+<vertex x="-0.3" y="3" curve="90"/>
 <vertex x="-3.175" y="0" curve="90"/>
-<vertex x="-0.2" y="-3"/>
-<vertex x="-0.2" y="-1" curve="-80"/>
+<vertex x="-0.3" y="-3"/>
+<vertex x="-0.3" y="-1" curve="-80"/>
 <vertex x="-1.05" y="0" curve="-80"/>
-<vertex x="-0.2" y="1"/>
+<vertex x="-0.3" y="1"/>
 </polygon>
 <polygon width="0.0762" layer="1">
-<vertex x="0.2" y="-3" curve="90"/>
+<vertex x="0.3" y="-3" curve="90"/>
 <vertex x="3.175" y="0" curve="90"/>
-<vertex x="0.2" y="3"/>
-<vertex x="0.2" y="1" curve="-80"/>
+<vertex x="0.3" y="3"/>
+<vertex x="0.3" y="1" curve="-80"/>
 <vertex x="1.05" y="0" curve="-80"/>
-<vertex x="0.2" y="-1"/>
+<vertex x="0.3" y="-1"/>
 </polygon>
 <text x="0" y="-3.048" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center">1mm drill</text>
 <wire x1="0" y1="-2.413" x2="0" y2="-1.143" width="0.127" layer="22"/>
@@ -5175,107 +5175,106 @@ Side-actuated SPDT slide switch, as used on the Arduino Pro</description>
 <wire x1="0" y1="-1.143" x2="-0.254" y2="-1.524" width="0.127" layer="22"/>
 <hole x="0" y="0" drill="1"/>
 <polygon width="0.0762" layer="29">
-<vertex x="-0.2" y="3" curve="90"/>
+<vertex x="-0.3" y="3" curve="90"/>
 <vertex x="-3.175" y="0" curve="90"/>
-<vertex x="-0.2" y="-3"/>
-<vertex x="-0.2" y="-1" curve="-80"/>
+<vertex x="-0.3" y="-3"/>
+<vertex x="-0.3" y="-1" curve="-80"/>
 <vertex x="-1.05" y="0" curve="-80"/>
-<vertex x="-0.2" y="1"/>
+<vertex x="-0.3" y="1"/>
 </polygon>
 <polygon width="0.0762" layer="29">
-<vertex x="0.2" y="-3" curve="90"/>
+<vertex x="0.3" y="-3" curve="90"/>
 <vertex x="3.175" y="0" curve="90"/>
-<vertex x="0.2" y="3"/>
-<vertex x="0.2" y="1" curve="-80"/>
+<vertex x="0.3" y="3"/>
+<vertex x="0.3" y="1" curve="-80"/>
 <vertex x="1.05" y="0" curve="-80"/>
-<vertex x="0.2" y="-1"/>
+<vertex x="0.3" y="-1"/>
 </polygon>
 <polygon width="0.0762" layer="31">
-<vertex x="-0.2" y="3" curve="90"/>
+<vertex x="-0.3" y="3" curve="90"/>
 <vertex x="-3.175" y="0" curve="90"/>
-<vertex x="-0.2" y="-3"/>
-<vertex x="-0.2" y="-1" curve="-80"/>
+<vertex x="-0.3" y="-3"/>
+<vertex x="-0.3" y="-1" curve="-80"/>
 <vertex x="-1.05" y="0" curve="-80"/>
-<vertex x="-0.2" y="1"/>
+<vertex x="-0.3" y="1"/>
 </polygon>
 <polygon width="0.0762" layer="31">
-<vertex x="0.2" y="-3" curve="90"/>
+<vertex x="0.3" y="-3" curve="90"/>
 <vertex x="3.175" y="0" curve="90"/>
-<vertex x="0.2" y="3"/>
-<vertex x="0.2" y="1" curve="-80"/>
+<vertex x="0.3" y="3"/>
+<vertex x="0.3" y="1" curve="-80"/>
 <vertex x="1.05" y="0" curve="-80"/>
-<vertex x="0.2" y="-1"/>
+<vertex x="0.3" y="-1"/>
 </polygon>
 </package>
 <package name="GAMEBOY-ZERO-BUTTON-STARTSELECT">
-<smd name="P$ACTIVE" x="0" y="1.255" dx="1.27" dy="1.27" layer="1" roundness="20" rot="R90"/>
-<smd name="P$GND" x="0" y="-1.255" dx="1.27" dy="1.27" layer="1" roundness="20" rot="R270"/>
+<smd name="P$ACTIVE" x="0" y="1.3" dx="1.27" dy="1.27" layer="1" roundness="20" rot="R90"/>
+<smd name="P$GND" x="0" y="-1.3" dx="1.27" dy="1.27" layer="1" roundness="20" rot="R270"/>
 <polygon width="0.0762" layer="1">
-<vertex x="-3" y="-0.2"/>
+<vertex x="-3" y="-0.25"/>
 <vertex x="-3" y="-0.925" curve="90"/>
 <vertex x="-2" y="-1.925"/>
 <vertex x="2" y="-1.925" curve="90"/>
 <vertex x="3" y="-0.925"/>
-<vertex x="3" y="-0.2"/>
-<vertex x="0.5" y="-0.2" curve="-80"/>
-<vertex x="0" y="-0.55" curve="-80"/>
-<vertex x="-0.5" y="-0.2"/>
+<vertex x="3" y="-0.25"/>
+<vertex x="0.6" y="-0.25" curve="-80"/>
+<vertex x="0" y="-0.65" curve="-80"/>
+<vertex x="-0.6" y="-0.25"/>
 </polygon>
 <polygon width="0.0762" layer="1">
-<vertex x="3" y="0.2"/>
+<vertex x="3" y="0.25"/>
 <vertex x="3" y="1" curve="90"/>
 <vertex x="2.095" y="1.905"/>
-<vertex x="0" y="1.905"/>
 <vertex x="-2.095" y="1.905" curve="90"/>
 <vertex x="-3" y="1"/>
-<vertex x="-3" y="0.2"/>
-<vertex x="-0.5" y="0.2" curve="-80"/>
-<vertex x="0" y="0.55" curve="-80"/>
-<vertex x="0.5" y="0.2"/>
+<vertex x="-3" y="0.25"/>
+<vertex x="-0.6" y="0.25" curve="-80"/>
+<vertex x="0" y="0.65" curve="-80"/>
+<vertex x="0.6" y="0.25"/>
 </polygon>
 <polygon width="0.15" layer="29">
-<vertex x="-3" y="-0.2"/>
+<vertex x="-3" y="-0.25"/>
 <vertex x="-3" y="-0.925" curve="90"/>
 <vertex x="-2" y="-1.925"/>
 <vertex x="2" y="-1.925" curve="90"/>
 <vertex x="3" y="-0.925"/>
-<vertex x="3" y="-0.2"/>
-<vertex x="0.5" y="-0.2" curve="-80"/>
-<vertex x="0" y="-0.55" curve="-80"/>
-<vertex x="-0.5" y="-0.2"/>
+<vertex x="3" y="-0.25"/>
+<vertex x="0.6" y="-0.25" curve="-80"/>
+<vertex x="0" y="-0.65" curve="-80"/>
+<vertex x="-0.6" y="-0.25"/>
 </polygon>
 <polygon width="0.15" layer="29">
-<vertex x="3" y="0.2"/>
+<vertex x="3" y="0.25"/>
 <vertex x="3" y="1" curve="90"/>
 <vertex x="2.095" y="1.905"/>
 <vertex x="-2.095" y="1.905" curve="90"/>
 <vertex x="-3" y="1"/>
-<vertex x="-3" y="0.2"/>
-<vertex x="-0.5" y="0.2" curve="-80"/>
-<vertex x="0" y="0.55" curve="-80"/>
-<vertex x="0.5" y="0.2"/>
+<vertex x="-3" y="0.25"/>
+<vertex x="-0.6" y="0.25" curve="-80"/>
+<vertex x="0" y="0.65" curve="-80"/>
+<vertex x="0.6" y="0.25"/>
 </polygon>
 <polygon width="0.0762" layer="31">
-<vertex x="-3" y="-0.2"/>
+<vertex x="-3" y="-0.25"/>
 <vertex x="-3" y="-0.925" curve="90"/>
 <vertex x="-2" y="-1.925"/>
 <vertex x="2" y="-1.925" curve="90"/>
 <vertex x="3" y="-0.925"/>
-<vertex x="3" y="-0.2"/>
-<vertex x="0.5" y="-0.2" curve="-80"/>
-<vertex x="0" y="-0.55" curve="-80"/>
-<vertex x="-0.5" y="-0.2"/>
+<vertex x="3" y="-0.25"/>
+<vertex x="0.6" y="-0.25" curve="-80"/>
+<vertex x="0" y="-0.65" curve="-80"/>
+<vertex x="-0.6" y="-0.25"/>
 </polygon>
 <polygon width="0.0762" layer="31">
-<vertex x="3" y="0.2"/>
+<vertex x="3" y="0.25"/>
 <vertex x="3" y="1" curve="90"/>
 <vertex x="2.095" y="1.905"/>
 <vertex x="-2.095" y="1.905" curve="90"/>
 <vertex x="-3" y="1"/>
-<vertex x="-3" y="0.2"/>
-<vertex x="-0.5" y="0.2" curve="-80"/>
-<vertex x="0" y="0.55" curve="-80"/>
-<vertex x="0.5" y="0.2"/>
+<vertex x="-3" y="0.25"/>
+<vertex x="-0.6" y="0.25" curve="-80"/>
+<vertex x="0" y="0.65" curve="-80"/>
+<vertex x="0.6" y="0.25"/>
 </polygon>
 </package>
 <package name="GAMEBOY-ZERO-BUTTON">
