@@ -17,6 +17,8 @@
 |:--:|:--:|
 | *Board Top* |*Board Bottom*|
 
+You can check the [EasyEDA Gerber Viewer](https://gerber-viewer.easyeda.com/showcase/?#!id=0561cba285f211e899d9026a86b9cae7&type=top&layer_list=1-2-3-4-5) before manufacturing
+
 ### Get In Touch
 
 |    [<img src="https://raw.githubusercontent.com/wiki/GameboyZero/GabozePocaio/images/icons/github.png" width="40px">](https://github.com/32teeth)[<img src="https://raw.githubusercontent.com/wiki/GameboyZero/GabozePocaio/images/icons/instagram.png" width="40px">](https://www.instagram.com/thirtytwoteeth/)[<img src="https://raw.githubusercontent.com/wiki/GameboyZero/GabozePocaio/images/icons/messenger.png" width="40px">](https://www.facebook.com/messages/t/32teeth)[<img src="https://raw.githubusercontent.com/wiki/GameboyZero/GabozePocaio/images/icons/twitter.png" width="40px">](https://twitter.com/eugeneyevhen)[<img src="https://raw.githubusercontent.com/wiki/GameboyZero/GabozePocaio/images/icons/youtube.png" width="40px">](https://www.youtube.com/user/32teeth/)[<img src="https://raw.githubusercontent.com/wiki/GameboyZero/GabozePocaio/images/icons/linkedin.png" width="40px">](https://ca.linkedin.com/in/32teeth)[<img src="https://raw.githubusercontent.com/wiki/GameboyZero/GabozePocaio/images/icons/paypal.png" width="40px">](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4CXNRDT39KHBJ)  |
