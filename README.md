@@ -1,5 +1,9 @@
 <img src="images/logo.png" width="50%">
 
+# Where Can I Buy One
+> We distribute pre-assembled kits through Tindie
+[Tindie Marketplace](https://www.tindie.com/products/thirtytwoteeth/gaboze-pocaio-game-boy-pocket-all-in-one/)
+
 ## Introduction
 
 ### Gaboze Pocaio - Pocket All In One
