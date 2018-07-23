@@ -11,7 +11,6 @@ Raspberry Pi Zero based arcade in you pocket, and in your Gameboy Pocket
 * Gameboy button layout interface
 * Raspberry Pi Zero
 * Battery Charger (TP4056 Module)
-* 60 frames per second display
 * Headphone Jack (LM4857)
 * Speaker capability (LM4857)
 
