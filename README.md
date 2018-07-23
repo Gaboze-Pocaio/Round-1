@@ -1,9 +1,5 @@
 <img src="images/logo.png" width="50%">
 
-# Where Can I Buy One
-> We distribute pre-assembled kits through Tindie
-[Tindie Marketplace](https://www.tindie.com/products/thirtytwoteeth/gaboze-pocaio-game-boy-pocket-all-in-one/)
-
 ## Introduction
 
 ### Gaboze Pocaio - Pocket All In One
@@ -17,8 +13,6 @@ Raspberry Pi Zero based arcade in you pocket, and in your Gameboy Pocket
 * Battery Charger (TP4056 Module)
 * Headphone Jack (LM4857)
 * Speaker capability (LM4857)
-
-
 
 ### Platforms:
 
