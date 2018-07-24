@@ -19,7 +19,7 @@ Raspberry Pi Zero based arcade in you pocket, and in your Gameboy Pocket
 The boards have been tested with the following platforms:
 
 - [x] [Emulation Station](http://www.emulationstation.org/)
-- [ ] [Lakka](http://www.lakka.tv/) - **Open Bounty** - Get Frame Buffer to work on ILI9341 Display! *<u>(Get in Touch)</u>*
+- [x] [Lakka](http://www.lakka.tv/)
 - [x] [RetroPie](https://retropie.org.uk/)
 
 
@@ -34,12 +34,8 @@ The boards have been tested with the following platforms:
 
 | Top                                                          | Bottom                                                       | Money Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------- |
-| <img src="images/Board-Top.png" height="250"> | <img src="images/Board-Bottom.png"  height="250"> | <img src="images/video.gif" height="250"> |
+| <img src="images/Board-Top.png" height="350"> | <img src="images/Board-Bottom.png"  height="350"> | <img src="images/video.gif" height="250"> |
 
-
-## 3D Model
-* [Standalone Board](https://gameboyzero.github.io/GabozePocaio/)
-* [With Shell](https://gameboyzero.github.io/GabozePocaio/?shell)
 
 # Buy me a Coffee
 > This is a labor of love, and much time has been put in...  ...i could use a [coffee](https://www.paypal.me/32teeth/1usd) *(donuts are okay too)*
