@@ -34,7 +34,7 @@ The boards have been tested with the following platforms:
 
 | Top                                                          | Bottom                                                       | Money Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------- |
-| <img src="images/eagleUp_GabozePocaio_board_top.png" height="250"> | <img src="images/eagleUp_GabozePocaio_board_bottom.png"  height="250"> | <img src="images/video.gif" height="250"> |
+| <img src="images/Board-Top.png" height="250"> | <img src="images/Board-Bottom.png"  height="250"> | <img src="images/video.gif" height="250"> |
 
 
 ## 3D Model
