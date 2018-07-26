@@ -1,5 +1,12 @@
 <img src="images/pocaio.png" width="50%">
 
+# Where Can I Buy One
+> You can purchase an assembled Gaboze Pocaio on [Tindie](https://www.tindie.com/products/thirtytwoteeth/gaboze-pocaio-game-boy-pocket-all-in-one/)
+
+[<img src="https://d2ss6ovg47m0r5.cloudfront.net/images/tindie-logo.png">](https://www.tindie.com/products/thirtytwoteeth/gaboze-pocaio-game-boy-pocket-all-in-one/)
+
+-----
+
 ## Introduction
 
 ### Gaboze Pocaio - Pocket All In One
