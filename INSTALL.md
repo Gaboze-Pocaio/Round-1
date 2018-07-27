@@ -2,9 +2,7 @@
 
 > This document is intended for a somewhat advanced user base, but we have made it simple enough to follow along for anyone
 
-
-
-[TOC]
+[toc]
 
 ### Prerequisites
 
@@ -34,7 +32,7 @@ You will see a screen telling you to either set up a controller or press F4 to e
 sudo raspi-config
 ```
 
-In the Interfaceing Options menu, you will need to 
+In the Interfaceing Options menu, you will need to
 
 1. Enable SSH
 2. Enable SPI
@@ -115,7 +113,7 @@ sudo modprobe fbtft_device custom name=fb_ili9341 gpios=reset:25,dc:24 speed=600
 Confirm the module has been loaded
 
 ```shell
-dmesg | tail 
+dmesg | tail
 ```
 
 See the TFT LCD module details
@@ -310,7 +308,7 @@ When you run the retrogame.sh file, you will be presented with a menu.
 
 Select the **PiGRRL 2 Controls** option, and the program will continue to install some modules.
 
-Once complete, you will be asked if you want to reboot. 
+Once complete, you will be asked if you want to reboot.
 
 #### Don't reboot just yet
 
@@ -386,7 +384,7 @@ Ensure that your file's content are **exactly** as below
 
 If all is good as above, hit CTRL+X to exit the editor and
 
-## Step 7 
+## Step 7
 > Command line to show boot message (optional)
 
 Default cmdline.txt should be as follows
