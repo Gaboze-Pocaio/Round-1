@@ -58,7 +58,7 @@
 </layers>
 <library>
 <packages>
-<package name="03962A">
+<package name="TP4056">
 <wire x1="0" y1="0" x2="17" y2="0" width="0.1" layer="21"/>
 <wire x1="17" y1="0" x2="17" y2="26" width="0.1" layer="21"/>
 <wire x1="17" y1="26" x2="0" y2="26" width="0.1" layer="21"/>
@@ -73,7 +73,7 @@
 <text x="5.08" y="19.05" size="1.27" layer="25">&gt;name</text>
 <text x="5.08" y="12.7" size="1.27" layer="27">&gt;value</text>
 </package>
-<package name="03962A-PTH">
+<package name="TP4056-PTH">
 <wire x1="0" y1="0" x2="17" y2="0" width="0.1" layer="21"/>
 <wire x1="17" y1="0" x2="17" y2="26" width="0.1" layer="21"/>
 <wire x1="17" y1="26" x2="0" y2="26" width="0.1" layer="21"/>
@@ -90,7 +90,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="03962A">
+<symbol name="TP4056">
 <wire x1="-5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
@@ -102,7 +102,7 @@
 <pin name="B+" x="12.7" y="2.54" length="middle" rot="R180"/>
 <pin name="B-" x="12.7" y="-2.54" length="middle" rot="R180"/>
 </symbol>
-<symbol name="03962A-PTH">
+<symbol name="TP4056-PTH">
 <wire x1="-5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
@@ -116,12 +116,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="03962A">
+<deviceset name="TP4056">
 <gates>
-<gate name="G$1" symbol="03962A" x="0" y="0"/>
+<gate name="G$1" symbol="TP4056" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="03962A">
+<device name="" package="TP4056">
 <connects>
 <connect gate="G$1" pin="B+" pad="B+"/>
 <connect gate="G$1" pin="B-" pad="B-"/>
@@ -136,12 +136,12 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="03962A-PTH">
+<deviceset name="TP4056-PTH">
 <gates>
-<gate name="G$1" symbol="03962A-PTH" x="0" y="0"/>
+<gate name="G$1" symbol="TP4056-PTH" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="03962A-PTH">
+<device name="" package="TP4056-PTH">
 <connects>
 <connect gate="G$1" pin="B+" pad="B+"/>
 <connect gate="G$1" pin="B-" pad="B-"/>
