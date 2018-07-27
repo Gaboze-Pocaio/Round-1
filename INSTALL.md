@@ -2,7 +2,28 @@
 
 > This document is intended for a somewhat advanced user base, but we have made it simple enough to follow along for anyone
 
-[toc]
+- [Gaboze Pocaio Installation](#gaboze-pocaio-installation)
+    + [Prerequisites](#prerequisites)
+  * [Step 1](#step-1)
+    + [WiFi](#wifi)
+      - [Optional](#optional)
+  * [Step 2](#step-2)
+    + [TFT Device](#tft-device)
+  * [Step 3](#step-3)
+    + [Automate the above on startup](#automate-the-above-on-startup)
+    + [Create a configuration file for the TFT LCD Module](#create-a-configuration-file-for-the-tft-lcd-module)
+    + [Installing the Framebuffer Copy tool](#installing-the-framebuffer-copy-tool)
+    + [Add Framebuffer Copy to our boot sequence](#add-framebuffer-copy-to-our-boot-sequence)
+  * [Step 4](#step-4)
+    + [General Config](#general-config)
+  * [Step 5](#step-5)
+    + [Install RetroGame](#install-retrogame)
+      - [Don't reboot just yet](#don-t-reboot-just-yet)
+  * [Step 6](#step-6)
+    + [RetroGame Configuration](#retrogame-configuration)
+    + [EmulationStation Input Configuration](#emulationstation-input-configuration)
+  * [Step 7](#step-7)
+  * [Step 8](#step-8)
 
 ### Prerequisites
 
