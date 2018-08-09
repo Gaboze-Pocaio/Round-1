@@ -50,7 +50,7 @@ The boards have been tested with the following platforms:
 
 
 ## Details
-> The source files have been officially released. Check out the [Files](https://github.com/GameboyZero/GabozePocaio/eagle/Release) and build away
+> The source files have been officially released. Check out the [Files](https://github.com/GameboyZero/GabozePocaio/tree/master/eagle/Release) and build away
 
 | Top                                                          | Bottom                                                       | Money Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------- |
