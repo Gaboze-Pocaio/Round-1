@@ -7,20 +7,20 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -33,19 +33,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -147,6 +147,98 @@
 <vertex x="-25.92" y="-16.38"/>
 </polygon>
 </package>
+<package name="TFT-DISPLAY-2.6-50P-TOUGH">
+<wire x1="-28.57" y1="25.15" x2="28.57" y2="25.15" width="0.127" layer="21"/>
+<wire x1="-28.57" y1="-25.15" x2="15.17" y2="-25.15" width="0.127" layer="21"/>
+<wire x1="15.17" y1="-25.15" x2="21.17" y2="-25.15" width="0.127" layer="21"/>
+<wire x1="21.17" y1="-25.15" x2="28.57" y2="-25.15" width="0.127" layer="21"/>
+<wire x1="-26.67" y1="23.25" x2="26.67" y2="23.25" width="0.127" layer="21"/>
+<wire x1="-26.67" y1="-17.13" x2="26.67" y2="-17.13" width="0.127" layer="21"/>
+<wire x1="26.67" y1="-17.13" x2="26.67" y2="23.25" width="0.127" layer="21"/>
+<wire x1="-26.67" y1="-17.13" x2="-26.67" y2="23.25" width="0.127" layer="21"/>
+<wire x1="-28.57" y1="-25.15" x2="-28.57" y2="25.15" width="0.127" layer="21"/>
+<wire x1="28.57" y1="-25.15" x2="28.57" y2="25.15" width="0.127" layer="21"/>
+<wire x1="-26.32" y1="22.9" x2="26.32" y2="22.9" width="0.127" layer="21"/>
+<wire x1="-26.32" y1="-16.78" x2="26.32" y2="-16.78" width="0.127" layer="21"/>
+<wire x1="-26.32" y1="-16.78" x2="-26.32" y2="22.9" width="0.127" layer="21"/>
+<wire x1="-25.92" y1="22.5" x2="25.92" y2="22.5" width="0.127" layer="21"/>
+<wire x1="-25.92" y1="-16.38" x2="25.92" y2="-16.38" width="0.127" layer="21"/>
+<wire x1="26.32" y1="-16.78" x2="26.32" y2="22.9" width="0.127" layer="21"/>
+<wire x1="-25.92" y1="-16.38" x2="-25.92" y2="22.5" width="0.127" layer="21"/>
+<wire x1="25.92" y1="-16.38" x2="25.92" y2="22.5" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21" spacing="5" pour="hatch">
+<vertex x="-25.92" y="22.5"/>
+<vertex x="25.92" y="22.5"/>
+<vertex x="25.92" y="-16.38"/>
+<vertex x="-25.92" y="-16.38"/>
+</polygon>
+<wire x1="21.67" y1="-4.95" x2="14.67" y2="-4.95" width="0.127" layer="22"/>
+<wire x1="21.67" y1="-17.35" x2="21.17" y2="-17.35" width="0.127" layer="22"/>
+<wire x1="21.17" y1="-17.35" x2="15.17" y2="-17.35" width="0.127" layer="22"/>
+<wire x1="15.17" y1="-17.35" x2="14.67" y2="-17.35" width="0.127" layer="22"/>
+<wire x1="21.67" y1="-17.35" x2="21.67" y2="-4.95" width="0.127" layer="22"/>
+<wire x1="14.67" y1="-17.35" x2="14.67" y2="-4.95" width="0.127" layer="22"/>
+<wire x1="15.17" y1="-25.15" x2="15.17" y2="-17.35" width="0.127" layer="22"/>
+<wire x1="21.17" y1="-25.15" x2="21.17" y2="-17.35" width="0.127" layer="22"/>
+<smd name="RD" x="16.5" y="-15.9" dx="0.65" dy="0.15" layer="16"/>
+<smd name="BS2" x="19.81" y="-15.9" dx="0.65" dy="0.15" layer="16"/>
+<smd name="FMARK" x="16.5" y="-15.5" dx="0.65" dy="0.15" layer="16"/>
+<smd name="RESET" x="19.81" y="-15.5" dx="0.65" dy="0.15" layer="16"/>
+<smd name="CS" x="16.5" y="-15.1" dx="0.65" dy="0.15" layer="16"/>
+<smd name="WR" x="19.81" y="-15.1" dx="0.65" dy="0.15" layer="16"/>
+<smd name="BS1" x="16.5" y="-14.7" dx="0.65" dy="0.15" layer="16"/>
+<smd name="BS3" x="19.81" y="-14.7" dx="0.65" dy="0.15" layer="16"/>
+<smd name="RS/SCL" x="16.5" y="-14.3" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB0" x="19.81" y="-14.3" dx="0.65" dy="0.15" layer="16"/>
+<smd name="NC" x="16.5" y="-13.9" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB1" x="19.81" y="-13.9" dx="0.65" dy="0.15" layer="16"/>
+<smd name="SDI" x="16.5" y="-13.5" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB2" x="19.81" y="-13.5" dx="0.65" dy="0.15" layer="16"/>
+<smd name="SDO" x="16.5" y="-13.1" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB3" x="19.81" y="-13.1" dx="0.65" dy="0.15" layer="16"/>
+<smd name="PWM_OUT" x="16.5" y="-12.7" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB4" x="19.81" y="-12.7" dx="0.65" dy="0.15" layer="16"/>
+<smd name="GND" x="16.5" y="-12.3" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB5" x="19.81" y="-12.3" dx="0.65" dy="0.15" layer="16"/>
+<smd name="IOVCC" x="16.5" y="-11.9" dx="0.65" dy="0.15" layer="16"/>
+<smd name="BS0" x="19.81" y="-11.9" dx="0.65" dy="0.15" layer="16"/>
+<smd name="GND1" x="16.5" y="-11.5" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB6" x="19.81" y="-11.5" dx="0.65" dy="0.15" layer="16"/>
+<smd name="VCC" x="16.5" y="-11.1" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB7" x="19.81" y="-11.1" dx="0.65" dy="0.15" layer="16"/>
+<smd name="ENABLE" x="16.5" y="-10.7" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB8" x="19.81" y="-10.7" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DOTCLK" x="16.5" y="-10.3" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB9" x="19.81" y="-10.3" dx="0.65" dy="0.15" layer="16"/>
+<smd name="HSYNC" x="16.5" y="-9.9" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB10" x="19.81" y="-9.9" dx="0.65" dy="0.15" layer="16"/>
+<smd name="VSYNC" x="16.5" y="-9.5" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB11" x="19.81" y="-9.5" dx="0.65" dy="0.15" layer="16"/>
+<smd name="LCD_ID0" x="16.5" y="-9.1" dx="0.65" dy="0.15" layer="16"/>
+<smd name="GND3" x="19.81" y="-9.1" dx="0.65" dy="0.15" layer="16"/>
+<smd name="LCD_ID1" x="16.5" y="-8.7" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB12" x="19.81" y="-8.7" dx="0.65" dy="0.15" layer="16"/>
+<smd name="LED_A" x="16.5" y="-8.3" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB13" x="19.81" y="-8.3" dx="0.65" dy="0.15" layer="16"/>
+<smd name="LED_K1" x="16.5" y="-7.9" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB14" x="19.81" y="-7.9" dx="0.65" dy="0.15" layer="16"/>
+<smd name="LED_K2" x="16.5" y="-7.5" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB15" x="19.81" y="-7.5" dx="0.65" dy="0.15" layer="16"/>
+<smd name="LED_K3" x="16.5" y="-7.1" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB16" x="19.81" y="-7.1" dx="0.65" dy="0.15" layer="16"/>
+<smd name="LED_K4" x="16.5" y="-6.7" dx="0.65" dy="0.15" layer="16"/>
+<smd name="DB17" x="19.81" y="-6.7" dx="0.65" dy="0.15" layer="16"/>
+<smd name="GND2" x="16.5" y="-6.3" dx="0.65" dy="0.15" layer="16"/>
+<smd name="GND4" x="19.81" y="-6.3" dx="0.65" dy="0.15" layer="16"/>
+<wire x1="13.67" y1="-24" x2="13.67" y2="-26" width="0.127" layer="20"/>
+<wire x1="13.67" y1="-26" x2="14.67" y2="-27" width="0.127" layer="20" curve="90"/>
+<wire x1="14.67" y1="-27" x2="21.67" y2="-27" width="0.127" layer="20"/>
+<wire x1="21.67" y1="-27" x2="22.67" y2="-26" width="0.127" layer="20" curve="90"/>
+<wire x1="22.67" y1="-26" x2="22.67" y2="-24" width="0.127" layer="20"/>
+<wire x1="22.67" y1="-24" x2="21.67" y2="-23" width="0.127" layer="20" curve="90"/>
+<wire x1="21.67" y1="-23" x2="14.67" y2="-23" width="0.127" layer="20"/>
+<wire x1="14.67" y1="-23" x2="13.67" y2="-24" width="0.127" layer="20" curve="90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TFT-DISPLAY-2.6-51PIN">
@@ -205,6 +297,62 @@
 <wire x1="-15.24" y1="68.58" x2="0" y2="68.58" width="0.254" layer="94"/>
 <wire x1="0" y1="68.58" x2="0" y2="-63.5" width="0.254" layer="94"/>
 <wire x1="0" y1="-63.5" x2="-15.24" y2="-63.5" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TFT-DISPLAY-2.6-50P-TOUGH">
+<pin name="RD" x="-22.87" y="22.73"/>
+<pin name="BS2" x="22.985" y="22.73" rot="R180"/>
+<pin name="FMARK" x="-22.87" y="20.73"/>
+<pin name="RESET" x="22.985" y="20.73" rot="R180"/>
+<pin name="CS/CSX" x="-22.87" y="18.73"/>
+<pin name="WR/DCX" x="22.985" y="18.73" rot="R180"/>
+<pin name="BS1" x="-22.87" y="16.73"/>
+<pin name="BS3" x="22.985" y="16.73" rot="R180"/>
+<pin name="RS/SCL" x="-22.87" y="14.73"/>
+<pin name="DB0" x="22.985" y="14.73" rot="R180"/>
+<pin name="NC" x="-22.87" y="12.73"/>
+<pin name="DB1" x="22.985" y="12.73" rot="R180"/>
+<pin name="SDI/SDA" x="-22.87" y="10.73"/>
+<pin name="DB2" x="22.985" y="10.73" rot="R180"/>
+<pin name="SDO" x="-22.87" y="8.73"/>
+<pin name="DB3" x="22.985" y="8.73" rot="R180"/>
+<pin name="PWM_OUT" x="-22.87" y="6.73"/>
+<pin name="DB4" x="22.985" y="6.73" rot="R180"/>
+<pin name="GND" x="-22.87" y="4.73"/>
+<pin name="DB5" x="22.985" y="4.73" rot="R180"/>
+<pin name="IOVCC" x="-22.87" y="2.73"/>
+<pin name="BS0" x="22.985" y="2.73" rot="R180"/>
+<pin name="GND1" x="-22.87" y="0.73"/>
+<pin name="DB6" x="22.985" y="0.73" rot="R180"/>
+<pin name="VCC" x="-22.87" y="-1.27"/>
+<pin name="DB7" x="22.985" y="-1.27" rot="R180"/>
+<pin name="ENABLE" x="-22.87" y="-3.27"/>
+<pin name="DB8" x="22.985" y="-3.27" rot="R180"/>
+<pin name="DOTCLK" x="-22.87" y="-5.27"/>
+<pin name="DB9" x="22.985" y="-5.27" rot="R180"/>
+<pin name="HSYNC" x="-22.87" y="-7.27"/>
+<pin name="DB10" x="22.985" y="-7.27" rot="R180"/>
+<pin name="VSYNC" x="-22.87" y="-9.27"/>
+<pin name="DB11" x="22.985" y="-9.27" rot="R180"/>
+<pin name="LCD_ID0" x="-22.87" y="-11.27"/>
+<pin name="GND3" x="22.985" y="-11.27" rot="R180"/>
+<pin name="LCD_ID1" x="-22.87" y="-13.27"/>
+<pin name="DB12" x="22.985" y="-13.27" rot="R180"/>
+<pin name="LED_A" x="-22.87" y="-15.27"/>
+<pin name="DB13" x="22.985" y="-15.27" rot="R180"/>
+<pin name="LED_K1" x="-22.87" y="-17.27"/>
+<pin name="DB14" x="22.985" y="-17.27" rot="R180"/>
+<pin name="LED_K2" x="-22.87" y="-19.27"/>
+<pin name="DB15" x="22.985" y="-19.27" rot="R180"/>
+<pin name="LED_K3" x="-22.87" y="-21.27"/>
+<pin name="DB16" x="22.985" y="-21.27" rot="R180"/>
+<pin name="LED_K4" x="-22.87" y="-23.27"/>
+<pin name="DB17" x="22.985" y="-23.27" rot="R180"/>
+<pin name="GND2" x="-22.87" y="-25.27"/>
+<pin name="GND4" x="22.985" y="-25.27" rot="R180"/>
+<wire x1="-15.24" y1="-27.94" x2="15.24" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-27.94" x2="15.24" y2="24.13" width="0.254" layer="94"/>
+<wire x1="15.24" y1="24.13" x2="-15.24" y2="24.13" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="24.13" x2="-15.24" y2="-27.94" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -267,6 +415,70 @@
 <connect gate="G$1" pin="XR" pad="P$4"/>
 <connect gate="G$1" pin="YD" pad="P$3"/>
 <connect gate="G$1" pin="YU" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TFT-DISPLAY-2.6-50P-TOUGH">
+<gates>
+<gate name="G$1" symbol="TFT-DISPLAY-2.6-50P-TOUGH" x="-35.56" y="0"/>
+</gates>
+<devices>
+<device name="" package="TFT-DISPLAY-2.6-50P-TOUGH">
+<connects>
+<connect gate="G$1" pin="BS0" pad="BS0"/>
+<connect gate="G$1" pin="BS1" pad="BS1"/>
+<connect gate="G$1" pin="BS2" pad="BS2"/>
+<connect gate="G$1" pin="BS3" pad="BS3"/>
+<connect gate="G$1" pin="CS/CSX" pad="CS"/>
+<connect gate="G$1" pin="DB0" pad="DB0"/>
+<connect gate="G$1" pin="DB1" pad="DB1"/>
+<connect gate="G$1" pin="DB10" pad="DB10"/>
+<connect gate="G$1" pin="DB11" pad="DB11"/>
+<connect gate="G$1" pin="DB12" pad="DB12"/>
+<connect gate="G$1" pin="DB13" pad="DB13"/>
+<connect gate="G$1" pin="DB14" pad="DB14"/>
+<connect gate="G$1" pin="DB15" pad="DB15"/>
+<connect gate="G$1" pin="DB16" pad="DB16"/>
+<connect gate="G$1" pin="DB17" pad="DB17"/>
+<connect gate="G$1" pin="DB2" pad="DB2"/>
+<connect gate="G$1" pin="DB3" pad="DB3"/>
+<connect gate="G$1" pin="DB4" pad="DB4"/>
+<connect gate="G$1" pin="DB5" pad="DB5"/>
+<connect gate="G$1" pin="DB6" pad="DB6"/>
+<connect gate="G$1" pin="DB7" pad="DB7"/>
+<connect gate="G$1" pin="DB8" pad="DB8"/>
+<connect gate="G$1" pin="DB9" pad="DB9"/>
+<connect gate="G$1" pin="DOTCLK" pad="DOTCLK"/>
+<connect gate="G$1" pin="ENABLE" pad="ENABLE"/>
+<connect gate="G$1" pin="FMARK" pad="FMARK"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="GND3" pad="GND3"/>
+<connect gate="G$1" pin="GND4" pad="GND4"/>
+<connect gate="G$1" pin="HSYNC" pad="HSYNC"/>
+<connect gate="G$1" pin="IOVCC" pad="IOVCC"/>
+<connect gate="G$1" pin="LCD_ID0" pad="LCD_ID0"/>
+<connect gate="G$1" pin="LCD_ID1" pad="LCD_ID1"/>
+<connect gate="G$1" pin="LED_A" pad="LED_A"/>
+<connect gate="G$1" pin="LED_K1" pad="LED_K1"/>
+<connect gate="G$1" pin="LED_K2" pad="LED_K2"/>
+<connect gate="G$1" pin="LED_K3" pad="LED_K3"/>
+<connect gate="G$1" pin="LED_K4" pad="LED_K4"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="PWM_OUT" pad="PWM_OUT"/>
+<connect gate="G$1" pin="RD" pad="RD"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="RS/SCL" pad="RS/SCL"/>
+<connect gate="G$1" pin="SDI/SDA" pad="SDI"/>
+<connect gate="G$1" pin="SDO" pad="SDO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VSYNC" pad="VSYNC"/>
+<connect gate="G$1" pin="WR/DCX" pad="WR"/>
 </connects>
 <technologies>
 <technology name=""/>

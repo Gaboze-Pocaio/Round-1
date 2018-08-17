@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -287,7 +287,7 @@
 <wire x1="6.85" y1="0" x2="6.6" y2="-0.5" width="0.127" layer="21"/>
 <wire x1="6.6" y1="-0.5" x2="14.6" y2="-0.5" width="0.127" layer="21"/>
 <wire x1="14.6" y1="-0.5" x2="14.35" y2="0" width="0.127" layer="21"/>
-<text x="8.0525" y="22.3725" size="1.016" layer="21" font="vector" ratio="10">1</text>
+<text x="6.87" y="25.23" size="1.016" layer="21" font="vector" ratio="10" align="center-right">1</text>
 <wire x1="37.75" y1="0" x2="37.5" y2="-0.5" width="0.127" layer="21"/>
 <wire x1="37.5" y1="-0.5" x2="45.5" y2="-0.5" width="0.127" layer="21"/>
 <wire x1="45.5" y1="-0.5" x2="45.25" y2="0" width="0.127" layer="21"/>
@@ -334,21 +334,48 @@
 <pad name="38" x="54.09" y="27.77" drill="1" diameter="1.778"/>
 <pad name="39" x="56.63" y="25.23" drill="1" diameter="1.778"/>
 <pad name="40" x="56.63" y="27.77" drill="1" diameter="1.778"/>
-<smd name="PP17" x="6.7877375" y="21.743315625" dx="1.524" dy="1.524" layer="1" roundness="100"/>
-<smd name="PP16" x="9.203659375" y="20.3627875" dx="1.524" dy="1.524" layer="1" roundness="100"/>
-<smd name="PP14" x="6.7877375" y="18.407040625" dx="1.524" dy="1.524" layer="1" roundness="100"/>
-<smd name="PP18" x="9.203659375" y="17.0265125" dx="1.524" dy="1.524" layer="1" roundness="100"/>
-<smd name="PP19" x="6.7877375" y="15.185809375" dx="1.524" dy="1.524" layer="1" roundness="100"/>
-<smd name="PP15" x="9.203659375" y="14.26545625" dx="1.524" dy="1.524" layer="1" roundness="100"/>
 <wire x1="45.25" y1="0" x2="50.35" y2="0" width="0.127" layer="21"/>
 <wire x1="57.85" y1="0" x2="62" y2="0" width="0.127" layer="21"/>
-<text x="8.0525" y="22.3725" size="1.016" layer="21" font="vector" ratio="10">1</text>
-<circle x="6.7877375" y="21.743315625" radius="0.762" width="0.127" layer="51"/>
-<circle x="9.203659375" y="20.3627875" radius="0.762" width="0.127" layer="51"/>
-<circle x="6.7877375" y="18.407040625" radius="0.762" width="0.127" layer="51"/>
-<circle x="9.203659375" y="17.0265125" radius="0.762" width="0.127" layer="51"/>
-<circle x="6.7877375" y="15.185809375" radius="0.762" width="0.127" layer="51"/>
-<circle x="9.203659375" y="14.26545625" radius="0.762" width="0.127" layer="51"/>
+<text x="10.703659375" y="20.3627875" size="0.7" layer="21" font="vector" ratio="10" align="center-left">PP16
+SD DAT0</text>
+<circle x="6.7877375" y="21.743315625" radius="0.95" width="0.127" layer="51"/>
+<circle x="9.203659375" y="20.3627875" radius="0.95" width="0.127" layer="51"/>
+<circle x="6.7877375" y="18.407040625" radius="0.95" width="0.127" layer="51"/>
+<circle x="9.203659375" y="17.0265125" radius="0.95" width="0.127" layer="51"/>
+<circle x="6.7877375" y="15.185809375" radius="0.95" width="0.127" layer="51"/>
+<circle x="9.203659375" y="14.26545625" radius="0.95" width="0.127" layer="51"/>
+<pad name="PP17-SD_DAT1" x="6.7877375" y="21.743315625" drill="1" diameter="1.778"/>
+<pad name="PP16-SD_DAT0" x="9.203659375" y="20.3627875" drill="1" diameter="1.778"/>
+<pad name="PP14-SD_CLK" x="6.7877375" y="18.407040625" drill="1" diameter="1.778"/>
+<pad name="PP18-SD_DAT2" x="9.203659375" y="17.0265125" drill="1" diameter="1.778"/>
+<pad name="PP19-SD_CD" x="6.7877375" y="15.185809375" drill="1" diameter="1.778"/>
+<pad name="PP15-SD_CMD" x="9.203659375" y="14.26545625" drill="1" diameter="1.778"/>
+<pad name="PP6-GND" x="54.1" y="3.7" drill="1" diameter="1.778"/>
+<pad name="PP1-USB_5V+" x="53.8" y="6.3" drill="1" diameter="1.778"/>
+<pad name="PP22-USB_D+" x="42" y="1.9" drill="1" diameter="1.4224"/>
+<pad name="PP23-USB_D-" x="40.25" y="1.9" drill="1" diameter="1.4224"/>
+<circle x="40.25" y="1.9" radius="0.762" width="0.127" layer="51"/>
+<circle x="42" y="1.9" radius="0.762" width="0.127" layer="51"/>
+<circle x="53.8" y="6.3" radius="0.95" width="0.127" layer="51"/>
+<circle x="54.1" y="3.7" radius="0.95" width="0.127" layer="51"/>
+<text x="10.703659375" y="17.0265125" size="0.7" layer="21" font="vector" ratio="10" align="center-left">PP18
+SD DAT2</text>
+<text x="10.703659375" y="14.26545625" size="0.7" layer="21" font="vector" ratio="10" align="center-left">PP15
+SD CMD</text>
+<text x="5.2877375" y="21.743315625" size="0.7" layer="21" font="vector" ratio="10" align="center-right">PP17
+SD DAT1</text>
+<text x="5.2877375" y="18.407040625" size="0.7" layer="21" font="vector" ratio="10" align="center-right">PP14
+SD CLK</text>
+<text x="5.2877375" y="15.185809375" size="0.7" layer="21" font="vector" ratio="10" align="center-right">PP19
+SD CD</text>
+<text x="39" y="1.9" size="0.7" layer="21" font="vector" ratio="10" align="center-right">PP23
+USB D-</text>
+<text x="43.25" y="1.9" size="0.7" layer="21" font="vector" ratio="10" align="center-left">PP22
+USB D+</text>
+<text x="55.3" y="6.3" size="0.7" layer="21" font="vector" ratio="10" align="center-left">PP1
+USB 5V+</text>
+<text x="55.6" y="3.7" size="0.7" layer="21" font="vector" ratio="10" align="center-left">PP6
+GND</text>
 </package>
 <package name="RPI-ZERO-TH">
 <description>Raspberry Pi Zero - Through Hole</description>
@@ -558,6 +585,75 @@
 <text x="-20.32" y="35.56" size="1.27" layer="95" font="vector">&gt;NAME</text>
 <text x="-20.32" y="33.655" size="1.27" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
+<symbol name="RPI-ZERO-SD">
+<wire x1="-20.32" y1="33.02" x2="22.86" y2="33.02" width="0.254" layer="94"/>
+<wire x1="22.86" y1="33.02" x2="22.86" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-27.94" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-27.94" x2="-10.16" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-27.94" x2="-20.32" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-27.94" x2="-20.32" y2="33.02" width="0.254" layer="94"/>
+<pin name="5V0@1" x="25.4" y="30.48" length="short" direction="sup" rot="R180"/>
+<pin name="3V3@1" x="-22.86" y="30.48" length="short" direction="sup"/>
+<pin name="GPIO2/SDA1" x="-22.86" y="27.94" length="short"/>
+<pin name="5V0@2" x="25.4" y="27.94" length="short" direction="sup" rot="R180"/>
+<pin name="GPIO3/SCL1" x="-22.86" y="25.4" length="short"/>
+<pin name="GND@8" x="25.4" y="25.4" length="short" direction="sup" rot="R180"/>
+<pin name="GPIO4/GCKL" x="-22.86" y="22.86" length="short"/>
+<pin name="TXD0/GPIO14" x="25.4" y="22.86" length="short" rot="R180"/>
+<pin name="GND@1" x="-22.86" y="20.32" length="short" direction="sup"/>
+<pin name="RXD0/GPIO15" x="25.4" y="20.32" length="short" rot="R180"/>
+<pin name="GPIO17/GEN0" x="-22.86" y="17.78" length="short"/>
+<pin name="GPIO18" x="25.4" y="17.78" length="short" rot="R180"/>
+<pin name="GPIO27/GEN2" x="-22.86" y="15.24" length="short"/>
+<pin name="GND@4" x="25.4" y="15.24" length="short" direction="sup" rot="R180"/>
+<pin name="GPIO22/GEN3" x="-22.86" y="12.7" length="short"/>
+<pin name="GEN4/GPIO23" x="25.4" y="12.7" length="short" rot="R180"/>
+<pin name="3V3@2" x="-22.86" y="10.16" length="short" direction="sup"/>
+<pin name="GEN5/GPIO24" x="25.4" y="10.16" length="short" rot="R180"/>
+<pin name="GPIO10/MOSI" x="-22.86" y="7.62" length="short"/>
+<pin name="GND@5" x="25.4" y="7.62" length="short" direction="sup" rot="R180"/>
+<pin name="GPIO9/MISO" x="-22.86" y="5.08" length="short"/>
+<pin name="GEN/6GPIO25" x="25.4" y="5.08" length="short" rot="R180"/>
+<pin name="GPIO11/SCLK" x="-22.86" y="2.54" length="short"/>
+<pin name="!CE0!/GPIO8" x="25.4" y="2.54" length="short" rot="R180"/>
+<pin name="GND@2" x="-22.86" y="0" length="short" direction="sup"/>
+<pin name="!CE!/GPIO7" x="25.4" y="0" length="short" rot="R180"/>
+<pin name="ID_SD" x="-22.86" y="-2.54" length="short"/>
+<pin name="ID_SC" x="25.4" y="-2.54" length="short" rot="R180"/>
+<pin name="GPIO5" x="-22.86" y="-5.08" length="short"/>
+<pin name="GND@6" x="25.4" y="-5.08" length="short" direction="sup" rot="R180"/>
+<pin name="GPIO6" x="-22.86" y="-7.62" length="short"/>
+<pin name="GPIO12" x="25.4" y="-7.62" length="short" rot="R180"/>
+<pin name="GPIO13" x="-22.86" y="-10.16" length="short"/>
+<pin name="GND@7" x="25.4" y="-10.16" length="short" direction="sup" rot="R180"/>
+<pin name="GPIO19" x="-22.86" y="-12.7" length="short"/>
+<pin name="GPIO16" x="25.4" y="-12.7" length="short" rot="R180"/>
+<pin name="GPIO26" x="-22.86" y="-15.24" length="short"/>
+<pin name="GPIO20" x="25.4" y="-15.24" length="short" rot="R180"/>
+<pin name="GND@3" x="-22.86" y="-17.78" length="short" direction="sup"/>
+<pin name="GPIO21" x="25.4" y="-17.78" length="short" rot="R180"/>
+<text x="-20.32" y="35.56" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-20.32" y="33.655" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<wire x1="46.736" y1="12.7" x2="62.992" y2="12.7" width="0.254" layer="94"/>
+<pin name="PP17-SD_DAT1" x="48.26" y="7.62" length="middle" rot="R90"/>
+<pin name="PP16-SD_DAT0" x="50.8" y="7.62" length="middle" rot="R90"/>
+<pin name="PP14-SD_CLK" x="53.34" y="7.62" length="middle" rot="R90"/>
+<pin name="PP15-SD_CMD" x="55.88" y="7.62" length="middle" rot="R90"/>
+<pin name="PP19-SD_CD" x="58.42" y="7.62" length="middle" rot="R90"/>
+<pin name="PP18-SD_DAT2" x="60.96" y="7.62" length="middle" rot="R90"/>
+<wire x1="62.992" y1="12.7" x2="62.992" y2="17.78" width="0.254" layer="94"/>
+<wire x1="62.992" y1="17.78" x2="62.992" y2="20.32" width="0.254" layer="94"/>
+<wire x1="62.992" y1="20.32" x2="64.262" y2="21.59" width="0.254" layer="94"/>
+<wire x1="64.262" y1="21.59" x2="64.262" y2="25.4" width="0.254" layer="94"/>
+<wire x1="64.262" y1="25.4" x2="62.992" y2="25.4" width="0.254" layer="94"/>
+<wire x1="62.992" y1="25.4" x2="62.992" y2="27.94" width="0.254" layer="94"/>
+<wire x1="62.992" y1="27.94" x2="62.992" y2="29.21" width="0.254" layer="94"/>
+<wire x1="62.992" y1="29.21" x2="64.262" y2="30.48" width="0.254" layer="94"/>
+<wire x1="64.262" y1="30.48" x2="64.262" y2="32.766" width="0.254" layer="94"/>
+<wire x1="64.262" y1="32.766" x2="46.736" y2="32.766" width="0.254" layer="94"/>
+<wire x1="46.736" y1="32.766" x2="46.736" y2="13.97" width="0.254" layer="94"/>
+<wire x1="46.736" y1="13.97" x2="46.736" y2="12.7" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RPI-ZERO">
@@ -654,7 +750,7 @@
 <connect gate="G$1" pin="ID_SD" pad="27"/>
 <connect gate="G$1" pin="RXD0/GPIO15" pad="10"/>
 <connect gate="G$1" pin="TXD0/GPIO14" pad="8"/>
-</connects>	
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -701,7 +797,67 @@
 <connect gate="G$1" pin="ID_SD" pad="27"/>
 <connect gate="G$1" pin="RXD0/GPIO15" pad="10"/>
 <connect gate="G$1" pin="TXD0/GPIO14" pad="8"/>
-</connects>	
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RPI-ZERO-TH-SD">
+<gates>
+<gate name="G$1" symbol="RPI-ZERO-SD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RPI-ZERO-TH-SD">
+<connects>
+<connect gate="G$1" pin="!CE!/GPIO7" pad="26"/>
+<connect gate="G$1" pin="!CE0!/GPIO8" pad="24"/>
+<connect gate="G$1" pin="3V3@1" pad="1"/>
+<connect gate="G$1" pin="3V3@2" pad="17"/>
+<connect gate="G$1" pin="5V0@1" pad="2"/>
+<connect gate="G$1" pin="5V0@2" pad="4"/>
+<connect gate="G$1" pin="GEN/6GPIO25" pad="22"/>
+<connect gate="G$1" pin="GEN4/GPIO23" pad="16"/>
+<connect gate="G$1" pin="GEN5/GPIO24" pad="18"/>
+<connect gate="G$1" pin="GND@1" pad="9"/>
+<connect gate="G$1" pin="GND@2" pad="25"/>
+<connect gate="G$1" pin="GND@3" pad="39"/>
+<connect gate="G$1" pin="GND@4" pad="14"/>
+<connect gate="G$1" pin="GND@5" pad="20"/>
+<connect gate="G$1" pin="GND@6" pad="30"/>
+<connect gate="G$1" pin="GND@7" pad="34"/>
+<connect gate="G$1" pin="GND@8" pad="6"/>
+<connect gate="G$1" pin="GPIO10/MOSI" pad="19"/>
+<connect gate="G$1" pin="GPIO11/SCLK" pad="23"/>
+<connect gate="G$1" pin="GPIO12" pad="32"/>
+<connect gate="G$1" pin="GPIO13" pad="33"/>
+<connect gate="G$1" pin="GPIO16" pad="36"/>
+<connect gate="G$1" pin="GPIO17/GEN0" pad="11"/>
+<connect gate="G$1" pin="GPIO18" pad="12"/>
+<connect gate="G$1" pin="GPIO19" pad="35"/>
+<connect gate="G$1" pin="GPIO2/SDA1" pad="3"/>
+<connect gate="G$1" pin="GPIO20" pad="38"/>
+<connect gate="G$1" pin="GPIO21" pad="40"/>
+<connect gate="G$1" pin="GPIO22/GEN3" pad="15"/>
+<connect gate="G$1" pin="GPIO26" pad="37"/>
+<connect gate="G$1" pin="GPIO27/GEN2" pad="13"/>
+<connect gate="G$1" pin="GPIO3/SCL1" pad="5"/>
+<connect gate="G$1" pin="GPIO4/GCKL" pad="7"/>
+<connect gate="G$1" pin="GPIO5" pad="29"/>
+<connect gate="G$1" pin="GPIO6" pad="31"/>
+<connect gate="G$1" pin="GPIO9/MISO" pad="21"/>
+<connect gate="G$1" pin="ID_SC" pad="28"/>
+<connect gate="G$1" pin="ID_SD" pad="27"/>
+<connect gate="G$1" pin="PP14-SD_CLK" pad="PP14-SD_CLK"/>
+<connect gate="G$1" pin="PP15-SD_CMD" pad="PP15-SD_CMD"/>
+<connect gate="G$1" pin="PP16-SD_DAT0" pad="PP16-SD_DAT0"/>
+<connect gate="G$1" pin="PP17-SD_DAT1" pad="PP17-SD_DAT1"/>
+<connect gate="G$1" pin="PP18-SD_DAT2" pad="PP18-SD_DAT2"/>
+<connect gate="G$1" pin="PP19-SD_CD" pad="PP19-SD_CD"/>
+<connect gate="G$1" pin="RXD0/GPIO15" pad="10"/>
+<connect gate="G$1" pin="TXD0/GPIO14" pad="8"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -711,4 +867,10 @@
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
