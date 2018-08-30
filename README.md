@@ -63,7 +63,7 @@ The boards have been tested with the following platforms:
 | ------------------------------------------------------------ | ------------------------------------------------------------ |-----------                   |
 | <img src="images/Plus-Top.png" height="350"> | <img src="images/Plus-Bottom.png"  height="350"> |<img src="images/IMG_4244.jpg" height="350"> |
 
-| Overview                                  | Front PCB                                 | Back PCB                                  | Scfreen                                   | Layout                                    | OSH                                       |
+| Overview                                  | Front PCB                                 | Back PCB                                  | Screen                                   | Layout                                    | OSH                                       |
 | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- |
 | <img src="images/plus1.jpg"> | <img src="images/plus2.jpg"> | <img src="images/plus3.jpg"> | <img src="images/plus4.jpg"> | <img src="images/plus5.jpg"> | <img src="images/plus6.jpg"> |
 
