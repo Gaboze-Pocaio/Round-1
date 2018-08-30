@@ -54,10 +54,10 @@ The boards have been tested with the following platforms:
 
 | Top                                                          | Bottom                                                                          |Money Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |-----------                   |
-| <img src="images/Board-Top.png" height="350"> | <img src="images/Board-Bottom.png"  height="350"> | <img src="images/video.gif" height="350"> |
+| <img src="images/Board-Top.png" height="350"> | <img src="images/Board-Bottom.png"  height="350"> | <img src="images/IMG_3600.jpg" height="350"> |
 
 ## Plus Edition
-> This is a 2.6" TFT version of the Gaboze Pocaio. The Gerber Files are in the [Plus](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/Plus) folder 
+> This is a 2.6" TFT version of the Gaboze Pocaio. The Gerber Files are in the [Plus](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/Plus) folder
 
 | Top                                                          | Bottom   |Prototype Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |-----------                   |
