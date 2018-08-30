@@ -61,7 +61,7 @@ The boards have been tested with the following platforms:
 
 | Top                                                          | Bottom   |Prototype Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |-----------                   |
-| <img src="images/Plus-Top.png" height="350"> | <img src="images/Plus-Bottom.png"  height="350"> |<img src="images/plus.jpg" height="350"> |
+| <img src="images/Plus-Top.png" height="350"> | <img src="images/Plus-Bottom.png"  height="350"> |<img src="images/IMG_4244.jpg" height="350"> |
 
 
 # Buy me a Coffee
