@@ -1,0 +1,10 @@
+Designator,Description,Manufacturer Part Number,Purchase Link,Quantity
+U1,IC AMP AUDIO PWR 1W MONO 8SOIC,LM4875MX-NOPB,https://www.digikey.ca/product-detail/en/texas-instruments/LM4875MX-NOPB/296-35282-1-ND/3738990,1
+R3,RES 100K OHM 5% 1/4W 0805,RPC0805JT100KCT,https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RPC0805JT100K/RPC0805JT100KCT-ND/5766007,1
+R4,RES 150 OHM 1% 1/4W 0805,RNCP0805FTD150R,https://www.digikey.ca/product-detail/en/stackpole-electronics-inc/RNCP0805FTD150R/RNCP0805FTD150RCT-ND/2240550,1
+C1,CAP TANT 100UF 4V 20% 1206,F930G107MAA,https://www.digikey.ca/product-detail/en/avx-corporation/F930G107MAA/478-8134-1-ND/4005954,1
+"C3,C4",CAP CER 1UF 25V X7R 0805,C0805C105K3RACTU,https://www.digikey.ca/product-detail/en/kemet/C0805C105K3RACTU/399-8004-1-ND/3471727,2
+C2,CAP CER 220PF 50V X7R 0805,C0805C221M5RACTU,https://www.digikey.ca/product-detail/en/kemet/C0805C221M5RACTU/399-8039-1-ND/3471762,1
+J1,CONN JACK STEREO 3.5MM R/A,CP1-3525NG-PI-ND,https://www.digikey.ca/product-detail/en/cui-inc/SJ1-3525NG-PI/CP1-3525NG-PI-ND/2295991,1
+J2,SPEAKER 8OHM 250MW TOP PORT 80DB,PSR-20F08S-JQ,https://www.digikey.ca/product-detail/en/mallory-sonalert-products-inc/PSR-20F08S-JQ/458-1122-ND/2071438,1
+"J3,J4",NOT POPULATE,NOT POPULATED,2

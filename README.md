@@ -54,20 +54,59 @@ The boards have been tested with the following platforms:
 
 | Top                                                          | Bottom                                                                          |Money Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |-----------                   |
-| <img src="images/Board-Top.png" height="350"> | <img src="images/Board-Bottom.png"  height="350"> | <img src="images/IMG_3600.jpg" height="350"> |
+| <img src="images/Board-Top.png" width="350"> | <img src="images/Board-Bottom.png"  width="350"> | <img src="images/IMG_3600.jpg" width="350"> |
 
 ## Plus Edition
 > This is a 2.6" TFT version of the Gaboze Pocaio. The Gerber Files are in the [Plus](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/Plus) folder
 
 | Top                                                          | Bottom   |Prototype Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |-----------                   |
-| <img src="images/Plus-Top.png" height="350"> | <img src="images/Plus-Bottom.png"  height="350"> |<img src="images/IMG_4244.jpg" height="350"> |
+| <img src="images/Plus-Top.png" width="350"> | <img src="images/Plus-Bottom.png" width="350"> |<img src="images/IMG_4244.jpg" width="350"> |
 
 | Overview                                  | Front PCB                                 | Back PCB                                  | Screen                                   | Layout                                    | OSH                                       |
 | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- |
 | <img src="images/plus1.jpg"> | <img src="images/plus2.jpg"> | <img src="images/plus3.jpg"> | <img src="images/plus4.jpg"> | <img src="images/plus5.jpg"> | <img src="images/plus6.jpg"> |
 
+## Extensions
+> So you want to add your own components?
 
+Check out the Gaboze Pocaio Extension Boards
+These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber) folder
+
+### Auxiliary Board
+
+**Features **
+
+* Power Indicator LED
+* Volume Thumbwheel Potentiometer
+* Power Input Pins
+* Power + Potentiometer Output Pins
+
+
+
+|Top|Bottom|Physical|
+|-----|-----|-----|
+|<img src="images/GabozePocaio-Extension-Aux.top.png">|<img src="images/GabozePocaio-Extension-Aux.bottom.png">|<img src="images/IMG_4194.jpg"  width="350"><img src="images/IMG_4195.jpg" width="350">|
+
+[gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/GabozePocaio-Extension-Aux)
+
+### Button + Audio Board
+
+**Features **
+
+* LM4875 Audio Amp
+* Headphone Jack
+* 4/8 Ohm Speaker Output
+* Power + PWM + Potentiometer Input Pins
+* Button Pad Output Pins
+
+
+
+|Top|Bottom|Physical|
+|-----|-----|-----|
+|<img src="images/GabozePocaio-Extension-Button-Audio.top.png">|<img src="images/GabozePocaio-Extension-Button-Audio.bottom.png">|<img src="images/IMG_4193.jpg" width="350"><img src="images/IMG_4197.jpg" width="350">|
+
+[gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/GabozePocaio-Extension-Button-Audio)
 
 # Buy me a Coffee
 > This is a labor of love, and much time has been put in...  ...i could use a [coffee](https://www.paypal.me/32teeth/1usd) *(donuts are okay too)*
