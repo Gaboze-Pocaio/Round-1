@@ -108,6 +108,13 @@ These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/
 
 [gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/GabozePocaio-Extension-Button-Audio)
 
+## Cartridge Shell
+> So you want to print your own cartridge battery holder
+
+| ![Cartridge Shell](3d/cartridge.png) |
+|:--:|
+| *[download stl](3d/cartrdige.stl)* |
+
 # Buy me a Coffee
 > This is a labor of love, and much time has been put in...  ...i could use a [coffee](https://www.paypal.me/32teeth/1usd) *(donuts are okay too)*
 
