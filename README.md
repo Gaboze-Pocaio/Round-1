@@ -121,6 +121,7 @@ These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/
 **Caviat**
 
 * You WILL NEED to update your Raspberry Pi image with the ILI9342 driver
+* If you choose to get a PCB made, make sure it's 0.6mm thickness (optimal is 0.4mm but it will be expensive)
 
 
 |Top|Bottom|Physical|
