@@ -108,6 +108,28 @@ These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/
 
 [gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/GabozePocaio-Extension-Button-Audio)
 
+## Upgrade to 2.6"
+> So you want to upgrade your screen size?
+
+Here's the perfect daughter board solution
+These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber) folder
+
+**Features **
+
+* Upgrade your display to a 2.6"
+
+**Caviat**
+
+* You WILL NEED to update your Raspberry Pi image with the ILI9342 driver
+
+
+|Top|Bottom|Physical|
+|-----|-----|-----|
+|<img src="images/Upgrade1.png">|<img src="images/Upgrade2.png">|NO IMAGE|
+
+[source](https://github.com/GameboyZero/GabozePocaio/tree/master/eagle/Upgrade)
+[gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/Upgrade)
+
 ## Cartridge Shell
 > So you want to print your own cartridge battery holder
 
