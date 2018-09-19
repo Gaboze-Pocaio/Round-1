@@ -125,7 +125,7 @@ These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/
 
 |Top|Bottom|Physical|
 |-----|-----|-----|
-|<img src="images/Upgrade1.png">|<img src="images/Upgrade2.png">|NO IMAGE|
+|<img src="images/upgrade1.png">|<img src="images/upgrade2.png">|NO IMAGE|
 
 [source](https://github.com/GameboyZero/GabozePocaio/tree/master/eagle/Upgrade)
 [gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/Upgrade)
