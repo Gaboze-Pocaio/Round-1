@@ -39,6 +39,12 @@ The boards have been tested with the following platforms:
 
 - [x] [Emulation Station](http://www.emulationstation.org/)
 - [x] [Lakka](http://www.lakka.tv/)
+### [Lakka for Gaboze Pocaio](https://github.com/32teeth/Lakka-For-Gaboze-Pocaio)
+| Out Now | Build Your Own | Out Soon |
+|:--:|:--:|:--:|
+| <img src=https://raw.githubusercontent.com/32teeth/Lakka-For-Gaboze-Pocaio/master/images/pocaio.jpg/> |<img src=https://raw.githubusercontent.com/32teeth/Lakka-For-Gaboze-Pocaio/master/images/pocaioplus.jpg/> |<img src=https://raw.githubusercontent.com/32teeth/Lakka-For-Gaboze-Pocaio/master/images/pocaiopia.jpg/> |
+| *Gaboze Pocaio* | *Gaboze Pocaio Plus* | *Gaboze Pocaio ???* |
+
 - [x] [RetroPie](https://retropie.org.uk/)
 
 
