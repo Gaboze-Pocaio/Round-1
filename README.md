@@ -1,7 +1,3 @@
-<img src="https://img.shields.io/github/stars/GameboyZero/GabozePocaio.svg">
-<img src="https://img.shields.io/github/forks/GameboyZero/GabozePocaio.svg">
-<img src="https://img.shields.io/github/issues/GameboyZero/GabozePocaio.svg">
-<img src="https://img.shields.io/github/license/GameboyZero/GabozePocaio.svg">
 -----
 
 # Where Can I Buy One
