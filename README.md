@@ -140,9 +140,9 @@ These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/
 ## Cartridge Shell
 > So you want to print your own cartridge battery holder
 
-| ![Cartridge Shell](https://raw.githubusercontent.com/GameboyZero/GabozePocaio/master/3d/cartridge.png) |
+| ![Cartridge Shell](https://raw.githubusercontent.com/32teeth/GabozePocaio-Round1/master/3d/cartridge.png) |
 |:--:|
-| *[download stl](https://raw.githubusercontent.com/GameboyZero/GabozePocaio/master/3d/cartridge.stl)* |
+| *[download stl](https://raw.githubusercontent.com/32teeth/GabozePocaio-Round1/master/3d/cartridge.stl)* |
 
 # Buy me a Coffee
 > This is a labor of love, and much time has been put in...  ...i could use a [coffee](https://www.paypal.me/32teeth/1usd) *(donuts are okay too)*
