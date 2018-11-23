@@ -49,21 +49,21 @@ The boards have been tested with the following platforms:
 
 
 ## DIY
-> Building this yourself? Read the [Wiki](https://github.com/GameboyZero/GabozePocaio/wiki/)
-* [Preperation](https://github.com/GameboyZero/GabozePocaio/wiki/DIY---Preperation)
-* [Sound](https://github.com/GameboyZero/GabozePocaio/wiki/DIY---Sound-Components)
-* [Display](https://github.com/GameboyZero/GabozePocaio/wiki/DIY---TFT-Display)
+> Building this yourself? Read the [Wiki](https://github.com/32teeth/GabozePocaio-Round1/wiki/)
+* [Preperation](https://github.com/32teeth/GabozePocaio-Round1/wiki/DIY---Preperation)
+* [Sound](https://github.com/32teeth/GabozePocaio-Round1/wiki/DIY---Sound-Components)
+* [Display](https://github.com/32teeth/GabozePocaio-Round1/wiki/DIY---TFT-Display)
 
 
 ## Details
-> The source files have been officially released. Check out the [Files](https://github.com/GameboyZero/GabozePocaio/tree/master/eagle/Release) and build away
+> The source files have been officially released. Check out the [Files](https://github.com/32teeth/GabozePocaio-Round1/tree/master/eagle/Release) and build away
 
 | Top                                                          | Bottom                                                                          |Money Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |-----------                   |
 | <img src="images/Board-Top.png" width="350"> | <img src="images/Board-Bottom.png"  width="350"> | <img src="images/IMG_3600.jpg" width="350"> |
 
 ## Plus Edition
-> This is a 2.6" TFT version of the Gaboze Pocaio. The Gerber Files are in the [Plus](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/Plus) folder
+> This is a 2.6" TFT version of the Gaboze Pocaio. The Gerber Files are in the [Plus](https://github.com/32teeth/GabozePocaio-Round1/tree/master/gerber/Plus) folder
 
 | Top                                                          | Bottom   |Prototype Shot                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |-----------                   |
@@ -77,7 +77,7 @@ The boards have been tested with the following platforms:
 > So you want to add your own components?
 
 Check out the Gaboze Pocaio Extension Boards
-These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber) folder
+These are available in the [gerber](https://github.com/32teeth/GabozePocaio-Round1/tree/master/gerber) folder
 
 ### Auxiliary Board
 
@@ -94,7 +94,7 @@ These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/
 |-----|-----|-----|
 |<img src="images/GabozePocaio-Extension-Aux.top.png">|<img src="images/GabozePocaio-Extension-Aux.bottom.png">|<img src="images/IMG_4194.jpg"  width="350"><img src="images/IMG_4195.jpg" width="350">|
 
-[gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/GabozePocaio-Extension-Aux)
+[gerber](https://github.com/32teeth/GabozePocaio-Round1/tree/master/gerber/GabozePocaio-Extension-Aux)
 
 ### Button + Audio Board
 
@@ -112,13 +112,13 @@ These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/
 |-----|-----|-----|
 |<img src="images/GabozePocaio-Extension-Button-Audio.top.png">|<img src="images/GabozePocaio-Extension-Button-Audio.bottom.png">|<img src="images/IMG_4193.jpg" width="350"><img src="images/IMG_4197.jpg" width="350">|
 
-[gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/GabozePocaio-Extension-Button-Audio)
+[gerber](https://github.com/32teeth/GabozePocaio-Round1/tree/master/gerber/GabozePocaio-Extension-Button-Audio)
 
 ## Upgrade to 2.6"
 > So you want to upgrade your screen size?
 
 Here's the perfect daughter board solution
-These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber) folder
+These are available in the [gerber](https://github.com/32teeth/GabozePocaio-Round1/tree/master/gerber) folder
 
 **Features **
 
@@ -134,8 +134,8 @@ These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/
 |-----|-----|-----|
 |<img src="images/upgrade1.png">|<img src="images/upgrade2.png">|NO IMAGE|
 
-[source](https://github.com/GameboyZero/GabozePocaio/tree/master/eagle/Upgrade)
-[gerber](https://github.com/GameboyZero/GabozePocaio/tree/master/gerber/Upgrade)
+[source](https://github.com/32teeth/GabozePocaio-Round1/tree/master/eagle/Upgrade)
+[gerber](https://github.com/32teeth/GabozePocaio-Round1/tree/master/gerber/Upgrade)
 
 ## Cartridge Shell
 > So you want to print your own cartridge battery holder
@@ -152,7 +152,7 @@ These are available in the [gerber](https://github.com/GameboyZero/GabozePocaio/
 -----
 
 ## Seriously
-> READ THE [WIKI](https://github.com/GameboyZero/GabozePocaio/wiki/)
+> READ THE [WIKI](https://github.com/32teeth/GabozePocaio-Round1/wiki/)
 
 -----
 
